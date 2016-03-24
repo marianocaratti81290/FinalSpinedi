@@ -1,0 +1,50 @@
+create database Stock
+
+create table Productos  (
+id_producto int primary key,
+Nombre varchar (30),
+Estado char(1),
+id_proveedor int,
+Precio_publico int, 
+Cantidad int,
+Precio_proveedor int,
+descrip varchar (50),
+precio_descuento int,
+tipo_descuento char (1),
+fecha datetime 
+)
+
+create table ProductosPedidos (
+id_producto int primary key,
+id_proveedor int,
+fecha_pedido date,
+fecha_recepcion date,
+observacion varchar (50)
+)
+
+create table Proveedor (
+id_proveedor int primary key,
+Nombre varchar (20),
+Estado int,
+Descripcion varchar (50),
+tel_fijo varchar (20),
+cel varchar (20),
+Nombre_contacto varchar (20),
+Email varchar (30)
+)
+
+create table Clientes (
+id_cliente int primary key,
+Nombre varchar (20),
+Apellido varchar (20),
+DNI varchar (20),
+tel varchar (20),
+localidad varchar (20),
+Provincia varchar (20),
+Email varchar (20)
+)
+
+create table ClienteProveedor (
+id_cliente int,
+id_proveedor int
+)

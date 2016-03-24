@@ -74,3 +74,6 @@ C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\TP5.vbproj.
 C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
 C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
 C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+C:\Sistemas\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Sistemas\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Sistemas\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
