@@ -1,0 +1,55 @@
+﻿@model AppMVC.Models.ClientesModel
+
+@{
+    ViewBag.Title = "Búsqueda de Clientes";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Buscar", "Clientes", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Siniestro</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NroCliente)
+        </div>
+        
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NroCliente)
+            @Html.ValidationMessageFor(model => model.NroCliente)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RazonSocial)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RazonSocial)
+            @Html.ValidationMessageFor(model => model.RazonSocial)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CUIL)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CUIL)
+            @*@Html.ValidationMessageFor(model => model.CUIL)*@
+        </div>
+
+        
+
+
+
+        <p>
+            <input type="submit" value="Buscar" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Volver", "Index")
+</div>
+

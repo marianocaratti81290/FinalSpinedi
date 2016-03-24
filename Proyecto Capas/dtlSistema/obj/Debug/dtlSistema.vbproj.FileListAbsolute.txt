@@ -1,0 +1,142 @@
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\ResolveAssemblyReference.cache
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.read.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.write.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\ResolveAssemblyReference.cache
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.read.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.write.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+D:\GitHub\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\DISI12\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\DISI12\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\DISI12\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\DISI12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\DISI12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\DISI12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\DISI12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\DISI12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\DISI12\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Git\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Git\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Git\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Git\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\Git\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Git\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Git\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Git\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Git\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Grupo1\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Grupo1\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Grupo1\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Grupo1\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\Grupo1\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Grupo1\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Grupo1\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Grupo1\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Grupo1\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\dtlSistema\obj\Debug\dtlSistema.pdb

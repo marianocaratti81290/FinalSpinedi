@@ -1,0 +1,35 @@
+﻿@model AppMVC.Models.ClientesModel
+@{
+
+    ViewBag.Title = "Clientes";
+}
+@if (ViewData.ModelState.IsValid)
+{
+    if(@ViewBag.CUIL != null)
+    {
+        @ViewBag.CUIL;
+    }
+}
+
+<h2>Clientes</h2>
+
+@using (Html.BeginForm("Insertar", "Clientes", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+   <dl class="dl-horizontal">
+        <dt>
+           @Html.LabelFor(model => model.NroCliente)
+           @Html.TextBoxFor(model => model.NroCliente)
+           @Html.LabelFor(model => model.CUIL)
+           @Html.TextBoxFor(model => model.CUIL)
+           @*@Html.ValidationMessageFor(model => Model.CUIL)*@
+           @Html.LabelFor(model => model.RazonSocial)
+           @Html.TextBoxFor(model => model.RazonSocial)
+         </dt>
+     </dl>
+    <p> <input type="submit" value="Enviar formulario" /> </p>
+
+}
+

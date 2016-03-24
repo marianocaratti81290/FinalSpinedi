@@ -1,0 +1,28 @@
+﻿@model AppMVC.Models.ClientesModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>buscar</title>
+</head>
+<body>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.RazonSocial)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.RazonSocial)
+    </div>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.CUIL)
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(model => model.CUIL)
+    </div>
+</body>
+</html>

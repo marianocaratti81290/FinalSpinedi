@@ -1,0 +1,76 @@
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.exe
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.xml
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.dll
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.dll
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.dll
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.pdb
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.xml
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.pdb
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.xml
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.pdb
+C:\Grupo1\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.xml
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\TP5.vbprojResolveAssemblyReference.cache
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\TP5.vbproj.GenerateResource.Cache
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\PruebaCapas.exe
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\PruebaCapas.pdb
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\PruebaCapas.xml
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\wflSistema.dll
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\brlSistema.dll
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\dtlSistema.dll
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\wflSistema.pdb
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\wflSistema.xml
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\brlSistema.pdb
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\brlSistema.xml
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\dtlSistema.pdb
+C:\Grupo1\tp5\PruebaCapas\bin\Debug\dtlSistema.xml
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\TP5.vbprojResolveAssemblyReference.cache
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\TP5.vbproj.GenerateResource.Cache
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Grupo1\tp5\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\PruebaCapas.exe
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\PruebaCapas.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\wflSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\brlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\wflSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\wflSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\brlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\brlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\bin\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\TP5.vbprojResolveAssemblyReference.cache
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\PruebaCapas\obj\x86\Debug\TP5.vbproj.GenerateResource.Cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\PruebaCapas.exe
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\PruebaCapas.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\wflSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\brlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\wflSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\wflSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\brlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\brlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\bin\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\TP5.vbprojResolveAssemblyReference.cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\TP5.vbproj.GenerateResource.Cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb

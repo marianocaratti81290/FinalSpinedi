@@ -1,0 +1,242 @@
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\ResolveAssemblyReference.cache
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\GenerateResource.read.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\GenerateResource.write.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\ResolveAssemblyReference.cache
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\GenerateResource.read.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\GenerateResource.write.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+D:\caty\Git\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+D:\caty\Git\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+D:\caty\Git\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+D:\caty\Git\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+D:\caty\Git\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+D:\caty\Git\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+D:\GitHub\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+D:\GitHub\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+D:\GitHub\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+D:\GitHub\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+D:\GitHub\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+D:\GitHub\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\DISI12\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\DISI12\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\DISI12\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\DISI12\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\DISI12\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\DISI12\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\DISI12\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Git\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\Git\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Git\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\Git\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\Git\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Git\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Git\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\Git\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Git\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Git\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Git\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Git\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Git\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\Git\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\Git\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Grupo1\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Grupo1\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Grupo1\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Grupo1\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Grupo1\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\Grupo1\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\Grupo1\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\obj\Debug\wflSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\obj\Debug\wflSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\wflSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\wflSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\brlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\brlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1\Proyecto Capas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\wflSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\wflSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\brlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\brlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\obj\Debug\wflSistema.dll
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\obj\Debug\wflSistema.xml
+C:\Grupo1\ScriptTP5-GRUPO1-\Proyecto Capas\wflSistema\obj\Debug\wflSistema.pdb

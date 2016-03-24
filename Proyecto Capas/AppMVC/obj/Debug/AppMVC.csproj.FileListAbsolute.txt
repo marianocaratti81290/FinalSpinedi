@@ -1,0 +1,686 @@
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\AppMVC.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\AppMVC.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Antlr3.Runtime.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\EntityFramework.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Newtonsoft.Json.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Spatial.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Helpers.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.OData.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Mvc.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Optimization.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Razor.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\WebGrease.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\WebMatrix.Data.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\WebMatrix.WebData.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\wflSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\brlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\dtlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\wflSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\wflSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\EntityFramework.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Newtonsoft.Json.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Helpers.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Mvc.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Razor.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\WebMatrix.Data.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\WebMatrix.WebData.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.OData.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\System.Spatial.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\brlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\brlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\dtlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\dtlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\EntityFramework.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.Formatting.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.WebRequest.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Helpers.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.WebHost.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Mvc.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Optimization.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Razor.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\WebMatrix.Data.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\WebMatrix.WebData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\de\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\es\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\fr\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\it\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ja\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ko\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\ru\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.csprojResolveAssemblyReference.cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.pdb
+D:\GitHub\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.csprojResolveAssemblyReference.cache
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\AppMVC.dll.config
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\AppMVC.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\AppMVC.pdb
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Antlr3.Runtime.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\EntityFramework.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Newtonsoft.Json.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Spatial.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Helpers.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.OData.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Mvc.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Optimization.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Razor.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\WebGrease.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\WebMatrix.Data.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\WebMatrix.WebData.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\wflSistema.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\brlSistema.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\dtlSistema.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\wflSistema.pdb
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\wflSistema.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\EntityFramework.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Newtonsoft.Json.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Helpers.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Mvc.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Razor.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\WebMatrix.Data.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\WebMatrix.WebData.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.OData.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\System.Spatial.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\brlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\brlSistema.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\dtlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\dtlSistema.xml
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\EntityFramework.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.Formatting.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.WebRequest.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Helpers.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.WebHost.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Mvc.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Optimization.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Razor.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\WebMatrix.Data.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\WebMatrix.WebData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\de\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\it\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\de\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\it\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\de\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\es\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\fr\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\it\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ja\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ko\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\ru\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\zh-Hans\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\bin\zh-Hant\System.Spatial.resources.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.dll
+D:\GitHub\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\AppMVC.dll.config
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\AppMVC.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\AppMVC.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Antlr3.Runtime.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\EntityFramework.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Newtonsoft.Json.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Spatial.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Helpers.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.OData.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Mvc.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Optimization.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Razor.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\WebGrease.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\WebMatrix.Data.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\WebMatrix.WebData.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\wflSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\brlSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\dtlSistema.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\wflSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\wflSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\EntityFramework.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Newtonsoft.Json.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Helpers.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Mvc.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Razor.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\WebMatrix.Data.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\WebMatrix.WebData.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Web.Http.OData.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\System.Spatial.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\brlSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\brlSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\dtlSistema.pdb
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\dtlSistema.xml
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\EntityFramework.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Net.Http.WebRequest.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Razor.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\WebMatrix.Data.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\WebMatrix.WebData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Web.Http.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\de\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\es\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\fr\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\it\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ja\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ko\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\ru\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.csprojResolveAssemblyReference.cache
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.dll
+C:\Proyectos\Capas\Capas\PruebaCapas\AppMVC\obj\Debug\AppMVC.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\AppMVC.dll.config
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\AppMVC.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\AppMVC.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Antlr3.Runtime.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\EntityFramework.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Newtonsoft.Json.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Net.Http.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Spatial.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Helpers.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Http.OData.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Mvc.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Optimization.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Razor.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.WebPages.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\WebGrease.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\WebMatrix.Data.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\WebMatrix.WebData.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\wflSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\brlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\dtlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\wflSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\wflSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\EntityFramework.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Newtonsoft.Json.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Net.Http.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Helpers.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Mvc.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Razor.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.WebPages.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\WebMatrix.Data.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\WebMatrix.WebData.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Web.Http.OData.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\System.Spatial.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\brlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\brlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\dtlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\dtlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\EntityFramework.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Net.Http.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Net.Http.WebRequest.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.Helpers.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.Mvc.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.Optimization.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.Razor.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\WebMatrix.Data.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\WebMatrix.WebData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Web.Http.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\de\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\es\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\fr\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\it\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ja\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ko\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\ru\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\obj\Debug\AppMVC.csprojResolveAssemblyReference.cache
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\obj\Debug\AppMVC.dll
+C:\PruebaCapasInstituto12\PruebaCapas\AppMVC\obj\Debug\AppMVC.pdb
+C:\DISI12\PruebaCapas\AppMVC\bin\AppMVC.dll.config
+C:\DISI12\PruebaCapas\AppMVC\bin\AppMVC.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\AppMVC.pdb
+C:\DISI12\PruebaCapas\AppMVC\bin\Antlr3.Runtime.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\EntityFramework.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\Newtonsoft.Json.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Net.Http.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Spatial.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Helpers.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Http.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Http.OData.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Mvc.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Optimization.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Razor.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.WebPages.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\WebGrease.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\WebMatrix.Data.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\WebMatrix.WebData.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\wflSistema.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\brlSistema.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\dtlSistema.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\wflSistema.pdb
+C:\DISI12\PruebaCapas\AppMVC\bin\wflSistema.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\EntityFramework.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\Newtonsoft.Json.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Net.Http.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Helpers.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Http.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Mvc.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Razor.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.WebPages.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\WebMatrix.Data.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\WebMatrix.WebData.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Web.Http.OData.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\System.Spatial.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\brlSistema.pdb
+C:\DISI12\PruebaCapas\AppMVC\bin\brlSistema.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\dtlSistema.pdb
+C:\DISI12\PruebaCapas\AppMVC\bin\dtlSistema.xml
+C:\DISI12\PruebaCapas\AppMVC\bin\es\EntityFramework.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Net.Http.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Net.Http.Formatting.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Net.Http.WebRequest.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Helpers.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Http.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Http.WebHost.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Mvc.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Optimization.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Razor.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\WebMatrix.Data.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\WebMatrix.WebData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Web.Http.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\de\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\es\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\fr\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\it\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ja\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ko\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\ru\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\DISI12\PruebaCapas\AppMVC\obj\Debug\AppMVC.csprojResolveAssemblyReference.cache
+C:\DISI12\PruebaCapas\AppMVC\obj\Debug\AppMVC.dll
+C:\DISI12\PruebaCapas\AppMVC\obj\Debug\AppMVC.pdb
+C:\Git\PruebaCapas\AppMVC\bin\AppMVC.dll.config
+C:\Git\PruebaCapas\AppMVC\bin\AppMVC.dll
+C:\Git\PruebaCapas\AppMVC\bin\AppMVC.pdb
+C:\Git\PruebaCapas\AppMVC\bin\Antlr3.Runtime.dll
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.dll
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.dll
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.dll
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.dll
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Git\PruebaCapas\AppMVC\bin\EntityFramework.dll
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.dll
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.dll
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Git\PruebaCapas\AppMVC\bin\Newtonsoft.Json.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Net.Http.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Spatial.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Helpers.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Http.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Http.OData.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Mvc.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Optimization.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Razor.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.WebPages.dll
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Git\PruebaCapas\AppMVC\bin\WebGrease.dll
+C:\Git\PruebaCapas\AppMVC\bin\WebMatrix.Data.dll
+C:\Git\PruebaCapas\AppMVC\bin\WebMatrix.WebData.dll
+C:\Git\PruebaCapas\AppMVC\bin\wflSistema.dll
+C:\Git\PruebaCapas\AppMVC\bin\brlSistema.dll
+C:\Git\PruebaCapas\AppMVC\bin\dtlSistema.dll
+C:\Git\PruebaCapas\AppMVC\bin\wflSistema.pdb
+C:\Git\PruebaCapas\AppMVC\bin\wflSistema.xml
+C:\Git\PruebaCapas\AppMVC\bin\EntityFramework.xml
+C:\Git\PruebaCapas\AppMVC\bin\Newtonsoft.Json.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Net.Http.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Net.Http.Formatting.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Net.Http.WebRequest.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Helpers.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Http.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Http.WebHost.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Mvc.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Razor.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.WebPages.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Git\PruebaCapas\AppMVC\bin\WebMatrix.Data.xml
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Git\PruebaCapas\AppMVC\bin\WebMatrix.WebData.xml
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.AspNet.xml
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.Core.xml
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OAuth.xml
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.xml
+C:\Git\PruebaCapas\AppMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Web.Http.OData.xml
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Data.Edm.xml
+C:\Git\PruebaCapas\AppMVC\bin\Microsoft.Data.OData.xml
+C:\Git\PruebaCapas\AppMVC\bin\System.Spatial.xml
+C:\Git\PruebaCapas\AppMVC\bin\brlSistema.pdb
+C:\Git\PruebaCapas\AppMVC\bin\brlSistema.xml
+C:\Git\PruebaCapas\AppMVC\bin\dtlSistema.pdb
+C:\Git\PruebaCapas\AppMVC\bin\dtlSistema.xml
+C:\Git\PruebaCapas\AppMVC\bin\es\EntityFramework.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Net.Http.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Net.Http.WebRequest.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Http.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Razor.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\WebMatrix.Data.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\WebMatrix.WebData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Web.Http.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\de\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\es\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\fr\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\it\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ja\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ko\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\ru\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\Git\PruebaCapas\AppMVC\obj\Debug\AppMVC.csprojResolveAssemblyReference.cache
+C:\Git\PruebaCapas\AppMVC\obj\Debug\AppMVC.dll
+C:\Git\PruebaCapas\AppMVC\obj\Debug\AppMVC.pdb
