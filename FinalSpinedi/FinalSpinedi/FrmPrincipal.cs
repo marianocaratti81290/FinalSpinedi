@@ -39,7 +39,7 @@ namespace FinalSpinedi
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            new AboutBox1().ShowDialog();
         }
     }
 }
