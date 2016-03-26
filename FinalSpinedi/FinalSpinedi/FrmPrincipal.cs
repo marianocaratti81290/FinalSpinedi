@@ -44,16 +44,24 @@ namespace FinalSpinedi
 
         private void cargarProductos()
         {
-
-            brl.ObtenerProductos();
+            try
+            {
+                flexProductosCod.DataSource= brl.ObtenerProductos();
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+ 
         }
 
         private void flexProductosCod_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (flexProductosCod.RowSel != -1)
-            {
+          if (flexProductosCod.RowSel != -1)
+             {
                 flexProductosCod.DataSource = brl.ObtenerProductos();
-            }
+             }
         }
     }
 }

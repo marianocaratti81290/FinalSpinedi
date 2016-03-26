@@ -9,6 +9,6 @@ namespace FinalSpinedi
 {
     public static class Comun
     {
-        public static SqlConnection establecerConexion = new SqlConnection("Data Source=HACHITO\\SQLEXPRESS; database=stock; integrated security= true");
+        public static SqlConnection establecerConexion = new SqlConnection("Data Source=HACHITO\\SQLEXPRESS; database= Stock; integrated security= true");
     }
 }
