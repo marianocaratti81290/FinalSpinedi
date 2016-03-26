@@ -1,4 +1,5 @@
-﻿using System;
+﻿using C1.Win.C1FlexGrid;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -62,6 +63,22 @@ namespace FinalSpinedi
              {
                 flexProductosCod.DataSource = brl.ObtenerProductos();
              }
+        }
+
+        private void txtbuscarCod_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexProductosCod.ClearFilter();
+                var filter = new ConditionFilter();
+
+                if (txtbuscarCod.Text != "")
+                {
+                    filter.Condition1.Operator = ConditionOperator.Contains;
+                    filter.Condition1.Parameter = txtbuscarCod.Text;
+                    flexProductosCod.Cols["Nombre"].Filter = filter;
+                }
+            }
         }
     }
 }
