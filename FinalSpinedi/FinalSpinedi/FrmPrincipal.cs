@@ -24,7 +24,7 @@ namespace FinalSpinedi
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-
+            cargarProductos();
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,6 +40,20 @@ namespace FinalSpinedi
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new AboutBox1().ShowDialog();
+        }
+
+        private void cargarProductos()
+        {
+
+            brl.ObtenerProductos();
+        }
+
+        private void flexProductosCod_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (flexProductosCod.RowSel != -1)
+            {
+                flexProductosCod.DataSource = brl.ObtenerProductos();
+            }
         }
     }
 }

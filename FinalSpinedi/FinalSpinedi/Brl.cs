@@ -101,6 +101,31 @@ namespace FinalSpinedi
            }
 
        }
+
+       public static DataTable ObtenerProductos()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerProductos_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
         }
 
 }

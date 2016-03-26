@@ -120,6 +120,9 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="flexProductosCod.ColumnInfo" xml:space="preserve">
+    <value>15,1,0,0,0,95,Columns:1{Caption:"id_producto";}	2{Caption:"Nombre";}	3{Caption:"Estado";}	4{Caption:"id_proveedor";}	5{Caption:"Precio_publico";}	6{Caption:"Cantidad";}	7{Caption:"Precio_proveedor";}	8{Caption:"descrip";}	9{Caption:"precio_descuento";StyleFixed:"";}	10{Caption:"tipo_descuento";}	11{Caption:"fecha";}	12{Caption:"id_cliente";}	13{Visible:False;}	14{Visible:False;}	</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>38</value>
   </metadata>

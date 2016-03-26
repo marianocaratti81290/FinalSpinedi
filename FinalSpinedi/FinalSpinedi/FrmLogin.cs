@@ -19,33 +19,60 @@ namespace FinalSpinedi
 
         private void btnacceder_Click(object sender, EventArgs e)
         {
+            validarUsuario();           
+        }          
 
-            if (txtusuario.Text == "")
-            {
-                MessageBox.Show("Ingrese un usuario");
-            }
-            if (txtpass.Text == "")
-            {
-                MessageBox.Show("Ingrese la contraseña");
-            }
-            if (txtusuario.Text == "" && txtpass.Text == "")
-            {
-                MessageBox.Show("Ingrese usuario y password");
-            }
-            else
-            {
-                int existe = brl.logearUsuario(txtusuario.Text, txtpass.Text);
+        private void txtpass_KeyDown(object sender, KeyEventArgs e)
+        {
+              if (e.KeyCode == Keys.Enter)
+              {
+                  validarUsuario();
+              }
+        }
 
-                if (existe == 1)
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+        private void validarUsuario()
+        {
+          
+                if (txtusuario.Text == "")
                 {
-                    new FrmPrincipal().ShowDialog();
-                    this.Close();
+                    MessageBox.Show("Ingrese un usuario");
+                }
+                if (txtpass.Text == "")
+                {
+                    MessageBox.Show("Ingrese la contraseña");
+                }
+                if (txtusuario.Text == "" && txtpass.Text == "")
+                {
+                    MessageBox.Show("Ingrese usuario y password");
                 }
                 else
                 {
-                    MessageBox.Show("No esta registrado");
+                    int existe = brl.logearUsuario(txtusuario.Text, txtpass.Text);
+
+                    if (existe == 1)
+                    {
+                        new FrmPrincipal().ShowDialog();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta registrado");
+                        limpiarLogin();
+                        txtusuario.Focus();
+                    }
                 }
             }
+
+        private void limpiarLogin()
+        { 
+            txtusuario.Text = "";
+            txtpass.Text = "";
         }
     }
 }

@@ -51,6 +51,7 @@
             this.btncancelar.TabIndex = 34;
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // btnacceder
             // 
@@ -91,6 +92,7 @@
             this.txtpass.Size = new System.Drawing.Size(150, 20);
             this.txtpass.TabIndex = 32;
             this.txtpass.UseSystemPasswordChar = true;
+            this.txtpass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtpass_KeyDown);
             // 
             // txtusuario
             // 

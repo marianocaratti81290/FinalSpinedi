@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.label1 = new System.Windows.Forms.Label();
             this.Grupo1 = new System.Windows.Forms.GroupBox();
             this.txtBuscar = new System.Windows.Forms.TextBox();
@@ -65,16 +66,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.flexGrillaProductos = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbuscarCod = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.c1FlexGrid1 = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.flexProductosCod = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.Grupo1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductosPedidos)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.Grupo2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductos)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexProductosCod)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -367,9 +368,9 @@
             // groupBox1
             // 
             this.groupBox1.AutoSize = true;
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtbuscarCod);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.c1FlexGrid1);
+            this.groupBox1.Controls.Add(this.flexProductosCod);
             this.groupBox1.Location = new System.Drawing.Point(13, 90);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(771, 213);
@@ -377,12 +378,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Productos pedidos y en estado pendientes";
             // 
-            // textBox1
+            // txtbuscarCod
             // 
-            this.textBox1.Location = new System.Drawing.Point(195, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(316, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtbuscarCod.Location = new System.Drawing.Point(195, 25);
+            this.txtbuscarCod.Name = "txtbuscarCod";
+            this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
+            this.txtbuscarCod.TabIndex = 2;
             // 
             // label4
             // 
@@ -393,14 +394,15 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Busqueda por Codigo de barra";
             // 
-            // c1FlexGrid1
+            // flexProductosCod
             // 
-            this.c1FlexGrid1.ColumnInfo = "10,1,0,0,0,95,Columns:";
-            this.c1FlexGrid1.Location = new System.Drawing.Point(26, 64);
-            this.c1FlexGrid1.Name = "c1FlexGrid1";
-            this.c1FlexGrid1.Rows.DefaultSize = 19;
-            this.c1FlexGrid1.Size = new System.Drawing.Size(718, 129);
-            this.c1FlexGrid1.TabIndex = 0;
+            this.flexProductosCod.ColumnInfo = resources.GetString("flexProductosCod.ColumnInfo");
+            this.flexProductosCod.Location = new System.Drawing.Point(26, 64);
+            this.flexProductosCod.Name = "flexProductosCod";
+            this.flexProductosCod.Rows.DefaultSize = 19;
+            this.flexProductosCod.Size = new System.Drawing.Size(718, 129);
+            this.flexProductosCod.TabIndex = 0;
+            this.flexProductosCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.flexProductosCod_KeyPress);
             // 
             // FrmPrincipal
             // 
@@ -427,7 +429,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductos)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexProductosCod)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,9 +474,9 @@
         private System.Windows.Forms.ToolStripMenuItem inhabilitarUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsuariosToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbuscarCod;
         private System.Windows.Forms.Label label4;
-        private C1.Win.C1FlexGrid.C1FlexGrid c1FlexGrid1;
+        private C1.Win.C1FlexGrid.C1FlexGrid flexProductosCod;
     }
 }
 
