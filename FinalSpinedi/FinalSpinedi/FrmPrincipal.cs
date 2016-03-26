@@ -82,5 +82,21 @@ namespace FinalSpinedi
                 }
             }
         }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexProductosCod.ClearFilter();
+                var filter = new ConditionFilter();
+
+                if (txtbuscarCod.Text != "")
+                {
+                    filter.Condition1.Operator = ConditionOperator.Contains;
+                    filter.Condition1.Parameter = txtbuscarCod.Text;
+                    flexProductosCod.Cols["id_cliente"].Filter = filter;
+                }
+            }
+        }
     }
 }

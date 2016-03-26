@@ -110,6 +110,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(316, 20);
             this.txtBuscar.TabIndex = 2;
+            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
             // label2
             // 
@@ -122,7 +123,7 @@
             // 
             // flexGrillaProductosPedidos
             // 
-            this.flexGrillaProductosPedidos.ColumnInfo = "10,1,0,0,0,95,Columns:";
+            this.flexGrillaProductosPedidos.ColumnInfo = resources.GetString("flexGrillaProductosPedidos.ColumnInfo");
             this.flexGrillaProductosPedidos.Location = new System.Drawing.Point(26, 64);
             this.flexGrillaProductosPedidos.Name = "flexGrillaProductosPedidos";
             this.flexGrillaProductosPedidos.Rows.DefaultSize = 19;
