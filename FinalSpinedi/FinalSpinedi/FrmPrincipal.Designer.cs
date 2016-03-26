@@ -99,7 +99,7 @@
             this.Grupo1.Controls.Add(this.flexGrillaProductosPedidos);
             this.Grupo1.Location = new System.Drawing.Point(13, 326);
             this.Grupo1.Name = "Grupo1";
-            this.Grupo1.Size = new System.Drawing.Size(787, 330);
+            this.Grupo1.Size = new System.Drawing.Size(771, 193);
             this.Grupo1.TabIndex = 1;
             this.Grupo1.TabStop = false;
             this.Grupo1.Text = "Productos pedidos y en estado pendientes";
@@ -338,7 +338,7 @@
             this.Grupo2.Size = new System.Drawing.Size(771, 193);
             this.Grupo2.TabIndex = 3;
             this.Grupo2.TabStop = false;
-            this.Grupo2.Text = "Productos pedidos y en estado pendientes";
+            this.Grupo2.Text = "Clientes";
             // 
             // txtBuscar1
             // 
@@ -376,7 +376,7 @@
             this.groupBox1.Size = new System.Drawing.Size(771, 213);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Productos pedidos y en estado pendientes";
+            this.groupBox1.Text = "Productos ";
             // 
             // txtbuscarCod
             // 
@@ -384,7 +384,6 @@
             this.txtbuscarCod.Name = "txtbuscarCod";
             this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
             this.txtbuscarCod.TabIndex = 2;
-            
             this.txtbuscarCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbuscarCod_KeyPress);
             // 
             // label4

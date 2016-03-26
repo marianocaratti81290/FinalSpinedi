@@ -121,7 +121,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="flexProductosCod.ColumnInfo" xml:space="preserve">
-    <value>15,1,0,0,0,95,Columns:1{Name:"id_producto";Caption:"id_producto";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Estado";Caption:"Estado";}	4{Name:"id_proveedor";Caption:"id_proveedor";}	5{Name:"Precio_publico";Caption:"Precio_publico";}	6{Name:"Cantidad";Caption:"Cantidad";}	7{Name:"Precio_proveedor";Caption:"Precio_proveedor";}	8{Name:"descrip";Caption:"descrip";}	9{Name:"precio_descuento";Caption:"precio_descuento";StyleFixed:"";}	10{Name:"tipo_descuento";Caption:"tipo_descuento";}	11{Name:"fecha";Caption:"fecha";}	12{Name:"id_cliente";Caption:"id_cliente";}	13{Visible:False;}	14{Visible:False;}	</value>
+    <value>15,1,0,0,0,95,Columns:1{Name:"id_producto";Caption:"id_producto";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Estado";Caption:"Estado";}	4{Name:"id_proveedor";Caption:"id_proveedor";}	5{Name:"Precio_publico";Caption:"Precio_publico";}	6{Name:"Cantidad";Caption:"Cantidad";}	7{Name:"Precio_proveedor";Caption:"Precio_proveedor";}	8{Name:"descrip";Caption:"descrip";}	9{Name:"precio_descuento";Caption:"precio_descuento";}	10{Name:"tipo_descuento";Caption:"tipo_descuento";}	11{Name:"fecha";Caption:"fecha";}	12{Name:"id_cliente";Caption:"id_cliente";}	13{Visible:False;}	14{Visible:False;}	</value>
   </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>38</value>

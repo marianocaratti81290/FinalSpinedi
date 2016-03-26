@@ -25,7 +25,7 @@ namespace FinalSpinedi
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            cargarProductos();
+            cargarProductos_Clientes();
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,11 +43,12 @@ namespace FinalSpinedi
             new AboutBox1().ShowDialog();
         }
 
-        private void cargarProductos()
+        private void cargarProductos_Clientes()
         {
             try
             {
                 flexProductosCod.DataSource= brl.ObtenerProductos();
+                flexGrillaProductosPedidos.DataSource = brl.ObtenerProductosPedidos();
             }
             catch (Exception)
             {
@@ -76,7 +77,7 @@ namespace FinalSpinedi
                 {
                     filter.Condition1.Operator = ConditionOperator.Contains;
                     filter.Condition1.Parameter = txtbuscarCod.Text;
-                    flexProductosCod.Cols["Nombre"].Filter = filter;
+                    flexProductosCod.Cols["id_cliente"].Filter = filter;
                 }
             }
         }
