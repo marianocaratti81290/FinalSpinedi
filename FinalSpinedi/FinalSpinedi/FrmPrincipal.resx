@@ -118,11 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="flexGrillaProductosPedidos.ColumnInfo" xml:space="preserve">
-    <value>10,1,0,0,0,95,Columns:1{Name:"id_producto";Caption:"id_producto";}	2{Name:"id_proveedor";Caption:"id_proveedor";}	3{Name:"fecha_pedido";Caption:"fecha_pedido";}	4{Name:"fecha_recepcion";Caption:"fecha_recepcion";}	5{Name:"observacion";Caption:"observacion";}	6{Name:"Nombre_Producto";Caption:"Nombre_Producto";}	7{Name:"Cantidad";Caption:"Cantidad";}	8{Name:"Estado";Caption:"Estado";}	9{Visible:False;}	</value>
+    <value>10,1,0,0,0,95,Columns:1{Name:"id_producto";Caption:"id_producto";}	2{Name:"id_proveedor";Caption:"id_proveedor";}	3{Name:"fecha_pedido";Caption:"fecha_pedido";}	4{Name:"fecha_recepcion";Caption:"fecha_recepcion";}	5{Width:232;Name:"observacion";Caption:"observacion";}	6{Width:155;Name:"Nombre_Producto";Caption:"Nombre_Producto";}	7{Width:58;Name:"Cantidad";Caption:"Cantidad";}	8{Width:103;Name:"Estado";Caption:"Estado";}	9{Visible:False;}	</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="flexGrillaClientes.ColumnInfo" xml:space="preserve">
+    <value>10,1,0,0,0,95,Columns:1{Name:"id_cliente";Caption:"id_cliente";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Apellido";Caption:"Apellido";}	4{Name:"DNI";Caption:"DNI";}	5{Name:"tel";Caption:"tel";}	6{Name:"localidad";Caption:"localidad";}	7{Name:"Provincia";Caption:"Provincia";}	8{Width:271;Name:"Email";Caption:"Email";}	9{Visible:False;}	</value>
+  </data>
   <data name="flexProductosCod.ColumnInfo" xml:space="preserve">
     <value>15,1,0,0,0,95,Columns:1{Name:"id_producto";Caption:"id_producto";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Estado";Caption:"Estado";}	4{Name:"id_proveedor";Caption:"id_proveedor";}	5{Name:"Precio_publico";Caption:"Precio_publico";}	6{Name:"Cantidad";Caption:"Cantidad";}	7{Name:"Precio_proveedor";Caption:"Precio_proveedor";}	8{Name:"descrip";Caption:"descrip";}	9{Name:"precio_descuento";Caption:"precio_descuento";}	10{Name:"tipo_descuento";Caption:"tipo_descuento";}	11{Name:"fecha";Caption:"fecha";}	12{Name:"id_cliente";Caption:"id_cliente";}	13{Visible:False;}	14{Visible:False;}	</value>
   </data>

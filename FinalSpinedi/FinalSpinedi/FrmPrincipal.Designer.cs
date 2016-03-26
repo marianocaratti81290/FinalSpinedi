@@ -99,7 +99,7 @@
             this.Grupo1.Controls.Add(this.flexGrillaProductosPedidos);
             this.Grupo1.Location = new System.Drawing.Point(13, 326);
             this.Grupo1.Name = "Grupo1";
-            this.Grupo1.Size = new System.Drawing.Size(771, 193);
+            this.Grupo1.Size = new System.Drawing.Size(1018, 193);
             this.Grupo1.TabIndex = 1;
             this.Grupo1.TabStop = false;
             this.Grupo1.Text = "Productos pedidos y en estado pendientes";
@@ -127,7 +127,7 @@
             this.flexGrillaProductosPedidos.Location = new System.Drawing.Point(26, 64);
             this.flexGrillaProductosPedidos.Name = "flexGrillaProductosPedidos";
             this.flexGrillaProductosPedidos.Rows.DefaultSize = 19;
-            this.flexGrillaProductosPedidos.Size = new System.Drawing.Size(718, 109);
+            this.flexGrillaProductosPedidos.Size = new System.Drawing.Size(978, 109);
             this.flexGrillaProductosPedidos.TabIndex = 0;
             // 
             // menuStrip1
@@ -142,7 +142,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(795, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1043, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -336,7 +336,7 @@
             this.Grupo2.Controls.Add(this.flexGrillaClientes);
             this.Grupo2.Location = new System.Drawing.Point(13, 525);
             this.Grupo2.Name = "Grupo2";
-            this.Grupo2.Size = new System.Drawing.Size(771, 193);
+            this.Grupo2.Size = new System.Drawing.Size(1018, 193);
             this.Grupo2.TabIndex = 3;
             this.Grupo2.TabStop = false;
             this.Grupo2.Text = "Clientes";
@@ -359,11 +359,11 @@
             // 
             // flexGrillaClientes
             // 
-            this.flexGrillaClientes.ColumnInfo = "10,1,0,0,0,95,Columns:";
+            this.flexGrillaClientes.ColumnInfo = resources.GetString("flexGrillaClientes.ColumnInfo");
             this.flexGrillaClientes.Location = new System.Drawing.Point(26, 64);
             this.flexGrillaClientes.Name = "flexGrillaClientes";
             this.flexGrillaClientes.Rows.DefaultSize = 19;
-            this.flexGrillaClientes.Size = new System.Drawing.Size(718, 109);
+            this.flexGrillaClientes.Size = new System.Drawing.Size(978, 109);
             this.flexGrillaClientes.TabIndex = 0;
             // 
             // groupBox1
@@ -374,7 +374,7 @@
             this.groupBox1.Controls.Add(this.flexProductosCod);
             this.groupBox1.Location = new System.Drawing.Point(13, 90);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(771, 213);
+            this.groupBox1.Size = new System.Drawing.Size(1018, 213);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Productos ";
@@ -402,7 +402,7 @@
             this.flexProductosCod.Location = new System.Drawing.Point(26, 64);
             this.flexProductosCod.Name = "flexProductosCod";
             this.flexProductosCod.Rows.DefaultSize = 19;
-            this.flexProductosCod.Size = new System.Drawing.Size(718, 129);
+            this.flexProductosCod.Size = new System.Drawing.Size(978, 129);
             this.flexProductosCod.TabIndex = 0;
             this.flexProductosCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.flexProductosCod_KeyPress);
             // 
@@ -410,7 +410,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(795, 741);
+            this.ClientSize = new System.Drawing.Size(1043, 741);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Grupo2);
             this.Controls.Add(this.Grupo1);
