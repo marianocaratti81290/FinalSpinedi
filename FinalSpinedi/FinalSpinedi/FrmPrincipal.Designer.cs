@@ -64,7 +64,7 @@
             this.Grupo2 = new System.Windows.Forms.GroupBox();
             this.txtBuscar1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.flexGrillaProductos = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.flexGrillaClientes = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtbuscarCod = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,7 +73,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductosPedidos)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.Grupo2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaClientes)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexProductosCod)).BeginInit();
             this.SuspendLayout();
@@ -332,7 +332,7 @@
             // 
             this.Grupo2.Controls.Add(this.txtBuscar1);
             this.Grupo2.Controls.Add(this.label3);
-            this.Grupo2.Controls.Add(this.flexGrillaProductos);
+            this.Grupo2.Controls.Add(this.flexGrillaClientes);
             this.Grupo2.Location = new System.Drawing.Point(13, 525);
             this.Grupo2.Name = "Grupo2";
             this.Grupo2.Size = new System.Drawing.Size(771, 193);
@@ -356,14 +356,14 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Buscar productos pedidos ";
             // 
-            // flexGrillaProductos
+            // flexGrillaClientes
             // 
-            this.flexGrillaProductos.ColumnInfo = "10,1,0,0,0,95,Columns:";
-            this.flexGrillaProductos.Location = new System.Drawing.Point(26, 64);
-            this.flexGrillaProductos.Name = "flexGrillaProductos";
-            this.flexGrillaProductos.Rows.DefaultSize = 19;
-            this.flexGrillaProductos.Size = new System.Drawing.Size(718, 109);
-            this.flexGrillaProductos.TabIndex = 0;
+            this.flexGrillaClientes.ColumnInfo = "10,1,0,0,0,95,Columns:";
+            this.flexGrillaClientes.Location = new System.Drawing.Point(26, 64);
+            this.flexGrillaClientes.Name = "flexGrillaClientes";
+            this.flexGrillaClientes.Rows.DefaultSize = 19;
+            this.flexGrillaClientes.Size = new System.Drawing.Size(718, 109);
+            this.flexGrillaClientes.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -427,7 +427,7 @@
             this.menuStrip1.PerformLayout();
             this.Grupo2.ResumeLayout(false);
             this.Grupo2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaClientes)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexProductosCod)).EndInit();
@@ -454,7 +454,7 @@
         private System.Windows.Forms.GroupBox Grupo2;
         private System.Windows.Forms.TextBox txtBuscar1;
         private System.Windows.Forms.Label label3;
-        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaProductos;
+        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaClientes;
         private System.Windows.Forms.ToolStripMenuItem crearClienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarClienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarClienteToolStripMenuItem;

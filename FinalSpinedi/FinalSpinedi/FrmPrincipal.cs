@@ -49,6 +49,7 @@ namespace FinalSpinedi
             {
                 flexProductosCod.DataSource= brl.ObtenerProductos();
                 flexGrillaProductosPedidos.DataSource = brl.ObtenerProductosPedidos();
+                flexGrillaClientes.DataSource = brl.obtenerClientes();
             }
             catch (Exception)
             {
