@@ -24,7 +24,8 @@ namespace FinalSpinedi
 
         private void btnaceptar_Click(object sender, EventArgs e)
         {
-
+            verificarDatos();
+            limpiarClientes();
         }
 
         private void limpiarClientes()
@@ -90,8 +91,8 @@ namespace FinalSpinedi
                                                 MessageBox.Show("Ingrese la fecha de nacimiento");
                                             }
                                             else
-                                            { 
-                                                brl.agregarCliente(txtnombre.Text,txtapellido.Text,txtdni.Text,dtpfecha_nac.Text,cbsexo.Text,txtcel.Text,txttel_fijo.Text,txtdomicilio.Text,txtprovincia.Text,txtlocalidad.Text,txtcp.Text,txtEmail.Text)
+                                            {
+                                                brl.agregarCliente(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, txtprovincia.Text, txtlocalidad.Text, txtcp.Text, txtEmail.Text);
                                             }
         }
     }

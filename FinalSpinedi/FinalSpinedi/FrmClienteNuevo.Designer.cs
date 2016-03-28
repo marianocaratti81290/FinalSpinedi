@@ -121,6 +121,7 @@
             // txttel_fijo
             // 
             this.txttel_fijo.Location = new System.Drawing.Point(590, 281);
+            this.txttel_fijo.MaxLength = 15;
             this.txttel_fijo.Name = "txttel_fijo";
             this.txttel_fijo.Size = new System.Drawing.Size(141, 20);
             this.txttel_fijo.TabIndex = 91;
@@ -199,6 +200,7 @@
             // txtdomicilio
             // 
             this.txtdomicilio.Location = new System.Drawing.Point(590, 321);
+            this.txtdomicilio.MaxLength = 50;
             this.txtdomicilio.Name = "txtdomicilio";
             this.txtdomicilio.Size = new System.Drawing.Size(141, 20);
             this.txtdomicilio.TabIndex = 73;
@@ -215,6 +217,7 @@
             // txtcel
             // 
             this.txtcel.Location = new System.Drawing.Point(320, 485);
+            this.txtcel.MaxLength = 15;
             this.txtcel.Name = "txtcel";
             this.txtcel.Size = new System.Drawing.Size(135, 20);
             this.txtcel.TabIndex = 72;
@@ -231,6 +234,7 @@
             // txtdni
             // 
             this.txtdni.Location = new System.Drawing.Point(320, 365);
+            this.txtdni.MaxLength = 8;
             this.txtdni.Name = "txtdni";
             this.txtdni.Size = new System.Drawing.Size(135, 20);
             this.txtdni.TabIndex = 71;
@@ -247,6 +251,7 @@
             // txtapellido
             // 
             this.txtapellido.Location = new System.Drawing.Point(320, 325);
+            this.txtapellido.MaxLength = 20;
             this.txtapellido.Name = "txtapellido";
             this.txtapellido.Size = new System.Drawing.Size(135, 20);
             this.txtapellido.TabIndex = 70;
@@ -263,6 +268,7 @@
             // txtnombre
             // 
             this.txtnombre.Location = new System.Drawing.Point(320, 281);
+            this.txtnombre.MaxLength = 20;
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(135, 20);
             this.txtnombre.TabIndex = 69;

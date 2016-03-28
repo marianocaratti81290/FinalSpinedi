@@ -66,10 +66,10 @@ namespace FinalSpinedi
            try
            {
 
-               SqlCommand cmd = new SqlCommand("socio_insertarCliente_i_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("nuevoCliente_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id", "");          
+               cmd.Parameters.AddWithValue("@id_cliente", "");          
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@apellido", apellido);
                cmd.Parameters.AddWithValue("@dni", dni);
@@ -81,7 +81,7 @@ namespace FinalSpinedi
                cmd.Parameters.AddWithValue("@provincia", provincia);
                cmd.Parameters.AddWithValue("@localidad", localidad);
                cmd.Parameters.AddWithValue("@cp", cp);          
-               cmd.Parameters.AddWithValue("@observacion", email);
+               cmd.Parameters.AddWithValue("@email", email);
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
