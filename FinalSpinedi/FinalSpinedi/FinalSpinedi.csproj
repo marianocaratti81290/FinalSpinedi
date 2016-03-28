@@ -54,6 +54,12 @@
     <Compile Include="FrmAcercaDe.Designer.cs">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmClienteNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClienteNuevo.Designer.cs">
+      <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAcercaDe.resx">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClienteNuevo.resx">
+      <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

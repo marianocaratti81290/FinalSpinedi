@@ -110,7 +110,6 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(316, 20);
             this.txtBuscar.TabIndex = 2;
-            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
             // label2
             // 
@@ -161,6 +160,7 @@
             this.crearClienteToolStripMenuItem.Name = "crearClienteToolStripMenuItem";
             this.crearClienteToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.crearClienteToolStripMenuItem.Text = "Crear Cliente";
+            this.crearClienteToolStripMenuItem.Click += new System.EventHandler(this.crearClienteToolStripMenuItem_Click);
             // 
             // modificarClienteToolStripMenuItem
             // 
@@ -385,7 +385,7 @@
             this.txtbuscarCod.Name = "txtbuscarCod";
             this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
             this.txtbuscarCod.TabIndex = 2;
-            this.txtbuscarCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbuscarCod_KeyPress);
+            this.txtbuscarCod.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtbuscarCod_KeyDown);
             // 
             // label4
             // 
@@ -404,6 +404,7 @@
             this.flexProductosCod.Rows.DefaultSize = 19;
             this.flexProductosCod.Size = new System.Drawing.Size(978, 129);
             this.flexProductosCod.TabIndex = 0;
+            this.flexProductosCod.SelChange += new System.EventHandler(this.flexProductosCod_SelChange);
             this.flexProductosCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.flexProductosCod_KeyPress);
             // 
             // FrmPrincipal

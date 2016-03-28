@@ -60,9 +60,8 @@ namespace FinalSpinedi
 
        }
 
-       public static void agregarUsuarioBdLogin(string usuario, string password, string permiso, string nombre,
-           string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-           string provincia, string localidad, string cp, int estado, string observacion)
+       public static void agregarCliente(string nombre,string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
+           string provincia, string localidad, string cp, string email)
        {
            try
            {
@@ -70,10 +69,7 @@ namespace FinalSpinedi
                SqlCommand cmd = new SqlCommand("socio_insertarCliente_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id", "");
-               cmd.Parameters.AddWithValue("@usuario", usuario);
-               cmd.Parameters.AddWithValue("@password", password);
-               cmd.Parameters.AddWithValue("@permiso", permiso);
+               cmd.Parameters.AddWithValue("@id", "");          
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@apellido", apellido);
                cmd.Parameters.AddWithValue("@dni", dni);
@@ -84,9 +80,8 @@ namespace FinalSpinedi
                cmd.Parameters.AddWithValue("@domicilio", domicilio);
                cmd.Parameters.AddWithValue("@provincia", provincia);
                cmd.Parameters.AddWithValue("@localidad", localidad);
-               cmd.Parameters.AddWithValue("@cp", cp);
-               cmd.Parameters.AddWithValue("@estado", estado);
-               cmd.Parameters.AddWithValue("@observacion", observacion);
+               cmd.Parameters.AddWithValue("@cp", cp);          
+               cmd.Parameters.AddWithValue("@observacion", email);
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);

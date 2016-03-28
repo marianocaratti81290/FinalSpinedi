@@ -1,12 +1,5 @@
 ﻿using C1.Win.C1FlexGrid;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FinalSpinedi
@@ -65,38 +58,23 @@ namespace FinalSpinedi
              {
                 flexProductosCod.DataSource = brl.ObtenerProductos();
              }
+        }       
+
+        private void flexProductosCod_SelChange(object sender, EventArgs e)
+        {            
+                flexProductosCod.DataSource = brl.ObtenerProductos();         
         }
 
-        private void txtbuscarCod_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtbuscarCod_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyChar == 13)
-            {
-                flexProductosCod.ClearFilter();
-                var filter = new ConditionFilter();
-
-                if (txtbuscarCod.Text != "")
-                {
-                    filter.Condition1.Operator = ConditionOperator.Contains;
-                    filter.Condition1.Parameter = txtbuscarCod.Text;
-                    flexProductosCod.Cols["id_cliente"].Filter = filter;
-                }
-            }
+           
         }
 
-        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        private void crearClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == 13)
-            {
-                flexProductosCod.ClearFilter();
-                var filter = new ConditionFilter();
-
-                if (txtbuscarCod.Text != "")
-                {
-                    filter.Condition1.Operator = ConditionOperator.Contains;
-                    filter.Condition1.Parameter = txtbuscarCod.Text;
-                    flexProductosCod.Cols["id_cliente"].Filter = filter;
-                }
-            }
+            new FrmClienteNuevo().ShowDialog();
         }
+
+       
     }
 }
