@@ -37,9 +37,9 @@
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnUsuarioNuevo = new System.Windows.Forms.Button();
             this.Label2 = new System.Windows.Forms.Label();
-            this.Label1 = new System.Windows.Forms.Label();
+            this.lblExito = new System.Windows.Forms.Label();
+            this.lblNoExito = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,15 +120,6 @@
             this.PictureBox1.TabIndex = 35;
             this.PictureBox1.TabStop = false;
             // 
-            // btnUsuarioNuevo
-            // 
-            this.btnUsuarioNuevo.Location = new System.Drawing.Point(322, 4);
-            this.btnUsuarioNuevo.Name = "btnUsuarioNuevo";
-            this.btnUsuarioNuevo.Size = new System.Drawing.Size(111, 23);
-            this.btnUsuarioNuevo.TabIndex = 41;
-            this.btnUsuarioNuevo.Text = "Crear Usuario";
-            this.btnUsuarioNuevo.UseVisualStyleBackColor = true;
-            // 
             // Label2
             // 
             this.Label2.AutoSize = true;
@@ -140,25 +131,36 @@
             this.Label2.TabIndex = 40;
             this.Label2.Text = "BIENVENIDOS";
             // 
-            // Label1
+            // lblExito
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.ForeColor = System.Drawing.Color.Red;
-            this.Label1.Location = new System.Drawing.Point(56, 9);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(260, 13);
-            this.Label1.TabIndex = 39;
-            this.Label1.Text = "La conexion con la base de datos es exitosa";
+            this.lblExito.AutoSize = true;
+            this.lblExito.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExito.ForeColor = System.Drawing.Color.Blue;
+            this.lblExito.Location = new System.Drawing.Point(103, 9);
+            this.lblExito.Name = "lblExito";
+            this.lblExito.Size = new System.Drawing.Size(260, 13);
+            this.lblExito.TabIndex = 39;
+            this.lblExito.Text = "La conexion con la base de datos es exitosa";
+            // 
+            // lblNoExito
+            // 
+            this.lblNoExito.AutoSize = true;
+            this.lblNoExito.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoExito.ForeColor = System.Drawing.Color.Red;
+            this.lblNoExito.Location = new System.Drawing.Point(16, 22);
+            this.lblNoExito.Name = "lblNoExito";
+            this.lblNoExito.Size = new System.Drawing.Size(422, 13);
+            this.lblNoExito.TabIndex = 41;
+            this.lblNoExito.Text = "La conexion con la base de datos fracaso, consulte con su administrador";
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 456);
-            this.Controls.Add(this.btnUsuarioNuevo);
+            this.Controls.Add(this.lblNoExito);
             this.Controls.Add(this.Label2);
-            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.lblExito);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.btnacceder);
             this.Controls.Add(this.Label5);
@@ -170,6 +172,7 @@
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,8 +189,8 @@
         internal System.Windows.Forms.TextBox txtusuario;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.PictureBox PictureBox1;
-        internal System.Windows.Forms.Button btnUsuarioNuevo;
         internal System.Windows.Forms.Label Label2;
-        internal System.Windows.Forms.Label Label1;
+        internal System.Windows.Forms.Label lblExito;
+        private System.Windows.Forms.Label lblNoExito;
     }
 }

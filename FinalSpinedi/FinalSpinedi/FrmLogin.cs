@@ -75,5 +75,24 @@ namespace FinalSpinedi
             txtusuario.Text = "";
             txtpass.Text = "";
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+            lblExito.Visible= false;
+            lblNoExito.Visible = false;
+
+            try
+            {
+                Comun.establecerConexion.Open();
+                lblExito.Visible = true;
+                Comun.establecerConexion.Close();
+            }
+            catch (Exception)
+            {
+
+                lblNoExito.Visible = true;
+            }
+
+        }
     }
 }
