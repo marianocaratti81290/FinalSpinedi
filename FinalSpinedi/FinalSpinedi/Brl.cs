@@ -69,14 +69,14 @@ namespace FinalSpinedi
                SqlCommand cmd = new SqlCommand("nuevoCliente_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id_cliente", "");          
+               //cmd.Parameters.AddWithValue("@id_cliente", "");          
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@apellido", apellido);
                cmd.Parameters.AddWithValue("@dni", dni);
                cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
                cmd.Parameters.AddWithValue("@sexo", sexo);
                cmd.Parameters.AddWithValue("@cel", cel);
-               cmd.Parameters.AddWithValue("@tel_fijo", tel);
+               cmd.Parameters.AddWithValue("@tel", tel);
                cmd.Parameters.AddWithValue("@domicilio", domicilio);
                cmd.Parameters.AddWithValue("@provincia", provincia);
                cmd.Parameters.AddWithValue("@localidad", localidad);

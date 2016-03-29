@@ -17,7 +17,7 @@ namespace FinalSpinedi
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
-        {
+        {            
             cargarProductos_Clientes();
         }
 

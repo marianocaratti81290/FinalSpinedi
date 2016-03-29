@@ -28,6 +28,7 @@ namespace FinalSpinedi
             {
                 verificarDatos();
                 limpiarClientes();
+                MessageBox.Show("El cliente se grabó con exito");
             }
                       
         }
@@ -155,7 +156,7 @@ namespace FinalSpinedi
 
         private void cbLocalidad_MouseClick(object sender, MouseEventArgs e)
         {
-            if (cbLocalidad.Text != "")
+            if (cbProvincia.Text != "")
             {
                 string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
 

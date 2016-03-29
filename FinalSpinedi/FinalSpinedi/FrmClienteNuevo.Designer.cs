@@ -68,12 +68,13 @@
             this.label16.Location = new System.Drawing.Point(515, 444);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(25, 13);
-            this.label16.TabIndex = 98;
+            this.label16.TabIndex = 21;
             this.label16.Text = "CP*";
             // 
             // txtcp
             // 
             this.txtcp.Location = new System.Drawing.Point(590, 439);
+            this.txtcp.MaxLength = 4;
             this.txtcp.Name = "txtcp";
             this.txtcp.Size = new System.Drawing.Size(141, 20);
             this.txtcp.TabIndex = 10;
@@ -121,7 +122,7 @@
             this.label12.Location = new System.Drawing.Point(515, 487);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(32, 13);
-            this.label12.TabIndex = 90;
+            this.label12.TabIndex = 12;
             this.label12.Text = "Email";
             // 
             // label11
@@ -135,6 +136,7 @@
             // 
             // cbsexo
             // 
+            this.cbsexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbsexo.FormattingEnabled = true;
             this.cbsexo.Items.AddRange(new object[] {
             "Masculino",
@@ -204,7 +206,7 @@
             this.label7.Location = new System.Drawing.Point(191, 492);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 13);
-            this.label7.TabIndex = 80;
+            this.label7.TabIndex = 5;
             this.label7.Text = "Celular";
             // 
             // txtcel
@@ -315,7 +317,7 @@
             this.cbProvincia.Location = new System.Drawing.Point(590, 357);
             this.cbProvincia.Name = "cbProvincia";
             this.cbProvincia.Size = new System.Drawing.Size(141, 21);
-            this.cbProvincia.TabIndex = 100;
+            this.cbProvincia.TabIndex = 8;
             this.cbProvincia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProvincia_MouseClick);
             // 
             // cbLocalidad
@@ -325,7 +327,7 @@
             this.cbLocalidad.Location = new System.Drawing.Point(590, 394);
             this.cbLocalidad.Name = "cbLocalidad";
             this.cbLocalidad.Size = new System.Drawing.Size(141, 21);
-            this.cbLocalidad.TabIndex = 101;
+            this.cbLocalidad.TabIndex = 9;
             this.cbLocalidad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbLocalidad_MouseClick);
             // 
             // button1
@@ -375,7 +377,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FrmClienteNuevo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmClienteNuevo";
+            this.Text = "Nuevo Cliente";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

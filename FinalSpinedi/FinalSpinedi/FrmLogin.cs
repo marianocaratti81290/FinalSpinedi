@@ -19,7 +19,7 @@ namespace FinalSpinedi
 
         private void btnacceder_Click(object sender, EventArgs e)
         {
-            validarUsuario();           
+            validarUsuario();        
         }          
 
         private void txtpass_KeyDown(object sender, KeyEventArgs e)
@@ -57,8 +57,9 @@ namespace FinalSpinedi
 
                     if (existe == 1)
                     {
+                        this.Hide();
                         new FrmPrincipal().ShowDialog();
-                        this.Close();
+                       
                     }
                     else
                     {
