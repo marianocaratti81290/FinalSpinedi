@@ -238,6 +238,7 @@
             this.txtdni.Name = "txtdni";
             this.txtdni.Size = new System.Drawing.Size(135, 20);
             this.txtdni.TabIndex = 71;
+            this.txtdni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtdni_KeyPress);
             // 
             // label6
             // 

@@ -95,5 +95,15 @@ namespace FinalSpinedi
                                                 brl.agregarCliente(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, txtprovincia.Text, txtlocalidad.Text, txtcp.Text, txtEmail.Text);
                                             }
         }
+
+        private void txtdni_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
     }
 }
