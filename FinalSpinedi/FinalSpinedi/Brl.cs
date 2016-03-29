@@ -146,6 +146,33 @@ namespace FinalSpinedi
            }
 
        }
+
+       public static DataTable obtenerLocalidadCorrespondiente(string id_provincia)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerLocalidadCorrespondiente_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("valor", id_provincia);
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
        public static DataTable ObtenerProductosPedidos()
        {
            try

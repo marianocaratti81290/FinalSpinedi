@@ -143,11 +143,39 @@ namespace FinalSpinedi
      
         private void cbProvincia_MouseClick(object sender, MouseEventArgs e)
         {
+            
             cbProvincia.DataSource = brl.ObtenerProvincias(); 
             //indicamos el valor de los miembros
             cbProvincia.ValueMember = "provincia";
             //se indica el valor a desplegar en el combobox
             cbProvincia.DisplayMember = "provincia";
+
+          
         }
+
+        private void cbLocalidad_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (cbLocalidad.Text != "")
+            {
+                string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
+
+                cbLocalidad.DataSource = brl.obtenerLocalidadCorrespondiente(valor);
+                //indicamos el valor de los miembros
+                cbLocalidad.ValueMember = "localidad";
+                //se indica el valor a desplegar en el combobox
+                cbLocalidad.DisplayMember = "localidad";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("http://www.nexo.com.ar/codigosPostales.asp");
+            }
+            catch { }
+        }
+      
+
     }
 }
