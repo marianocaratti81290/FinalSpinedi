@@ -353,9 +353,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(27, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 13);
+            this.label3.Size = new System.Drawing.Size(80, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Buscar productos pedidos ";
+            this.label3.Text = "Buscar Clientes";
             // 
             // flexGrillaClientes
             // 
@@ -411,7 +411,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1043, 741);
+            this.ClientSize = new System.Drawing.Size(1043, 733);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Grupo2);
             this.Controls.Add(this.Grupo1);
@@ -419,7 +419,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPrincipal";
-            this.Text = "Form1";
+            this.Text = "Sistema de Gestion de Stock";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.Grupo1.ResumeLayout(false);
