@@ -122,6 +122,30 @@ namespace FinalSpinedi
 
        }
 
+       public static DataTable ObtenerProvincias()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerProvincia_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
        public static DataTable ObtenerProductosPedidos()
        {
            try

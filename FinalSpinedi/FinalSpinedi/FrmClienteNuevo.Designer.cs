@@ -32,9 +32,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtcp = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.txtlocalidad = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.txtprovincia = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.txttel_fijo = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -58,6 +56,8 @@
             this.btnaceptar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.cbProvincia = new System.Windows.Forms.ComboBox();
+            this.cbLocalidad = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +75,8 @@
             this.txtcp.Location = new System.Drawing.Point(590, 439);
             this.txtcp.Name = "txtcp";
             this.txtcp.Size = new System.Drawing.Size(141, 20);
-            this.txtcp.TabIndex = 97;
+            this.txtcp.TabIndex = 10;
+            this.txtcp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcp_KeyPress);
             // 
             // label15
             // 
@@ -86,13 +87,6 @@
             this.label15.TabIndex = 96;
             this.label15.Text = "Localidad*";
             // 
-            // txtlocalidad
-            // 
-            this.txtlocalidad.Location = new System.Drawing.Point(590, 399);
-            this.txtlocalidad.Name = "txtlocalidad";
-            this.txtlocalidad.Size = new System.Drawing.Size(141, 20);
-            this.txtlocalidad.TabIndex = 95;
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -101,13 +95,6 @@
             this.label14.Size = new System.Drawing.Size(55, 13);
             this.label14.TabIndex = 94;
             this.label14.Text = "Provincia*";
-            // 
-            // txtprovincia
-            // 
-            this.txtprovincia.Location = new System.Drawing.Point(590, 362);
-            this.txtprovincia.Name = "txtprovincia";
-            this.txtprovincia.Size = new System.Drawing.Size(141, 20);
-            this.txtprovincia.TabIndex = 93;
             // 
             // label13
             // 
@@ -124,7 +111,8 @@
             this.txttel_fijo.MaxLength = 15;
             this.txttel_fijo.Name = "txttel_fijo";
             this.txttel_fijo.Size = new System.Drawing.Size(141, 20);
-            this.txttel_fijo.TabIndex = 91;
+            this.txttel_fijo.TabIndex = 6;
+            this.txttel_fijo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttel_fijo_KeyPress);
             // 
             // label12
             // 
@@ -153,7 +141,7 @@
             this.cbsexo.Location = new System.Drawing.Point(321, 443);
             this.cbsexo.Name = "cbsexo";
             this.cbsexo.Size = new System.Drawing.Size(135, 21);
-            this.cbsexo.TabIndex = 88;
+            this.cbsexo.TabIndex = 4;
             // 
             // label4
             // 
@@ -166,10 +154,14 @@
             // 
             // dtpfecha_nac
             // 
+            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpfecha_nac.Location = new System.Drawing.Point(320, 402);
+            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
+            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
             this.dtpfecha_nac.Name = "dtpfecha_nac";
+            this.dtpfecha_nac.ShowUpDown = true;
             this.dtpfecha_nac.Size = new System.Drawing.Size(135, 20);
-            this.dtpfecha_nac.TabIndex = 86;
+            this.dtpfecha_nac.TabIndex = 3;
             // 
             // label10
             // 
@@ -186,7 +178,7 @@
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(141, 41);
-            this.txtEmail.TabIndex = 74;
+            this.txtEmail.TabIndex = 11;
             // 
             // label8
             // 
@@ -203,7 +195,7 @@
             this.txtdomicilio.MaxLength = 50;
             this.txtdomicilio.Name = "txtdomicilio";
             this.txtdomicilio.Size = new System.Drawing.Size(141, 20);
-            this.txtdomicilio.TabIndex = 73;
+            this.txtdomicilio.TabIndex = 7;
             // 
             // label7
             // 
@@ -220,7 +212,8 @@
             this.txtcel.MaxLength = 15;
             this.txtcel.Name = "txtcel";
             this.txtcel.Size = new System.Drawing.Size(135, 20);
-            this.txtcel.TabIndex = 72;
+            this.txtcel.TabIndex = 5;
+            this.txtcel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcel_KeyPress);
             // 
             // DNI
             // 
@@ -237,7 +230,7 @@
             this.txtdni.MaxLength = 8;
             this.txtdni.Name = "txtdni";
             this.txtdni.Size = new System.Drawing.Size(135, 20);
-            this.txtdni.TabIndex = 71;
+            this.txtdni.TabIndex = 2;
             this.txtdni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtdni_KeyPress);
             // 
             // label6
@@ -255,7 +248,7 @@
             this.txtapellido.MaxLength = 20;
             this.txtapellido.Name = "txtapellido";
             this.txtapellido.Size = new System.Drawing.Size(135, 20);
-            this.txtapellido.TabIndex = 70;
+            this.txtapellido.TabIndex = 1;
             // 
             // label5
             // 
@@ -272,14 +265,14 @@
             this.txtnombre.MaxLength = 20;
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(135, 20);
-            this.txtnombre.TabIndex = 69;
+            this.txtnombre.TabIndex = 0;
             // 
             // btnVolver
             // 
             this.btnVolver.Location = new System.Drawing.Point(405, 562);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
-            this.btnVolver.TabIndex = 77;
+            this.btnVolver.TabIndex = 13;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -289,7 +282,7 @@
             this.btnaceptar.Location = new System.Drawing.Point(528, 562);
             this.btnaceptar.Name = "btnaceptar";
             this.btnaceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnaceptar.TabIndex = 75;
+            this.btnaceptar.TabIndex = 12;
             this.btnaceptar.Text = "Aceptar";
             this.btnaceptar.UseVisualStyleBackColor = true;
             this.btnaceptar.Click += new System.EventHandler(this.btnaceptar_Click);
@@ -314,18 +307,35 @@
             this.label1.TabIndex = 99;
             this.label1.Text = "Asistente para crear usuarios nuevos en el sistema";
             // 
+            // cbProvincia
+            // 
+            this.cbProvincia.FormattingEnabled = true;
+            this.cbProvincia.Location = new System.Drawing.Point(590, 357);
+            this.cbProvincia.Name = "cbProvincia";
+            this.cbProvincia.Size = new System.Drawing.Size(141, 21);
+            this.cbProvincia.TabIndex = 100;
+            this.cbProvincia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProvincia_MouseClick);
+            // 
+            // cbLocalidad
+            // 
+            this.cbLocalidad.FormattingEnabled = true;
+            this.cbLocalidad.Location = new System.Drawing.Point(590, 394);
+            this.cbLocalidad.Name = "cbLocalidad";
+            this.cbLocalidad.Size = new System.Drawing.Size(141, 21);
+            this.cbLocalidad.TabIndex = 101;
+            // 
             // FrmClienteNuevo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 609);
+            this.Controls.Add(this.cbLocalidad);
+            this.Controls.Add(this.cbProvincia);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.txtcp);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.txtlocalidad);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.txtprovincia);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.txttel_fijo);
             this.Controls.Add(this.label12);
@@ -362,9 +372,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtcp;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtlocalidad;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtprovincia;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txttel_fijo;
         private System.Windows.Forms.Label label12;
@@ -388,5 +396,7 @@
         private System.Windows.Forms.Button btnaceptar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cbProvincia;
+        private System.Windows.Forms.ComboBox cbLocalidad;
     }
 }

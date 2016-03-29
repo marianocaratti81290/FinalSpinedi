@@ -24,8 +24,12 @@ namespace FinalSpinedi
 
         private void btnaceptar_Click(object sender, EventArgs e)
         {
-            verificarDatos();
-            limpiarClientes();
+            if (MessageBox.Show("Estas seguro que desea agregar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                verificarDatos();
+                limpiarClientes();
+            }
+                      
         }
 
         private void limpiarClientes()
@@ -37,8 +41,8 @@ namespace FinalSpinedi
             txtcel.Clear();
             txttel_fijo.Clear();
             txtdomicilio.Clear();
-            txtprovincia.Clear();
-            txtlocalidad.Clear();
+            cbProvincia.Text="";
+            cbLocalidad.Text="";
             txtcp.Clear();
             txtEmail.Clear();
             dtpfecha_nac.Text = "";
@@ -71,12 +75,12 @@ namespace FinalSpinedi
                                 MessageBox.Show("Ingrese el domicilio");
                             }
                             else
-                                if (txtprovincia.Text == "")
+                                if (cbProvincia.Text == "")
                                 {
                                     MessageBox.Show("ingrese la provincia del cliente");
                                 }
                                 else
-                                    if (txtlocalidad.Text == "")
+                                    if (cbLocalidad.Text == "")
                                     {
                                         MessageBox.Show("Ingrese la localidad del cliente");
                                     }
@@ -92,7 +96,7 @@ namespace FinalSpinedi
                                             }
                                             else
                                             {
-                                                brl.agregarCliente(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, txtprovincia.Text, txtlocalidad.Text, txtcp.Text, txtEmail.Text);
+                                                brl.agregarCliente(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtcp.Text, txtEmail.Text);
                                             }
         }
 
@@ -104,6 +108,46 @@ namespace FinalSpinedi
                 e.Handled = true;
                 return;
             }
+        }
+
+        private void txtcel_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txttel_fijo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtcp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+     
+        private void cbProvincia_MouseClick(object sender, MouseEventArgs e)
+        {
+            cbProvincia.DataSource = brl.ObtenerProvincias(); 
+            //indicamos el valor de los miembros
+            cbProvincia.ValueMember = "provincia";
+            //se indica el valor a desplegar en el combobox
+            cbProvincia.DisplayMember = "provincia";
         }
     }
 }
