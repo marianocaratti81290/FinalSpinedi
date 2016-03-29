@@ -75,6 +75,11 @@ namespace FinalSpinedi
             new FrmClienteNuevo().ShowDialog();
         }
 
+        private void modificarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmModificarCliente().ShowDialog();
+        }
+
        
     }
 }
