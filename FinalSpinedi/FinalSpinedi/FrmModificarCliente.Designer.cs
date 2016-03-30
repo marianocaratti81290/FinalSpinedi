@@ -59,6 +59,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtCp = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.txtDomicilio = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -105,6 +107,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtDomicilio);
+            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.txtCp);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.txtCel);
@@ -131,14 +135,14 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(27, 328);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(877, 266);
+            this.groupBox2.Size = new System.Drawing.Size(877, 307);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modificar clientes";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(569, 177);
+            this.txtEmail.Location = new System.Drawing.Point(569, 213);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(245, 20);
             this.txtEmail.TabIndex = 15;
@@ -187,26 +191,28 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(739, 219);
+            this.btnVolver.Location = new System.Drawing.Point(739, 255);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 8;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnMod
             // 
-            this.btnMod.Location = new System.Drawing.Point(604, 219);
+            this.btnMod.Location = new System.Drawing.Point(604, 255);
             this.btnMod.Name = "btnMod";
             this.btnMod.Size = new System.Drawing.Size(119, 23);
             this.btnMod.TabIndex = 7;
             this.btnMod.Text = "Actualizar Datos";
             this.btnMod.UseVisualStyleBackColor = true;
+            this.btnMod.Click += new System.EventHandler(this.btnMod_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(448, 184);
+            this.label8.Location = new System.Drawing.Point(448, 220);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(32, 13);
             this.label8.TabIndex = 6;
@@ -326,7 +332,7 @@
             // 
             // txtCp
             // 
-            this.txtCp.Location = new System.Drawing.Point(569, 141);
+            this.txtCp.Location = new System.Drawing.Point(569, 177);
             this.txtCp.Name = "txtCp";
             this.txtCp.Size = new System.Drawing.Size(245, 20);
             this.txtCp.TabIndex = 23;
@@ -334,17 +340,33 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(448, 148);
+            this.label13.Location = new System.Drawing.Point(448, 184);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(72, 13);
             this.label13.TabIndex = 22;
             this.label13.Text = "Codigo Postal";
             // 
+            // txtDomicilio
+            // 
+            this.txtDomicilio.Location = new System.Drawing.Point(569, 141);
+            this.txtDomicilio.Name = "txtDomicilio";
+            this.txtDomicilio.Size = new System.Drawing.Size(245, 20);
+            this.txtDomicilio.TabIndex = 25;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(448, 148);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(49, 13);
+            this.label14.TabIndex = 24;
+            this.label14.Text = "Domicilio";
+            // 
             // FrmModificarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(916, 606);
+            this.ClientSize = new System.Drawing.Size(916, 647);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -394,5 +416,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtCp;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtDomicilio;
+        private System.Windows.Forms.Label label14;
     }
 }

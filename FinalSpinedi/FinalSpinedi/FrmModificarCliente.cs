@@ -17,10 +17,12 @@ namespace FinalSpinedi
             InitializeComponent();
         }
 
+        public static int modSeleccion;
+
         private void FrmModificarCliente_Load(object sender, EventArgs e)
         {
             GrillaClientes();
-            cargarDatos();
+            
         }
 
         private void GrillaClientes()
@@ -31,16 +33,13 @@ namespace FinalSpinedi
         {
             if (flexGrillaCliente.RowSel != -1)
             {
-                int modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];                
-            }
-        }
+                modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
 
-        private void cargarDatos()
-        {
-            try
-            {
-                DataTable dtCliente = new DataTable();
-                dtCliente = brl.obtenerClientes();
+
+                try
+                {
+                    DataTable dtCliente = new DataTable();
+                    dtCliente = brl.obtenerClienteSeleccionado(modSeleccion);
 
                     if (dtCliente.Rows.Count > 0)
                     {
@@ -51,21 +50,40 @@ namespace FinalSpinedi
                         txtNacimiento.Text = dtCliente.Rows[0]["fecha_nacimiento"].ToString();
                         txtSexo.Text = dtCliente.Rows[0]["sexo"].ToString();
                         txtCel.Text = dtCliente.Rows[0]["cel"].ToString();
-                        txtTelefono.Text = dtCliente.Rows[0]["tel"].ToString();                       
+                        txtTelefono.Text = dtCliente.Rows[0]["tel"].ToString();
                         txtLocalidad.Text = dtCliente.Rows[0]["Localidad"].ToString();
                         txtProvincias.Text = dtCliente.Rows[0]["Provincia"].ToString();
+                        txtDomicilio.Text = dtCliente.Rows[0]["domicilio"].ToString();
                         txtCp.Text = dtCliente.Rows[0]["cp"].ToString();
-                        txtEmail.Text = dtCliente.Rows[0]["Email"].ToString();	
-                       
+                        txtEmail.Text = dtCliente.Rows[0]["Email"].ToString();
+
                     }
-                   
-                
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
             }
-            catch (Exception ex)
+        }
+
+        private void btnMod_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Estas seguro que desea modificar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-           
-                MessageBox.Show(ex.Message);
+                brl.modificarCliente( modSeleccion,txtNombre.Text, txtApellido.Text, txtDni.Text, txtNacimiento.Text, txtSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, txtProvincias.Text, txtLocalidad.Text, txtCp.Text, txtEmail.Text);
+                                        
+                MessageBox.Show("El cliente se modifico con exito");
+                GrillaClientes();
             }
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

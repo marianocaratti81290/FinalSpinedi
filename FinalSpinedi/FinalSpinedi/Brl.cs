@@ -97,6 +97,42 @@ namespace FinalSpinedi
 
        }
 
+       public static void modificarCliente(int id_cliente, string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
+         string provincia, string localidad, string cp, string email)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("modificarCliente_u_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               cmd.Parameters.AddWithValue("@id_cliente", id_cliente);          
+               cmd.Parameters.AddWithValue("@nombre", nombre);
+               cmd.Parameters.AddWithValue("@apellido", apellido);
+               cmd.Parameters.AddWithValue("@dni", dni);
+               cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
+               cmd.Parameters.AddWithValue("@sexo", sexo);
+               cmd.Parameters.AddWithValue("@cel", cel);
+               cmd.Parameters.AddWithValue("@tel", tel);
+               cmd.Parameters.AddWithValue("@domicilio", domicilio);
+               cmd.Parameters.AddWithValue("@provincia", provincia);
+               cmd.Parameters.AddWithValue("@localidad", localidad);
+               cmd.Parameters.AddWithValue("@cp", cp);
+               cmd.Parameters.AddWithValue("@email", email);
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
        public static DataTable ObtenerProductos()
        {
            try
@@ -157,6 +193,33 @@ namespace FinalSpinedi
                cmd.CommandType = CommandType.StoredProcedure;
 
                cmd.Parameters.AddWithValue("valor", id_provincia);
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+       public static DataTable obtenerClienteSeleccionado(int id_cliente)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerClienteSeleccionado_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("id_cliente", id_cliente);
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
 
