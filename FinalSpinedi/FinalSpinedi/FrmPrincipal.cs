@@ -80,6 +80,11 @@ namespace FinalSpinedi
             new FrmBorrarCliente().ShowDialog();
         }
 
+        private void nuevoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmProductoNuevo().ShowDialog();
+        }
+
        
     }
 }
