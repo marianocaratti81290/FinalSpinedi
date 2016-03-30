@@ -28,10 +28,20 @@ namespace FinalSpinedi
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            if (flexGrillaCliente.RowSel != -1)
+            if (MessageBox.Show("Estas seguro que desea eliminar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-               int  modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"]; 
+                if (flexGrillaCliente.RowSel != -1)
+                {
+                    int modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
+                    brl.borrarCliente(modSeleccion);
+                    MessageBox.Show("El cliente se borro con exito");
+                }
             }
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
        
     }

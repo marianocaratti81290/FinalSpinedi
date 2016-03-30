@@ -42,11 +42,12 @@ namespace FinalSpinedi
             txtcel.Clear();
             txttel_fijo.Clear();
             txtdomicilio.Clear();
-            cbProvincia.Text="";
-            cbLocalidad.Text="";
+            cbProvincia.Refresh();
+            cbLocalidad.Refresh();
             txtcp.Clear();
             txtEmail.Clear();
-            dtpfecha_nac.Text = "";
+            dtpfecha_nac.Refresh();
+
         }
 
         private void verificarDatos()

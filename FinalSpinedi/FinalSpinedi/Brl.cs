@@ -285,6 +285,32 @@ namespace FinalSpinedi
            }
 
        }
+
+       public static void borrarCliente(int id_cliente)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("borrarCliente_d_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               
+               cmd.Parameters.AddWithValue("@id_cliente", id_cliente);
+     
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
         }
 
 }

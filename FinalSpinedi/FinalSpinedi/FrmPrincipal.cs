@@ -77,7 +77,7 @@ namespace FinalSpinedi
 
         private void eliminarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new FrmBorrarCliente().ShowDialog();
         }
 
        

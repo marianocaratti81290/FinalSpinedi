@@ -47,7 +47,7 @@ namespace FinalSpinedi
                         txtNombre.Text = dtCliente.Rows[0]["Nombre"].ToString();
                         txtApellido.Text = dtCliente.Rows[0]["Apellido"].ToString();
                         txtDni.Text = dtCliente.Rows[0]["DNI"].ToString();
-                        txtNacimiento.Text = dtCliente.Rows[0]["fecha_nacimiento"].ToString();
+                        dtpfecha_nac.Text = dtCliente.Rows[0]["fecha_nacimiento"].ToString();
                         cbSexo.Text = dtCliente.Rows[0]["sexo"].ToString();
                         txtCel.Text = dtCliente.Rows[0]["cel"].ToString();
                         txtTelefono.Text = dtCliente.Rows[0]["tel"].ToString();
@@ -73,7 +73,7 @@ namespace FinalSpinedi
         {
             if (MessageBox.Show("Estas seguro que desea modificar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                brl.modificarCliente( modSeleccion,txtNombre.Text, txtApellido.Text, txtDni.Text, txtNacimiento.Text, cbSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtCp.Text, txtEmail.Text);
+                brl.modificarCliente(modSeleccion, txtNombre.Text, txtApellido.Text, txtDni.Text, dtpfecha_nac.Text, cbSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtCp.Text, txtEmail.Text);
                                         
                 MessageBox.Show("El cliente se modifico con exito");
                 GrillaClientes();

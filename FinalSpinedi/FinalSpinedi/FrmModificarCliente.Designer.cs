@@ -41,7 +41,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.txtCel = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.txtNacimiento = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -61,6 +60,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.cbProvincia = new System.Windows.Forms.ComboBox();
             this.cbLocalidad = new System.Windows.Forms.ComboBox();
+            this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -107,6 +107,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dtpfecha_nac);
             this.groupBox2.Controls.Add(this.cbLocalidad);
             this.groupBox2.Controls.Add(this.cbProvincia);
             this.groupBox2.Controls.Add(this.cbSexo);
@@ -116,7 +117,6 @@
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.txtCel);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.txtNacimiento);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.txtEmail);
@@ -201,14 +201,6 @@
             this.label12.Size = new System.Drawing.Size(39, 13);
             this.label12.TabIndex = 20;
             this.label12.Text = "Celular";
-            // 
-            // txtNacimiento
-            // 
-            this.txtNacimiento.Location = new System.Drawing.Point(151, 141);
-            this.txtNacimiento.MaxLength = 10;
-            this.txtNacimiento.Name = "txtNacimiento";
-            this.txtNacimiento.Size = new System.Drawing.Size(245, 20);
-            this.txtNacimiento.TabIndex = 18;
             // 
             // label10
             // 
@@ -379,6 +371,17 @@
             this.cbLocalidad.TabIndex = 28;
             this.cbLocalidad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbLocalidad_MouseClick);
             // 
+            // dtpfecha_nac
+            // 
+            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpfecha_nac.Location = new System.Drawing.Point(151, 142);
+            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
+            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpfecha_nac.Name = "dtpfecha_nac";
+            this.dtpfecha_nac.ShowUpDown = true;
+            this.dtpfecha_nac.Size = new System.Drawing.Size(245, 20);
+            this.dtpfecha_nac.TabIndex = 29;
+            // 
             // FrmModificarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -423,7 +426,6 @@
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtNacimiento;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtCel;
@@ -435,5 +437,6 @@
         private System.Windows.Forms.ComboBox cbSexo;
         private System.Windows.Forms.ComboBox cbLocalidad;
         private System.Windows.Forms.ComboBox cbProvincia;
+        private System.Windows.Forms.DateTimePicker dtpfecha_nac;
     }
 }
