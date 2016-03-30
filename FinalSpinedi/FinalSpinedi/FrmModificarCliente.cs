@@ -22,7 +22,7 @@ namespace FinalSpinedi
         private void FrmModificarCliente_Load(object sender, EventArgs e)
         {
             GrillaClientes();
-            
+            obtenerProvincia();
         }
 
         private void GrillaClientes()
@@ -48,11 +48,11 @@ namespace FinalSpinedi
                         txtApellido.Text = dtCliente.Rows[0]["Apellido"].ToString();
                         txtDni.Text = dtCliente.Rows[0]["DNI"].ToString();
                         txtNacimiento.Text = dtCliente.Rows[0]["fecha_nacimiento"].ToString();
-                        txtSexo.Text = dtCliente.Rows[0]["sexo"].ToString();
+                        cbSexo.Text = dtCliente.Rows[0]["sexo"].ToString();
                         txtCel.Text = dtCliente.Rows[0]["cel"].ToString();
                         txtTelefono.Text = dtCliente.Rows[0]["tel"].ToString();
-                        txtLocalidad.Text = dtCliente.Rows[0]["Localidad"].ToString();
-                        txtProvincias.Text = dtCliente.Rows[0]["Provincia"].ToString();
+                        cbLocalidad.Text = dtCliente.Rows[0]["Localidad"].ToString();
+                        cbProvincia.Text = dtCliente.Rows[0]["Provincia"].ToString();
                         txtDomicilio.Text = dtCliente.Rows[0]["domicilio"].ToString();
                         txtCp.Text = dtCliente.Rows[0]["cp"].ToString();
                         txtEmail.Text = dtCliente.Rows[0]["Email"].ToString();
@@ -73,7 +73,7 @@ namespace FinalSpinedi
         {
             if (MessageBox.Show("Estas seguro que desea modificar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                brl.modificarCliente( modSeleccion,txtNombre.Text, txtApellido.Text, txtDni.Text, txtNacimiento.Text, txtSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, txtProvincias.Text, txtLocalidad.Text, txtCp.Text, txtEmail.Text);
+                brl.modificarCliente( modSeleccion,txtNombre.Text, txtApellido.Text, txtDni.Text, txtNacimiento.Text, cbSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtCp.Text, txtEmail.Text);
                                         
                 MessageBox.Show("El cliente se modifico con exito");
                 GrillaClientes();
@@ -85,5 +85,35 @@ namespace FinalSpinedi
         {
             this.Close();
         }
+
+        private void cbProvincia_MouseClick(object sender, MouseEventArgs e)
+        {
+            obtenerProvincia();
+        }
+
+        private void cbLocalidad_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (cbProvincia.Text != "")
+            {
+                string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
+
+                cbLocalidad.DataSource = brl.obtenerLocalidadCorrespondiente(valor);
+                //indicamos el valor de los miembros
+                cbLocalidad.ValueMember = "localidad";
+                //se indica el valor a desplegar en el combobox
+                cbLocalidad.DisplayMember = "localidad";
+            }
+        }
+
+        private void obtenerProvincia()
+        {
+            cbProvincia.DataSource = brl.ObtenerProvincias();
+            //indicamos el valor de los miembros
+            cbProvincia.ValueMember = "provincia";
+            //se indica el valor a desplegar en el combobox
+            cbProvincia.DisplayMember = "provincia";
+
+        }
+
     }
 }

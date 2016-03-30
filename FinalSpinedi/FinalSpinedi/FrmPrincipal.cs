@@ -65,11 +65,6 @@ namespace FinalSpinedi
                 flexProductosCod.DataSource = brl.ObtenerProductos();         
         }
 
-        private void txtbuscarCod_KeyDown(object sender, KeyEventArgs e)
-        {
-           
-        }
-
         private void crearClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmClienteNuevo().ShowDialog();
@@ -78,6 +73,11 @@ namespace FinalSpinedi
         private void modificarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmModificarCliente().ShowDialog();
+        }
+
+        private void eliminarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
 
        

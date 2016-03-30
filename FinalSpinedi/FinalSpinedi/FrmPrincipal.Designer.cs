@@ -174,6 +174,7 @@
             this.eliminarClienteToolStripMenuItem.Name = "eliminarClienteToolStripMenuItem";
             this.eliminarClienteToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.eliminarClienteToolStripMenuItem.Text = "Eliminar Cliente";
+            this.eliminarClienteToolStripMenuItem.Click += new System.EventHandler(this.eliminarClienteToolStripMenuItem_Click);
             // 
             // productosToolStripMenuItem
             // 
@@ -386,7 +387,6 @@
             this.txtbuscarCod.Name = "txtbuscarCod";
             this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
             this.txtbuscarCod.TabIndex = 2;
-            this.txtbuscarCod.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtbuscarCod_KeyDown);
             // 
             // label4
             // 

@@ -176,7 +176,6 @@ namespace FinalSpinedi
             }
             catch { }
         }
-      
 
     }
 }
