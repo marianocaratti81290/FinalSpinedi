@@ -312,7 +312,7 @@ namespace FinalSpinedi
 
        }
 
-       public static void agregarProducto(string nombre, string estado, string proveedor, int precio_publico, int cantidad, int precio_proveedor, string descrip, string fecha, string codBarra)
+       public static void agregarProducto(string nombre, int estado, int proveedor, int precio_publico, int cantidad, int precio_proveedor, string descrip, string fecha, string codBarra)
        {
            try
            {
@@ -323,7 +323,7 @@ namespace FinalSpinedi
                //cmd.Parameters.AddWithValue("@id_cliente", "");          
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@estado", estado);
-               cmd.Parameters.AddWithValue("@proveedor", proveedor);
+               cmd.Parameters.AddWithValue("@id_proveedor", proveedor);
                cmd.Parameters.AddWithValue("@precio_publico", precio_publico);
                cmd.Parameters.AddWithValue("@cantidad", cantidad);
                cmd.Parameters.AddWithValue("@precio_proveedor", precio_proveedor);
@@ -331,6 +331,32 @@ namespace FinalSpinedi
                cmd.Parameters.AddWithValue("@fecha", fecha);
                cmd.Parameters.AddWithValue("@codBarra", codBarra);
        
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+       public static void ConsultarIdProveedor(string id_proveedor)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("consultarIdProveedor_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               //cmd.Parameters.AddWithValue("@id_cliente", "");          
+               cmd.Parameters.AddWithValue("@id_proveedor", id_proveedor);
+              
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);

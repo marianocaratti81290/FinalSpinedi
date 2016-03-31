@@ -16,6 +16,7 @@ namespace FinalSpinedi
         {
             InitializeComponent();
         }
+        public static int estado;
 
         private void txtPrecioPublico_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -55,6 +56,16 @@ namespace FinalSpinedi
         {
              if (MessageBox.Show("Estas seguro que desea agregar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
+               
+                if (cbEstado.SelectedIndex == 0)
+                {
+                    estado =  1;
+                }
+                else
+                {
+                    estado = 0;
+                }
+               
                 verificarDatos();
                 limpiarClientes();
                 MessageBox.Show("El producto se grabó con exito");
@@ -123,10 +134,12 @@ namespace FinalSpinedi
                                             }
                                             else
                                             {
-                                                brl.agregarProducto(txtNombre.Text, cbEstado.Text, cbProveedor.Text, txtPrecioPublico.Text, nudCantidad.Text, txtPrecioProveedor.Text, txtDescrip.Text, dtpfecha_nac.Text, txtbarra.Text);
+
+                                                brl.agregarProducto(txtNombre.Text, estado, cbProveedor.SelectedIndex, Convert.ToInt32(txtPrecioPublico.Text), Convert.ToInt32(nudCantidad.Text), Convert.ToInt32(txtPrecioProveedor.Text), txtDescrip.Text, dtpfecha_nac.Text, txtbarra.Text);
                                             }
         }
 
-        }
-    }
+      
+}
+
 }

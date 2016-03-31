@@ -229,6 +229,7 @@
             // 
             // cbEstado
             // 
+            this.cbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEstado.FormattingEnabled = true;
             this.cbEstado.Items.AddRange(new object[] {
             "Activo",
@@ -240,6 +241,7 @@
             // 
             // cbProveedor
             // 
+            this.cbProveedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProveedor.FormattingEnabled = true;
             this.cbProveedor.Location = new System.Drawing.Point(112, 94);
             this.cbProveedor.Name = "cbProveedor";
