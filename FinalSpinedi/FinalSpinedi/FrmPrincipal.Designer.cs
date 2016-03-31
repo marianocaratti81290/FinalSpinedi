@@ -198,6 +198,7 @@
             this.modificarProductoToolStripMenuItem.Name = "modificarProductoToolStripMenuItem";
             this.modificarProductoToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.modificarProductoToolStripMenuItem.Text = "Modificar Producto";
+            this.modificarProductoToolStripMenuItem.Click += new System.EventHandler(this.modificarProductoToolStripMenuItem_Click);
             // 
             // eliminarProductoToolStripMenuItem
             // 

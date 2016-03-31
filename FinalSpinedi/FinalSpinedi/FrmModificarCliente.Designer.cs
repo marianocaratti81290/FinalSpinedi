@@ -34,6 +34,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.flexGrillaCliente = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
+            this.cbLocalidad = new System.Windows.Forms.ComboBox();
+            this.cbProvincia = new System.Windows.Forms.ComboBox();
             this.cbSexo = new System.Windows.Forms.ComboBox();
             this.txtDomicilio = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -58,9 +61,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.cbProvincia = new System.Windows.Forms.ComboBox();
-            this.cbLocalidad = new System.Windows.Forms.ComboBox();
-            this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -104,6 +104,7 @@
             this.flexGrillaCliente.Size = new System.Drawing.Size(849, 155);
             this.flexGrillaCliente.TabIndex = 1;
             this.flexGrillaCliente.SelChange += new System.EventHandler(this.flexGrillaCliente_SelChange);
+            this.flexGrillaCliente.Click += new System.EventHandler(this.flexGrillaCliente_Click);
             // 
             // groupBox2
             // 
@@ -139,6 +140,35 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modificar clientes";
+            // 
+            // dtpfecha_nac
+            // 
+            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpfecha_nac.Location = new System.Drawing.Point(151, 142);
+            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
+            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpfecha_nac.Name = "dtpfecha_nac";
+            this.dtpfecha_nac.ShowUpDown = true;
+            this.dtpfecha_nac.Size = new System.Drawing.Size(245, 20);
+            this.dtpfecha_nac.TabIndex = 29;
+            // 
+            // cbLocalidad
+            // 
+            this.cbLocalidad.FormattingEnabled = true;
+            this.cbLocalidad.Location = new System.Drawing.Point(569, 103);
+            this.cbLocalidad.Name = "cbLocalidad";
+            this.cbLocalidad.Size = new System.Drawing.Size(245, 21);
+            this.cbLocalidad.TabIndex = 28;
+            this.cbLocalidad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbLocalidad_MouseClick);
+            // 
+            // cbProvincia
+            // 
+            this.cbProvincia.FormattingEnabled = true;
+            this.cbProvincia.Location = new System.Drawing.Point(569, 63);
+            this.cbProvincia.Name = "cbProvincia";
+            this.cbProvincia.Size = new System.Drawing.Size(245, 21);
+            this.cbProvincia.TabIndex = 27;
+            this.cbProvincia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProvincia_MouseClick);
             // 
             // cbSexo
             // 
@@ -352,35 +382,6 @@
             this.label9.Size = new System.Drawing.Size(353, 23);
             this.label9.TabIndex = 100;
             this.label9.Text = "Asistente para modificar usuarios en el sistema";
-            // 
-            // cbProvincia
-            // 
-            this.cbProvincia.FormattingEnabled = true;
-            this.cbProvincia.Location = new System.Drawing.Point(569, 63);
-            this.cbProvincia.Name = "cbProvincia";
-            this.cbProvincia.Size = new System.Drawing.Size(245, 21);
-            this.cbProvincia.TabIndex = 27;
-            this.cbProvincia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProvincia_MouseClick);
-            // 
-            // cbLocalidad
-            // 
-            this.cbLocalidad.FormattingEnabled = true;
-            this.cbLocalidad.Location = new System.Drawing.Point(569, 103);
-            this.cbLocalidad.Name = "cbLocalidad";
-            this.cbLocalidad.Size = new System.Drawing.Size(245, 21);
-            this.cbLocalidad.TabIndex = 28;
-            this.cbLocalidad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbLocalidad_MouseClick);
-            // 
-            // dtpfecha_nac
-            // 
-            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpfecha_nac.Location = new System.Drawing.Point(151, 142);
-            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
-            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
-            this.dtpfecha_nac.Name = "dtpfecha_nac";
-            this.dtpfecha_nac.ShowUpDown = true;
-            this.dtpfecha_nac.Size = new System.Drawing.Size(245, 20);
-            this.dtpfecha_nac.TabIndex = 29;
             // 
             // FrmModificarCliente
             // 

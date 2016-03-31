@@ -115,5 +115,10 @@ namespace FinalSpinedi
 
         }
 
+        private void flexGrillaCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
