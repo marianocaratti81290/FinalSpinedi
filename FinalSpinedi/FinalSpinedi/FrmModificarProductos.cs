@@ -17,6 +17,8 @@ namespace FinalSpinedi
             InitializeComponent();
         }
 
+        public static int modSeleccion;
+
         private void FrmModificarClientecs_Load(object sender, EventArgs e)
         {
             GrillaProductos();
@@ -31,25 +33,26 @@ namespace FinalSpinedi
         {
             if (flexProductos.RowSel != -1)
             {
-               int modSeleccion = (int)flexProductos[flexProductos.RowSel, "id_producto"];
+               modSeleccion = (int)flexProductos[flexProductos.RowSel, "id_producto"];
 
 
                 try
                 {
                     DataTable dtCliente = new DataTable();
-                    dtCliente = brl.obtenerClienteSeleccionado(modSeleccion);
+                    dtCliente = brl.obtenerProductoSeleccionado(modSeleccion);
 
                     if (dtCliente.Rows.Count > 0)
                     {
 
                         txtNombre.Text = dtCliente.Rows[0]["Nombre"].ToString();
-                        cbEstado.Text = dtCliente.Rows[0]["Estado"].ToString();
+                        cbEstado.Text = dtCliente.Rows[0]["estado"].ToString();
                         cbProveedor.Text = dtCliente.Rows[0]["Proveedor"].ToString();
                         txtPrecioPublico.Text = dtCliente.Rows[0]["Precio_Publico"].ToString();
                         nudCantidad.Text = dtCliente.Rows[0]["Cantidad"].ToString();
                         txtPrecioProveedor.Text = dtCliente.Rows[0]["Precio_Proveedor"].ToString();
                         txtDescrip.Text = dtCliente.Rows[0]["Descrip"].ToString();
-                     
+                        dtpfecha_nac.Text = dtCliente.Rows[0]["fecha"].ToString();
+                        txtbarra.Text = dtCliente.Rows[0]["codbarra"].ToString();
                     }
 
 
@@ -59,6 +62,22 @@ namespace FinalSpinedi
 
                     MessageBox.Show(ex.Message);
                 }
+            }
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Estas seguro que desea modificar el producto?", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                brl.modificarProducto(modSeleccion, txtNombre.Text, cbEstado.Text, cbProveedor.Text, txtPrecioPublico.Text, nudCantidad.Text, txtPrecioProveedor.Text, txtDescrip.Text, dtpfecha_nac.Text, txtbarra.Text);
+                
+                MessageBox.Show("El producto se modifico con exito");
+                GrillaProductos();
             }
         }
        

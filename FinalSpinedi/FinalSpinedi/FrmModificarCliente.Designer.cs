@@ -292,7 +292,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(739, 255);
+            this.btnVolver.Location = new System.Drawing.Point(602, 255);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 8;
@@ -302,7 +302,7 @@
             // 
             // btnMod
             // 
-            this.btnMod.Location = new System.Drawing.Point(604, 255);
+            this.btnMod.Location = new System.Drawing.Point(695, 255);
             this.btnMod.Name = "btnMod";
             this.btnMod.Size = new System.Drawing.Size(119, 23);
             this.btnMod.TabIndex = 7;
