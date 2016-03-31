@@ -110,7 +110,7 @@
             this.button2.Location = new System.Drawing.Point(467, 209);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
+            this.button2.TabIndex = 10;
             this.button2.Text = "Volver";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -120,7 +120,7 @@
             this.button1.Location = new System.Drawing.Point(563, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
+            this.button1.TabIndex = 9;
             this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -139,6 +139,7 @@
             this.txtPrecioProveedor.Name = "txtPrecioProveedor";
             this.txtPrecioProveedor.Size = new System.Drawing.Size(196, 20);
             this.txtPrecioProveedor.TabIndex = 5;
+            this.txtPrecioProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioProveedor_KeyPress);
             // 
             // txtPrecioPublico
             // 
@@ -272,7 +273,7 @@
             this.txtbarra.Location = new System.Drawing.Point(442, 164);
             this.txtbarra.Name = "txtbarra";
             this.txtbarra.Size = new System.Drawing.Size(196, 20);
-            this.txtbarra.TabIndex = 10;
+            this.txtbarra.TabIndex = 8;
             // 
             // label10
             // 
