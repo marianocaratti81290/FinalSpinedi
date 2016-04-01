@@ -38,7 +38,6 @@
             this.txtbarra = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
-            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.cbProveedor = new System.Windows.Forms.ComboBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
             this.btnVolver = new System.Windows.Forms.Button();
@@ -55,10 +54,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.txtcantidad = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // label9
@@ -112,10 +111,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtcantidad);
             this.groupBox2.Controls.Add(this.txtbarra);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.dtpfecha_nac);
-            this.groupBox2.Controls.Add(this.nudCantidad);
             this.groupBox2.Controls.Add(this.cbProveedor);
             this.groupBox2.Controls.Add(this.cbEstado);
             this.groupBox2.Controls.Add(this.btnVolver);
@@ -166,21 +165,14 @@
             this.dtpfecha_nac.Size = new System.Drawing.Size(196, 20);
             this.dtpfecha_nac.TabIndex = 7;
             // 
-            // nudCantidad
-            // 
-            this.nudCantidad.Location = new System.Drawing.Point(112, 162);
-            this.nudCantidad.Name = "nudCantidad";
-            this.nudCantidad.Size = new System.Drawing.Size(196, 20);
-            this.nudCantidad.TabIndex = 4;
-            // 
             // cbProveedor
             // 
-            this.cbProveedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProveedor.FormattingEnabled = true;
             this.cbProveedor.Location = new System.Drawing.Point(112, 94);
             this.cbProveedor.Name = "cbProveedor";
             this.cbProveedor.Size = new System.Drawing.Size(196, 21);
             this.cbProveedor.TabIndex = 2;
+            this.cbProveedor.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProveedor_MouseClick);
             // 
             // cbEstado
             // 
@@ -227,6 +219,7 @@
             this.txtPrecioProveedor.Name = "txtPrecioProveedor";
             this.txtPrecioProveedor.Size = new System.Drawing.Size(196, 20);
             this.txtPrecioProveedor.TabIndex = 5;
+            this.txtPrecioProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioProveedor_KeyPress);
             // 
             // txtPrecioPublico
             // 
@@ -234,6 +227,7 @@
             this.txtPrecioPublico.Name = "txtPrecioPublico";
             this.txtPrecioPublico.Size = new System.Drawing.Size(196, 20);
             this.txtPrecioPublico.TabIndex = 3;
+            this.txtPrecioPublico.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioPublico_KeyPress);
             // 
             // txtNombre
             // 
@@ -314,6 +308,14 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "Nombre";
             // 
+            // txtcantidad
+            // 
+            this.txtcantidad.Location = new System.Drawing.Point(112, 161);
+            this.txtcantidad.Name = "txtcantidad";
+            this.txtcantidad.Size = new System.Drawing.Size(196, 20);
+            this.txtcantidad.TabIndex = 12;
+            this.txtcantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcantidad_KeyPress);
+            // 
             // FrmModificarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,7 +333,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,7 +349,6 @@
         private System.Windows.Forms.TextBox txtbarra;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dtpfecha_nac;
-        private System.Windows.Forms.NumericUpDown nudCantidad;
         private System.Windows.Forms.ComboBox cbProveedor;
         private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.Button btnVolver;
@@ -365,5 +365,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtcantidad;
     }
 }

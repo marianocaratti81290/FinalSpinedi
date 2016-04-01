@@ -222,6 +222,7 @@
             this.txtCel.Name = "txtCel";
             this.txtCel.Size = new System.Drawing.Size(245, 20);
             this.txtCel.TabIndex = 21;
+            this.txtCel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCel_KeyPress);
             // 
             // label12
             // 
@@ -265,6 +266,8 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(245, 20);
             this.txtTelefono.TabIndex = 12;
+            this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // txtDni
             // 
@@ -273,6 +276,7 @@
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(245, 20);
             this.txtDni.TabIndex = 11;
+            this.txtDni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDni_KeyPress);
             // 
             // txtApellido
             // 

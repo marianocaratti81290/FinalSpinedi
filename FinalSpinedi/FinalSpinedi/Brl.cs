@@ -398,7 +398,7 @@ namespace FinalSpinedi
            }
        }
 
-       public static void modificarProducto(string nombre, int estado, int proveedor, int precio_publico, int cantidad, int precio_proveedor, string descrip, string fecha, string codBarra)
+       public static void modificarProducto(int id_producto,string nombre, int estado, int proveedor, int precio_publico, int cantidad, int precio_proveedor, string descrip, string fecha, string codBarra)
        {
            try
            {
@@ -406,7 +406,7 @@ namespace FinalSpinedi
                SqlCommand cmd = new SqlCommand("modificarProducto_u_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               //cmd.Parameters.AddWithValue("@id_cliente", "");          
+               cmd.Parameters.AddWithValue("@id_producto", id_producto);          
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@estado", estado);
                cmd.Parameters.AddWithValue("@id_proveedor", proveedor);
@@ -430,6 +430,30 @@ namespace FinalSpinedi
                throw ex;
            }
 
+       }
+
+       public static DataTable obtenerProveedor()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerProveedor_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
        }
         }
 
