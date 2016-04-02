@@ -90,6 +90,11 @@ namespace FinalSpinedi
             new FrmModificarProductos().ShowDialog();
         }
 
+        private void eliminarProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmBorrarProducto().ShowDialog();
+        }
+
        
     }
 }

@@ -455,6 +455,33 @@ namespace FinalSpinedi
                throw ex;
            }
        }
+
+       public static void borrarProducto(int id_producto)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("borrarProducto_d_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@id_producto", id_producto);
+
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
         }
 
 }

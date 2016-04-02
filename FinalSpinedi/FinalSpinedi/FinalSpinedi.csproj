@@ -60,6 +60,12 @@
     <Compile Include="FrmBorrarCliente.Designer.cs">
       <DependentUpon>FrmBorrarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBorrarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrarProducto.Designer.cs">
+      <DependentUpon>FrmBorrarProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmClienteNuevo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,12 @@
     <Compile Include="FrmProductoNuevo.Designer.cs">
       <DependentUpon>FrmProductoNuevo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedor.Designer.cs">
+      <DependentUpon>FrmProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAcercaDe.resx">
@@ -103,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBorrarCliente.resx">
       <DependentUpon>FrmBorrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrarProducto.resx">
+      <DependentUpon>FrmBorrarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmClienteNuevo.resx">
       <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
