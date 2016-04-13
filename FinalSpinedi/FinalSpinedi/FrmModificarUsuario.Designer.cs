@@ -389,6 +389,7 @@
             this.Name = "FrmModificarUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar usuarios en el sistema";
+            this.Load += new System.EventHandler(this.FrmModificarUsuario_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();
