@@ -482,6 +482,43 @@ namespace FinalSpinedi
 
        }
 
+       public static void agregarUsuario(string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
+         string provincia, string localidad, string cp, string email)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("nuevoUsuario_i_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               //cmd.Parameters.AddWithValue("@id_cliente", "");          
+               cmd.Parameters.AddWithValue("@nombre", nombre);
+               cmd.Parameters.AddWithValue("@apellido", apellido);
+               cmd.Parameters.AddWithValue("@dni", dni);
+               cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
+               cmd.Parameters.AddWithValue("@sexo", sexo);
+               cmd.Parameters.AddWithValue("@cel", cel);
+               cmd.Parameters.AddWithValue("@tel", tel);
+               cmd.Parameters.AddWithValue("@domicilio", domicilio);
+               cmd.Parameters.AddWithValue("@provincia", provincia);
+               cmd.Parameters.AddWithValue("@localidad", localidad);
+               cmd.Parameters.AddWithValue("@cp", cp);
+               cmd.Parameters.AddWithValue("@email", email);
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
         }
 
 }

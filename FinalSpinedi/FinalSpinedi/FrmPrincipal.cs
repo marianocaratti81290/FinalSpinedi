@@ -95,6 +95,16 @@ namespace FinalSpinedi
             new FrmBorrarProducto().ShowDialog();
         }
 
+        private void modificarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmModificarUsuario().ShowDialog();
+        }
+
+        private void nuevoUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmNuevoUsuario().ShowDialog();
+        }
+
        
     }
 }

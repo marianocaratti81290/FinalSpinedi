@@ -47,18 +47,19 @@
             this.nuevoProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeProductosPendientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inhabilitarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeProductosPendientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.permisosSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Grupo2 = new System.Windows.Forms.GroupBox();
@@ -135,8 +136,9 @@
             this.clientesToolStripMenuItem,
             this.productosToolStripMenuItem,
             this.proveedoresToolStripMenuItem,
-            this.listadoToolStripMenuItem,
             this.usuariosToolStripMenuItem,
+            this.listadoToolStripMenuItem,
+            this.permisosSistemaToolStripMenuItem,
             this.acercaDeToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -235,6 +237,51 @@
             this.eliminarProveedorToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.eliminarProveedorToolStripMenuItem.Text = "Eliminar Proveedor";
             // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevoUsuarioToolStripMenuItem,
+            this.modificarUsuarioToolStripMenuItem,
+            this.eliminarUsuarioToolStripMenuItem,
+            this.inhabilitarUsuariosToolStripMenuItem,
+            this.habilitarUsuariosToolStripMenuItem});
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
+            // 
+            // nuevoUsuarioToolStripMenuItem
+            // 
+            this.nuevoUsuarioToolStripMenuItem.Name = "nuevoUsuarioToolStripMenuItem";
+            this.nuevoUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.nuevoUsuarioToolStripMenuItem.Text = "Nuevo Usuario";
+            this.nuevoUsuarioToolStripMenuItem.Click += new System.EventHandler(this.nuevoUsuarioToolStripMenuItem_Click);
+            // 
+            // modificarUsuarioToolStripMenuItem
+            // 
+            this.modificarUsuarioToolStripMenuItem.Name = "modificarUsuarioToolStripMenuItem";
+            this.modificarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.modificarUsuarioToolStripMenuItem.Text = "Modificar Usuario";
+            this.modificarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.modificarUsuarioToolStripMenuItem_Click);
+            // 
+            // eliminarUsuarioToolStripMenuItem
+            // 
+            this.eliminarUsuarioToolStripMenuItem.Name = "eliminarUsuarioToolStripMenuItem";
+            this.eliminarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.eliminarUsuarioToolStripMenuItem.Text = "Eliminar usuario";
+            // 
+            // inhabilitarUsuariosToolStripMenuItem
+            // 
+            this.inhabilitarUsuariosToolStripMenuItem.Name = "inhabilitarUsuariosToolStripMenuItem";
+            this.inhabilitarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.inhabilitarUsuariosToolStripMenuItem.Text = "Inhabilitar Usuarios";
+            // 
+            // habilitarUsuariosToolStripMenuItem
+            // 
+            this.habilitarUsuariosToolStripMenuItem.Name = "habilitarUsuariosToolStripMenuItem";
+            this.habilitarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.habilitarUsuariosToolStripMenuItem.Text = "Habilitar Usuarios";
+            // 
             // listadoToolStripMenuItem
             // 
             this.listadoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -277,48 +324,11 @@
             this.listadoDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
             this.listadoDeUsuarioToolStripMenuItem.Text = "Listado de Usuario";
             // 
-            // usuariosToolStripMenuItem
+            // permisosSistemaToolStripMenuItem
             // 
-            this.usuariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoUsuarioToolStripMenuItem,
-            this.modificarUsuarioToolStripMenuItem,
-            this.eliminarUsuarioToolStripMenuItem,
-            this.inhabilitarUsuariosToolStripMenuItem,
-            this.habilitarUsuariosToolStripMenuItem});
-            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.usuariosToolStripMenuItem.Text = "Usuarios";
-            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
-            // 
-            // nuevoUsuarioToolStripMenuItem
-            // 
-            this.nuevoUsuarioToolStripMenuItem.Name = "nuevoUsuarioToolStripMenuItem";
-            this.nuevoUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.nuevoUsuarioToolStripMenuItem.Text = "Nuevo Usuario";
-            // 
-            // modificarUsuarioToolStripMenuItem
-            // 
-            this.modificarUsuarioToolStripMenuItem.Name = "modificarUsuarioToolStripMenuItem";
-            this.modificarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.modificarUsuarioToolStripMenuItem.Text = "Modificar Usuario";
-            // 
-            // eliminarUsuarioToolStripMenuItem
-            // 
-            this.eliminarUsuarioToolStripMenuItem.Name = "eliminarUsuarioToolStripMenuItem";
-            this.eliminarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.eliminarUsuarioToolStripMenuItem.Text = "Eliminar usuario";
-            // 
-            // inhabilitarUsuariosToolStripMenuItem
-            // 
-            this.inhabilitarUsuariosToolStripMenuItem.Name = "inhabilitarUsuariosToolStripMenuItem";
-            this.inhabilitarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.inhabilitarUsuariosToolStripMenuItem.Text = "Inhabilitar Usuarios";
-            // 
-            // habilitarUsuariosToolStripMenuItem
-            // 
-            this.habilitarUsuariosToolStripMenuItem.Name = "habilitarUsuariosToolStripMenuItem";
-            this.habilitarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.habilitarUsuariosToolStripMenuItem.Text = "Habilitar Usuarios";
+            this.permisosSistemaToolStripMenuItem.Name = "permisosSistemaToolStripMenuItem";
+            this.permisosSistemaToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
+            this.permisosSistemaToolStripMenuItem.Text = "Permisos Sistema";
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -484,6 +494,7 @@
         private System.Windows.Forms.TextBox txtbuscarCod;
         private System.Windows.Forms.Label label4;
         private C1.Win.C1FlexGrid.C1FlexGrid flexProductosCod;
+        private System.Windows.Forms.ToolStripMenuItem permisosSistemaToolStripMenuItem;
     }
 }
 

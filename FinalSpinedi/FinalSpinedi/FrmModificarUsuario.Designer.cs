@@ -1,6 +1,6 @@
 ﻿namespace FinalSpinedi
 {
-    partial class FrmModificarCliente
+    partial class FrmModificarUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarCliente));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtBuscar1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.flexGrillaCliente = new C1.Win.C1FlexGrid.C1FlexGrid();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarUsuario));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
             this.cbLocalidad = new System.Windows.Forms.ComboBox();
@@ -60,51 +56,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.flexGrillaCliente = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtBuscar1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.txtBuscar1);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.flexGrillaCliente);
-            this.groupBox1.Location = new System.Drawing.Point(27, 70);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(877, 251);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Modificar Clientes";
-            // 
-            // txtBuscar1
-            // 
-            this.txtBuscar1.Location = new System.Drawing.Point(174, 29);
-            this.txtBuscar1.Name = "txtBuscar1";
-            this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
-            this.txtBuscar1.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 32);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Buscar Clientes";
-            // 
-            // flexGrillaCliente
-            // 
-            this.flexGrillaCliente.AllowEditing = false;
-            this.flexGrillaCliente.ColumnInfo = resources.GetString("flexGrillaCliente.ColumnInfo");
-            this.flexGrillaCliente.Location = new System.Drawing.Point(16, 75);
-            this.flexGrillaCliente.Name = "flexGrillaCliente";
-            this.flexGrillaCliente.Rows.DefaultSize = 19;
-            this.flexGrillaCliente.Size = new System.Drawing.Size(849, 155);
-            this.flexGrillaCliente.TabIndex = 1;
-            this.flexGrillaCliente.SelChange += new System.EventHandler(this.flexGrillaCliente_SelChange);
-            this.flexGrillaCliente.Click += new System.EventHandler(this.flexGrillaCliente_Click);
             // 
             // groupBox2
             // 
@@ -134,10 +94,10 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(27, 328);
+            this.groupBox2.Location = new System.Drawing.Point(26, 338);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(877, 307);
-            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabIndex = 102;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modificar clientes";
             // 
@@ -159,7 +119,6 @@
             this.cbLocalidad.Name = "cbLocalidad";
             this.cbLocalidad.Size = new System.Drawing.Size(245, 21);
             this.cbLocalidad.TabIndex = 28;
-            this.cbLocalidad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbLocalidad_MouseClick);
             // 
             // cbProvincia
             // 
@@ -168,7 +127,6 @@
             this.cbProvincia.Name = "cbProvincia";
             this.cbProvincia.Size = new System.Drawing.Size(245, 21);
             this.cbProvincia.TabIndex = 27;
-            this.cbProvincia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProvincia_MouseClick);
             // 
             // cbSexo
             // 
@@ -222,7 +180,6 @@
             this.txtCel.Name = "txtCel";
             this.txtCel.Size = new System.Drawing.Size(245, 20);
             this.txtCel.TabIndex = 21;
-            this.txtCel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCel_KeyPress);
             // 
             // label12
             // 
@@ -266,8 +223,6 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(245, 20);
             this.txtTelefono.TabIndex = 12;
-            this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
-            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // txtDni
             // 
@@ -276,7 +231,6 @@
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(245, 20);
             this.txtDni.TabIndex = 11;
-            this.txtDni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDni_KeyPress);
             // 
             // txtApellido
             // 
@@ -302,7 +256,6 @@
             this.btnVolver.TabIndex = 8;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnMod
             // 
@@ -377,33 +330,70 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
+            // flexGrillaCliente
+            // 
+            this.flexGrillaCliente.AllowEditing = false;
+            this.flexGrillaCliente.ColumnInfo = resources.GetString("flexGrillaCliente.ColumnInfo");
+            this.flexGrillaCliente.Location = new System.Drawing.Point(16, 75);
+            this.flexGrillaCliente.Name = "flexGrillaCliente";
+            this.flexGrillaCliente.Rows.DefaultSize = 19;
+            this.flexGrillaCliente.Size = new System.Drawing.Size(849, 155);
+            this.flexGrillaCliente.TabIndex = 1;
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(289, 19);
+            this.label9.Location = new System.Drawing.Point(288, 29);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(350, 23);
-            this.label9.TabIndex = 100;
-            this.label9.Text = "Asistente para modificar clientes en el sistema";
+            this.label9.Size = new System.Drawing.Size(353, 23);
+            this.label9.TabIndex = 103;
+            this.label9.Text = "Asistente para modificar usuarios en el sistema";
             // 
-            // FrmModificarCliente
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtBuscar1);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.flexGrillaCliente);
+            this.groupBox1.Location = new System.Drawing.Point(26, 80);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(877, 251);
+            this.groupBox1.TabIndex = 101;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Modificar Clientes";
+            // 
+            // txtBuscar1
+            // 
+            this.txtBuscar1.Location = new System.Drawing.Point(174, 29);
+            this.txtBuscar1.Name = "txtBuscar1";
+            this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
+            this.txtBuscar1.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(35, 32);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Buscar Clientes";
+            // 
+            // FrmModificarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(916, 647);
-            this.Controls.Add(this.label9);
+            this.ClientSize = new System.Drawing.Size(914, 659);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox1);
-            this.Name = "FrmModificarCliente";
+            this.Name = "FrmModificarUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modificar Clientes";
-            this.Load += new System.EventHandler(this.FrmModificarCliente_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();
+            this.Text = "Modificar usuarios en el sistema";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -411,11 +401,24 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaCliente;
-        private System.Windows.Forms.TextBox txtBuscar1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DateTimePicker dtpfecha_nac;
+        private System.Windows.Forms.ComboBox cbLocalidad;
+        private System.Windows.Forms.ComboBox cbProvincia;
+        private System.Windows.Forms.ComboBox cbSexo;
+        private System.Windows.Forms.TextBox txtDomicilio;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txtCp;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtCel;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtDni;
+        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnMod;
         private System.Windows.Forms.Label label8;
@@ -425,23 +428,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.TextBox txtDni;
-        private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtNombre;
+        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaCliente;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtCel;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtCp;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox txtDomicilio;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox cbSexo;
-        private System.Windows.Forms.ComboBox cbLocalidad;
-        private System.Windows.Forms.ComboBox cbProvincia;
-        private System.Windows.Forms.DateTimePicker dtpfecha_nac;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtBuscar1;
+        private System.Windows.Forms.Label label3;
+
     }
 }

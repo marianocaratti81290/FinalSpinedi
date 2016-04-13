@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace FinalSpinedi
 {
-    public partial class FrmProveedor : Form
+    public partial class FrmProveedorNuevo : Form
     {
-        public FrmProveedor()
+        public FrmProveedorNuevo()
         {
             InitializeComponent();
+        }
+
+        private void btnaceptar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
