@@ -111,19 +111,19 @@ namespace FinalSpinedi
 
          private void GrillaClientes()
         {
-            flexGrillaCliente.DataSource = brl.obtenerClientes();
+            flexGrillaCliente.DataSource = brl.obtenerUsuarios();
         }
          private void flexGrillaCliente_SelChange(object sender, EventArgs e)
          {
              if (flexGrillaCliente.RowSel != -1)
              {
-                 modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
+                 modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_usuario"];
 
 
                  try
                  {
                      DataTable dtCliente = new DataTable();
-                     dtCliente = brl.obtenerClienteSeleccionado(modSeleccion);
+                     dtCliente = brl.obtenerUsuarioSeleccionado(modSeleccion);
 
                      if (dtCliente.Rows.Count > 0)
                      {

@@ -556,6 +556,58 @@ namespace FinalSpinedi
 
        }
 
+       public static DataTable obtenerUsuarios()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerUsuarios_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+       public static DataTable obtenerUsuarioSeleccionado(int id_usuario)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerUsuarioSeleccionado_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("id_usuario", id_cliente);
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
         }
 
 }
