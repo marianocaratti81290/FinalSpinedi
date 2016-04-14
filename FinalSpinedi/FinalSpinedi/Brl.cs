@@ -483,7 +483,7 @@ namespace FinalSpinedi
        }
 
        public static void agregarUsuario(string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-         string provincia, string localidad, string cp, string email)
+         string provincia, string localidad, string cp, string email, string usuario, string pass)
        {
            try
            {
@@ -504,6 +504,8 @@ namespace FinalSpinedi
                cmd.Parameters.AddWithValue("@localidad", localidad);
                cmd.Parameters.AddWithValue("@cp", cp);
                cmd.Parameters.AddWithValue("@email", email);
+               cmd.Parameters.AddWithValue("@usr", usuario);
+               cmd.Parameters.AddWithValue("@pass", pass);
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -590,7 +592,7 @@ namespace FinalSpinedi
 
                cmd.CommandType = CommandType.StoredProcedure;
 
-               cmd.Parameters.AddWithValue("id_usuario", id_cliente);
+               cmd.Parameters.AddWithValue("id_usuario", id_usuario);
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
 

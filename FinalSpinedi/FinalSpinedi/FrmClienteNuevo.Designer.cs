@@ -378,6 +378,7 @@
             this.Name = "FrmClienteNuevo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Cliente";
+            this.Load += new System.EventHandler(this.FrmClienteNuevo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

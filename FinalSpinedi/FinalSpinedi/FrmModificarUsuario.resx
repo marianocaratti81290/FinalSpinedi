@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="flexGrillaCliente.ColumnInfo" xml:space="preserve">
-    <value>10,1,0,0,0,95,Columns:1{Name:"id_usuario";Caption:"id_usuario";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Apellido";Caption:"Apellido";}	4{Name:"DNI";Caption:"DNI";}	5{Name:"tel";Caption:"tel";}	6{Name:"localidad";Caption:"localidad";}	7{Name:"Provincia";Caption:"Provincia";}	8{Width:373;Name:"Email";Caption:"Email";}	9{Visible:False;}	</value>
+    <value>12,1,0,0,0,95,Columns:1{Name:"id_usuario";Caption:"id_usuario";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Apellido";Caption:"Apellido";}	4{Name:"DNI";Caption:"DNI";}	5{Name:"tel";Caption:"tel";}	6{Name:"localidad";Caption:"localidad";}	7{Name:"Provincia";Caption:"Provincia";}	8{Width:214;Name:"Email";Caption:"Email";StyleFixed:"Font:Microsoft Sans Serif, 8.25pt;Margins:1, 0, 0, 0;TextEffect:Flat;TextDirection:Normal;Trimming:None;";}	9{Name:"usr";Caption:"usr";}	10{Name:"pass";Caption:"pass";}	11{Visible:False;}	</value>
   </data>
 </root>

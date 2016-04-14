@@ -29,30 +29,12 @@ namespace FinalSpinedi
 
             }
         }
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
+     
         private void cbProvincia_MouseClick(object sender, MouseEventArgs e)
         {
             obtenerProvincia();
         }
-
-        private void cbLocalidad_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (cbProvincia.Text != "")
-            {
-                string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
-
-                cbLocalidad.DataSource = brl.obtenerLocalidadCorrespondiente(valor);
-                //indicamos el valor de los miembros
-                cbLocalidad.ValueMember = "localidad";
-                //se indica el valor a desplegar en el combobox
-                cbLocalidad.DisplayMember = "localidad";
-            }
-        }
-
+      
         private void obtenerProvincia()
         {
             cbProvincia.DataSource = brl.ObtenerProvincias();
@@ -63,11 +45,7 @@ namespace FinalSpinedi
 
         }
 
-        private void flexGrillaCliente_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void txtDni_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
@@ -78,31 +56,7 @@ namespace FinalSpinedi
             }
         }
 
-        private void txtCel_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
-            {
-                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                e.Handled = true;
-                return;
-            }
-        }
-
-        private void txtTelefono_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
-            {
-                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                e.Handled = true;
-                return;
-            }
-        }
-
+      
         private void FrmModificarUsuario_Load(object sender, EventArgs e)
         {
             GrillaClientes();
@@ -113,7 +67,8 @@ namespace FinalSpinedi
         {
             flexGrillaCliente.DataSource = brl.obtenerUsuarios();
         }
-         private void flexGrillaCliente_SelChange(object sender, EventArgs e)
+       
+         private void flexGrillaCliente_SelChange_1(object sender, EventArgs e)
          {
              if (flexGrillaCliente.RowSel != -1)
              {
@@ -152,5 +107,45 @@ namespace FinalSpinedi
                  }
              }
          }
+
+         private void btnVolver_Click(object sender, EventArgs e)
+         {
+             this.Close();
+         }
+
+         private void cbLocalidad_MouseClick_1(object sender, MouseEventArgs e)
+         {
+             if (cbProvincia.Text != "")
+             {
+                 string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
+
+                 cbLocalidad.DataSource = brl.obtenerLocalidadCorrespondiente(valor);
+                 //indicamos el valor de los miembros
+                 cbLocalidad.ValueMember = "localidad";
+                 //se indica el valor a desplegar en el combobox
+                 cbLocalidad.DisplayMember = "localidad";
+             }
+         }
+
+         private void txtCel_KeyPress_1(object sender, KeyPressEventArgs e)
+         {
+             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+             {
+                 MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                 e.Handled = true;
+                 return;
+             }
+         }
+
+         private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+         {         
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+         
     }
 }

@@ -178,5 +178,10 @@ namespace FinalSpinedi
             catch { }
         }
 
+        private void FrmClienteNuevo_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

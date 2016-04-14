@@ -40,7 +40,8 @@ namespace FinalSpinedi
             txtcp.Clear();
             txtEmail.Clear();
             dtpfecha_nac.Refresh();
-
+            txtUsuario.Text = "";
+            txtPass.Text = "";
         }
 
         private void verificarDatos()
@@ -90,12 +91,62 @@ namespace FinalSpinedi
                                                 MessageBox.Show("Ingrese la fecha de nacimiento");
                                             }
                                             else
-                                            {
-                                                brl.agregarUsuario(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtcp.Text, txtEmail.Text);
-                                            }
+                                                if (txtUsuario.Text == "")
+                                                {
+                                                    MessageBox.Show("Ingrese la fecha de nacimiento");
+                                                }
+                                                else
+                                                    if (txtPass.Text == "")
+                                                    {
+                                                        MessageBox.Show("Ingrese la fecha de nacimiento");
+                                                    }
+                                                    else
+                                                      {
+                                                        brl.agregarUsuario(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtcp.Text, txtEmail.Text, txtUsuario.Text,txtPass.Text);
+                                                      }
         }
-        private void txtdni_KeyPress(object sender, KeyPressEventArgs e)
+                      
+        private void btnVolver_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            
+                try
+                {
+                    System.Diagnostics.Process.Start("http://www.nexo.com.ar/codigosPostales.asp");
+                }
+                catch { }
+            
+        }
+
+        private void cbProvincia_MouseClick(object sender, MouseEventArgs e)
+        {
+            cbProvincia.DataSource = brl.ObtenerProvincias();
+            //indicamos el valor de los miembros
+            cbProvincia.ValueMember = "provincia";
+            //se indica el valor a desplegar en el combobox
+            cbProvincia.DisplayMember = "provincia";
+        }
+
+        private void cbLocalidad_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (cbProvincia.Text != "")
+            {
+                string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
+
+                cbLocalidad.DataSource = brl.obtenerLocalidadCorrespondiente(valor);
+                //indicamos el valor de los miembros
+                cbLocalidad.ValueMember = "localidad";
+                //se indica el valor a desplegar en el combobox
+                cbLocalidad.DisplayMember = "localidad";
+            }
+        }
+
+        private void txtdni_KeyPress(object sender, KeyPressEventArgs e)
+        {            
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
                 MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -106,6 +157,7 @@ namespace FinalSpinedi
 
         private void txtcel_KeyPress(object sender, KeyPressEventArgs e)
         {
+        
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
                 MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -125,7 +177,7 @@ namespace FinalSpinedi
         }
 
         private void txtcp_KeyPress(object sender, KeyPressEventArgs e)
-        {
+        {         
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
                 MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -133,42 +185,8 @@ namespace FinalSpinedi
                 return;
             }
         }
-
-
-        private void cbProvincia_MouseClick(object sender, MouseEventArgs e)
-        {
-
-            cbProvincia.DataSource = brl.ObtenerProvincias();
-            //indicamos el valor de los miembros
-            cbProvincia.ValueMember = "provincia";
-            //se indica el valor a desplegar en el combobox
-            cbProvincia.DisplayMember = "provincia";
-
-
-        }
-
-        private void cbLocalidad_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (cbProvincia.Text != "")
-            {
-                string valor = ((System.Data.DataRowView)cbProvincia.SelectedItem).Row.ItemArray[0].ToString();
-
-                cbLocalidad.DataSource = brl.obtenerLocalidadCorrespondiente(valor);
-                //indicamos el valor de los miembros
-                cbLocalidad.ValueMember = "localidad";
-                //se indica el valor a desplegar en el combobox
-                cbLocalidad.DisplayMember = "localidad";
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                System.Diagnostics.Process.Start("http://www.nexo.com.ar/codigosPostales.asp");
-            }
-            catch { }
-        }
-
+        
+        
+        
     }
 }

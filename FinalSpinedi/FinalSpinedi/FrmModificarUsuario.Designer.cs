@@ -119,6 +119,7 @@
             this.cbLocalidad.Name = "cbLocalidad";
             this.cbLocalidad.Size = new System.Drawing.Size(245, 21);
             this.cbLocalidad.TabIndex = 28;
+            this.cbLocalidad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbLocalidad_MouseClick_1);
             // 
             // cbProvincia
             // 
@@ -180,6 +181,7 @@
             this.txtCel.Name = "txtCel";
             this.txtCel.Size = new System.Drawing.Size(245, 20);
             this.txtCel.TabIndex = 21;
+            this.txtCel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCel_KeyPress_1);
             // 
             // label12
             // 
@@ -223,6 +225,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(245, 20);
             this.txtTelefono.TabIndex = 12;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // txtDni
             // 
@@ -256,6 +259,7 @@
             this.btnVolver.TabIndex = 8;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnMod
             // 
@@ -339,6 +343,7 @@
             this.flexGrillaCliente.Rows.DefaultSize = 19;
             this.flexGrillaCliente.Size = new System.Drawing.Size(849, 155);
             this.flexGrillaCliente.TabIndex = 1;
+            this.flexGrillaCliente.SelChange += new System.EventHandler(this.flexGrillaCliente_SelChange_1);
             // 
             // label9
             // 
