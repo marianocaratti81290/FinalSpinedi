@@ -61,6 +61,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtBuscar1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtusr = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtpass = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -68,6 +72,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtusr);
+            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.txtpass);
+            this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.dtpfecha_nac);
             this.groupBox2.Controls.Add(this.cbLocalidad);
             this.groupBox2.Controls.Add(this.cbProvincia);
@@ -96,7 +104,7 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(26, 338);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(877, 307);
+            this.groupBox2.Size = new System.Drawing.Size(877, 387);
             this.groupBox2.TabIndex = 102;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modificar clientes";
@@ -253,7 +261,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(602, 255);
+            this.btnVolver.Location = new System.Drawing.Point(358, 317);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 8;
@@ -263,7 +271,7 @@
             // 
             // btnMod
             // 
-            this.btnMod.Location = new System.Drawing.Point(695, 255);
+            this.btnMod.Location = new System.Drawing.Point(451, 317);
             this.btnMod.Name = "btnMod";
             this.btnMod.Size = new System.Drawing.Size(119, 23);
             this.btnMod.TabIndex = 7;
@@ -383,11 +391,45 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Buscar Clientes";
             // 
+            // txtusr
+            // 
+            this.txtusr.Location = new System.Drawing.Point(259, 262);
+            this.txtusr.MaxLength = 4;
+            this.txtusr.Name = "txtusr";
+            this.txtusr.Size = new System.Drawing.Size(174, 20);
+            this.txtusr.TabIndex = 33;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(210, 269);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(43, 13);
+            this.label15.TabIndex = 32;
+            this.label15.Text = "Usuario";
+            // 
+            // txtpass
+            // 
+            this.txtpass.Location = new System.Drawing.Point(507, 262);
+            this.txtpass.MaxLength = 50;
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(174, 20);
+            this.txtpass.TabIndex = 31;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(448, 269);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(53, 13);
+            this.label16.TabIndex = 30;
+            this.label16.Text = "Password";
+            // 
             // FrmModificarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 659);
+            this.ClientSize = new System.Drawing.Size(914, 737);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox1);
@@ -439,6 +481,10 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtBuscar1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtusr;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.Label label16;
 
     }
 }

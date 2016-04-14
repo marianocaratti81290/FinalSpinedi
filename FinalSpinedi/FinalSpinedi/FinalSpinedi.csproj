@@ -66,6 +66,12 @@
     <Compile Include="FrmBorrarProducto.Designer.cs">
       <DependentUpon>FrmBorrarProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBorrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrarUsuario.Designer.cs">
+      <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmClienteNuevo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBorrarProducto.resx">
       <DependentUpon>FrmBorrarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrarUsuario.resx">
+      <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmClienteNuevo.resx">
       <DependentUpon>FrmClienteNuevo.cs</DependentUpon>

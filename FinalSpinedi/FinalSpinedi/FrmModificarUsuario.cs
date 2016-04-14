@@ -95,6 +95,8 @@ namespace FinalSpinedi
                          txtDomicilio.Text = dtCliente.Rows[0]["domicilio"].ToString();
                          txtCp.Text = dtCliente.Rows[0]["cp"].ToString();
                          txtEmail.Text = dtCliente.Rows[0]["Email"].ToString();
+                         txtusr.Text = dtCliente.Rows[0]["usr"].ToString();
+                         txtpass.Text = dtCliente.Rows[0]["pass"].ToString();
 
                      }
 
