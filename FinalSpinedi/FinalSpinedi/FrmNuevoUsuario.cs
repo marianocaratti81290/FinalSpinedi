@@ -102,7 +102,7 @@ namespace FinalSpinedi
                                                     }
                                                     else
                                                       {
-                                                        brl.agregarUsuario(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtcp.Text, txtEmail.Text, txtUsuario.Text,txtPass.Text);
+                                                        brl.agregarUsuario(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtcp.Text, txtEmail.Text, txtUsuario.Text,txtPass.Text,1);
                                                       }
         }
                       

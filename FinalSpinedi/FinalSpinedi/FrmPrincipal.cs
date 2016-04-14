@@ -110,6 +110,16 @@ namespace FinalSpinedi
             new FrmBorrarUsuario().ShowDialog();
         }
 
+        private void inhabilitarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmInhabilitarUsuarios().ShowDialog();
+        }
+
+        private void habilitarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmInhabilitarUsuarios().ShowDialog();
+        }
+
        
     }
 }

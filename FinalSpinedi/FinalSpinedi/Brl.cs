@@ -483,7 +483,7 @@ namespace FinalSpinedi
        }
 
        public static void agregarUsuario(string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-         string provincia, string localidad, string cp, string email, string usuario, string pass)
+         string provincia, string localidad, string cp, string email, string usuario, string pass, int habilitar)
        {
            try
            {
@@ -506,6 +506,7 @@ namespace FinalSpinedi
                cmd.Parameters.AddWithValue("@email", email);
                cmd.Parameters.AddWithValue("@usr", usuario);
                cmd.Parameters.AddWithValue("@pass", pass);
+               cmd.Parameters.AddWithValue("@estado", habilitar);
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);

@@ -276,12 +276,14 @@
             this.inhabilitarUsuariosToolStripMenuItem.Name = "inhabilitarUsuariosToolStripMenuItem";
             this.inhabilitarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.inhabilitarUsuariosToolStripMenuItem.Text = "Inhabilitar Usuarios";
+            this.inhabilitarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.inhabilitarUsuariosToolStripMenuItem_Click);
             // 
             // habilitarUsuariosToolStripMenuItem
             // 
             this.habilitarUsuariosToolStripMenuItem.Name = "habilitarUsuariosToolStripMenuItem";
             this.habilitarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.habilitarUsuariosToolStripMenuItem.Text = "Habilitar Usuarios";
+            this.habilitarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.habilitarUsuariosToolStripMenuItem_Click);
             // 
             // listadoToolStripMenuItem
             // 

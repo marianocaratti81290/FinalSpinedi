@@ -78,6 +78,12 @@
     <Compile Include="FrmClienteNuevo.Designer.cs">
       <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInhabilitarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInhabilitarUsuarios.Designer.cs">
+      <DependentUpon>FrmInhabilitarUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmClienteNuevo.resx">
       <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInhabilitarUsuarios.resx">
+      <DependentUpon>FrmInhabilitarUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
