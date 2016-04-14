@@ -610,6 +610,32 @@ namespace FinalSpinedi
 
        }
 
+       public static void borrarUsuario(int id_usuario)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("borrarUsuario_d_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@id_usuario", id_usuario);
+
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
         }
 
 }

@@ -35,6 +35,7 @@ namespace FinalSpinedi
                     int modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
                     brl.borrarCliente(modSeleccion);
                     MessageBox.Show("El cliente se borro con exito");
+                    GrillaClientes();
                 }
             }
         }
