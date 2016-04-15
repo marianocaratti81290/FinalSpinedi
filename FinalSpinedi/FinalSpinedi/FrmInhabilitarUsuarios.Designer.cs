@@ -90,7 +90,7 @@
             // 
             // btndesHabilitar
             // 
-            this.btndesHabilitar.Location = new System.Drawing.Point(569, 284);
+            this.btndesHabilitar.Location = new System.Drawing.Point(488, 284);
             this.btndesHabilitar.Name = "btndesHabilitar";
             this.btndesHabilitar.Size = new System.Drawing.Size(75, 23);
             this.btndesHabilitar.TabIndex = 110;

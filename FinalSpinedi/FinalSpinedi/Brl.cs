@@ -662,7 +662,34 @@ namespace FinalSpinedi
 
        }
 
+       public static DataTable cambiarEstadoUsuarios(int id_usuario, string estadoActual)
+       {
+           try
+           {
 
+               SqlCommand cmd = new SqlCommand("cambiarEstadoUsuarios_u_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("id_usuario", id_usuario);
+
+               cmd.Parameters.AddWithValue("estado", estadoActual);
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
         }
 
 }

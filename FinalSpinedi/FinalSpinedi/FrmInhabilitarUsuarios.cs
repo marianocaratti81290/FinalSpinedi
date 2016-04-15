@@ -17,14 +17,23 @@ namespace FinalSpinedi
             InitializeComponent();
         }
         private string modSeleccion;
+        private int id_usuarioSeleccionado;
         private void btnhabilitar_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Estas seguro que desea habilitar el usuario", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                brl.cambiarEstadoUsuarios(id_usuarioSeleccionado, modSeleccion);
+                GrillaClientes();
+            }
         }
 
         private void btndesHabilitar_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Estas seguro que desea deshabilitar el usuario", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                brl.cambiarEstadoUsuarios(id_usuarioSeleccionado, modSeleccion);
+                GrillaClientes();
+            }
         }
 
         private void FrmInhabilitarUsuarios_Load(object sender, EventArgs e)
@@ -41,6 +50,7 @@ namespace FinalSpinedi
         {
             if (flexGrillaCliente.RowSel != -1)
             {
+                id_usuarioSeleccionado = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_usuario"];
                 modSeleccion = flexGrillaCliente[flexGrillaCliente.RowSel, "estado"].ToString();
 
             }
@@ -50,7 +60,7 @@ namespace FinalSpinedi
                 btnhabilitar.Visible = false;
 
             }
-            else
+            if (modSeleccion == "Deshabilitado")
             {
                 btndesHabilitar.Visible = false;
                 btnhabilitar.Visible = true;
