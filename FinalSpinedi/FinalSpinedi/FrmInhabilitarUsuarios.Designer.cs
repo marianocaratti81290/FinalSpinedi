@@ -76,6 +76,7 @@
             this.flexGrillaCliente.Rows.DefaultSize = 19;
             this.flexGrillaCliente.Size = new System.Drawing.Size(585, 155);
             this.flexGrillaCliente.TabIndex = 1;
+            this.flexGrillaCliente.SelChange += new System.EventHandler(this.flexGrillaCliente_SelChange);
             // 
             // btnhabilitar
             // 
@@ -106,7 +107,7 @@
             this.Controls.Add(this.btnhabilitar);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmInhabilitarUsuarios";
-            this.Text = "Inhabilitar Usuarios";
+            this.Text = "Habilitar/Inhabilitar Usuarios";
             this.Load += new System.EventHandler(this.FrmInhabilitarUsuarios_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

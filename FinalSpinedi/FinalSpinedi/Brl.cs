@@ -637,6 +637,32 @@ namespace FinalSpinedi
 
        }
 
+       public static DataTable obtenerUsuarioxEstado()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerEstadoUsuarios", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+
         }
 
 }

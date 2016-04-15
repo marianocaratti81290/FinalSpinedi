@@ -114,7 +114,7 @@ namespace FinalSpinedi
         {
             new FrmInhabilitarUsuarios().ShowDialog();
         }
-
+            
         private void habilitarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmInhabilitarUsuarios().ShowDialog();

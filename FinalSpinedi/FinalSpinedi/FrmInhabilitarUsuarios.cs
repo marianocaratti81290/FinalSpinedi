@@ -16,7 +16,7 @@ namespace FinalSpinedi
         {
             InitializeComponent();
         }
-
+        private string modSeleccion;
         private void btnhabilitar_Click(object sender, EventArgs e)
         {
 
@@ -34,7 +34,28 @@ namespace FinalSpinedi
 
         private void GrillaClientes()
         {
-            flexGrillaCliente.DataSource = brl.obtenerUsuarios();
+            flexGrillaCliente.DataSource = brl.obtenerUsuarioxEstado();
+        }
+
+        private void flexGrillaCliente_SelChange(object sender, EventArgs e)
+        {
+            if (flexGrillaCliente.RowSel != -1)
+            {
+                modSeleccion = flexGrillaCliente[flexGrillaCliente.RowSel, "estado"].ToString();
+
+            }
+            if (modSeleccion == "Habilitado")
+            {
+                btndesHabilitar.Visible = true;
+                btnhabilitar.Visible = false;
+
+            }
+            else
+            {
+                btndesHabilitar.Visible = false;
+                btnhabilitar.Visible = true;
+
+            }
         }
     }
 }
