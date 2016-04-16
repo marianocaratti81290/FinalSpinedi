@@ -16,6 +16,7 @@ namespace FinalSpinedi
         {
             InitializeComponent();
         }
+        public static string UsuarioPermiso;
 
         private void btnacceder_Click(object sender, EventArgs e)
         {
@@ -54,6 +55,8 @@ namespace FinalSpinedi
                 else
                 {
                     int existe = brl.logearUsuario(txtusuario.Text, txtpass.Text);
+
+                    UsuarioPermiso = txtusuario.Text;
 
                     if (existe == 1)
                     {

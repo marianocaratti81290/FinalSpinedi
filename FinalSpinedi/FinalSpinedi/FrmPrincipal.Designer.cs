@@ -224,18 +224,21 @@
             this.nuevoProveedorToolStripMenuItem.Name = "nuevoProveedorToolStripMenuItem";
             this.nuevoProveedorToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.nuevoProveedorToolStripMenuItem.Text = "Nuevo Proveedor";
+            this.nuevoProveedorToolStripMenuItem.Click += new System.EventHandler(this.nuevoProveedorToolStripMenuItem_Click);
             // 
             // modificarProveedorToolStripMenuItem
             // 
             this.modificarProveedorToolStripMenuItem.Name = "modificarProveedorToolStripMenuItem";
             this.modificarProveedorToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.modificarProveedorToolStripMenuItem.Text = "Modificar Proveedor";
+            this.modificarProveedorToolStripMenuItem.Click += new System.EventHandler(this.modificarProveedorToolStripMenuItem_Click);
             // 
             // eliminarProveedorToolStripMenuItem
             // 
             this.eliminarProveedorToolStripMenuItem.Name = "eliminarProveedorToolStripMenuItem";
             this.eliminarProveedorToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.eliminarProveedorToolStripMenuItem.Text = "Eliminar Proveedor";
+            this.eliminarProveedorToolStripMenuItem.Click += new System.EventHandler(this.eliminarProveedorToolStripMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 

@@ -114,6 +114,12 @@
     <Compile Include="FrmNuevoUsuario.Designer.cs">
       <DependentUpon>FrmNuevoUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPermisoSistemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPermisoSistemas.Designer.cs">
+      <DependentUpon>FrmPermisoSistemas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

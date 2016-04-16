@@ -19,6 +19,7 @@ namespace FinalSpinedi
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {            
             cargarProductos_Clientes();
+            validarPermisosxUsuario();            
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -120,6 +121,79 @@ namespace FinalSpinedi
             new FrmInhabilitarUsuarios().ShowDialog();
         }
 
-       
+        private void nuevoProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void modificarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void eliminarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        
+        }
+    }
+        private void validarPermisosxUsuario()
+        {
+            string usr = FrmLogin.UsuarioPermiso;
+            string frm = "FrmBorrarCliente";
+            int existe= brl.PermisosPuntualesUsuarios(usr,frm);   
+              if (existe == 1)
+                 {
+                     crearClienteToolStripMenuItem.Visible = true;
+                 }
+            --------------------------------------------------------------------- //Cliente
+              frm = "FrmModificarCliente";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  modificarClienteToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Cliente
+              frm = "FrmBorrarCliente";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  eliminarClienteToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Cliente
+              frm = "FrmProductoNuevo";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  nuevoProductoToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Producto
+              frm = "FrmModificarProductos";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  modificarProductoToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Producto
+              frm = "FrmBorrarProducto";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  eliminarProductoToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Producto
+              frm = "FrmProveedorNuevo";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  nuevoProveedorToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Proveedor
+              frm = "FrmProveedorNuevo";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  modificarProveedorToolStripMenuItem.Visible = true;
+              }
+            --------------------------------------------------------------------- //Proveedor
     }
 }

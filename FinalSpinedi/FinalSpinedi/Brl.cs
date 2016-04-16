@@ -690,6 +690,30 @@ namespace FinalSpinedi
            }
 
        }
+
+       public static int PermisosPuntualesUsuarios(string usuario, string formulario)
+       {
+           try
+           {
+               SqlCommand cmd = new SqlCommand("Logeo_buscarSocio_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               cmd.Parameters.AddWithValue("@id_usuario", usuario);
+               cmd.Parameters.AddWithValue("@Formulario", formulario);
+               SqlParameter existe = new SqlParameter("@existe", SqlDbType.Int);
+               existe.Direction = ParameterDirection.Output;
+               cmd.Parameters.Add(existe);
+               Comun.establecerConexion.Open();
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+               return (int)existe.Value;
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
         }
 
 }
