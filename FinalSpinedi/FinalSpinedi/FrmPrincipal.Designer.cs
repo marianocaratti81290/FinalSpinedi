@@ -335,6 +335,7 @@
             this.permisosSistemaToolStripMenuItem.Name = "permisosSistemaToolStripMenuItem";
             this.permisosSistemaToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
             this.permisosSistemaToolStripMenuItem.Text = "Permisos Sistema";
+            this.permisosSistemaToolStripMenuItem.Click += new System.EventHandler(this.permisosSistemaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 

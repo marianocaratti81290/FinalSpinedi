@@ -695,10 +695,10 @@ namespace FinalSpinedi
        {
            try
            {
-               SqlCommand cmd = new SqlCommand("Logeo_buscarSocio_q_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("PermisosPuntuales_q_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id_usuario", usuario);
+               cmd.Parameters.AddWithValue("@usr", usuario);
                cmd.Parameters.AddWithValue("@Formulario", formulario);
                SqlParameter existe = new SqlParameter("@existe", SqlDbType.Int);
                existe.Direction = ParameterDirection.Output;
