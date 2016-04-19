@@ -20,8 +20,8 @@ namespace FinalSpinedi
         {            
             cargarProductos_Clientes();
 
-            string usr = FrmLogin.UsuarioPermiso;
-            string frm = "FrmBorrarCliente";
+string usr = FrmLogin.UsuarioPermiso;
+            string frm = "FrmClienteNuevo";
             int existe= brl.PermisosPuntualesUsuarios(usr,frm);
             if (existe == 1)
             {
@@ -125,6 +125,10 @@ namespace FinalSpinedi
               if (existe == 1)
               {
                   eliminarUsuarioToolStripMenuItem.Enabled = true;
+              }
+              else
+              {
+                  eliminarUsuarioToolStripMenuItem.Enabled = false;
               }
             //--------------------------------------------------------------------- //Usuario
               frm = "FrmInhabilitarUsuarios";
