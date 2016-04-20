@@ -1,6 +1,6 @@
 ﻿namespace FinalSpinedi
 {
-    partial class FrmModificarProductos
+    partial class FrmModificarProveedor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarProductos));
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtbuscarCod = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.flexProductos = new C1.Win.C1FlexGrid.C1FlexGrid();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarProveedor));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtcantidad = new System.Windows.Forms.TextBox();
             this.txtbarra = new System.Windows.Forms.TextBox();
@@ -55,59 +50,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtbuscarNom = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.flexProveedor = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.flexProveedor)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(204, 39);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(366, 23);
-            this.label9.TabIndex = 101;
-            this.label9.Text = "Asistente para modificar productos en el sistema";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.AutoSize = true;
-            this.groupBox1.Controls.Add(this.txtbuscarCod);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.flexProductos);
-            this.groupBox1.Location = new System.Drawing.Point(25, 96);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(747, 213);
-            this.groupBox1.TabIndex = 102;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Productos ";
-            // 
-            // txtbuscarCod
-            // 
-            this.txtbuscarCod.Location = new System.Drawing.Point(195, 25);
-            this.txtbuscarCod.Name = "txtbuscarCod";
-            this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
-            this.txtbuscarCod.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Busqueda por Codigo de barra";
-            // 
-            // flexProductos
-            // 
-            this.flexProductos.ColumnInfo = resources.GetString("flexProductos.ColumnInfo");
-            this.flexProductos.Location = new System.Drawing.Point(26, 64);
-            this.flexProductos.Name = "flexProductos";
-            this.flexProductos.Rows.DefaultSize = 19;
-            this.flexProductos.Size = new System.Drawing.Size(698, 129);
-            this.flexProductos.TabIndex = 0;
-            this.flexProductos.SelChange += new System.EventHandler(this.flexProductos_SelChange);
             // 
             // groupBox2
             // 
@@ -131,12 +82,12 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Location = new System.Drawing.Point(25, 348);
+            this.groupBox2.Location = new System.Drawing.Point(50, 333);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(747, 249);
-            this.groupBox2.TabIndex = 103;
+            this.groupBox2.TabIndex = 106;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Nuevo Producto";
+            this.groupBox2.Text = "Modificar Proveedor";
             // 
             // txtcantidad
             // 
@@ -144,7 +95,6 @@
             this.txtcantidad.Name = "txtcantidad";
             this.txtcantidad.Size = new System.Drawing.Size(196, 20);
             this.txtcantidad.TabIndex = 12;
-            this.txtcantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcantidad_KeyPress);
             // 
             // txtbarra
             // 
@@ -180,7 +130,6 @@
             this.cbProveedor.Name = "cbProveedor";
             this.cbProveedor.Size = new System.Drawing.Size(196, 21);
             this.cbProveedor.TabIndex = 2;
-            this.cbProveedor.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProveedor_MouseClick);
             // 
             // cbEstado
             // 
@@ -201,7 +150,6 @@
             this.btnVolver.TabIndex = 10;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnAceptar
             // 
@@ -211,7 +159,6 @@
             this.btnAceptar.TabIndex = 9;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // txtDescrip
             // 
@@ -227,7 +174,6 @@
             this.txtPrecioProveedor.Name = "txtPrecioProveedor";
             this.txtPrecioProveedor.Size = new System.Drawing.Size(196, 20);
             this.txtPrecioProveedor.TabIndex = 5;
-            this.txtPrecioProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioProveedor_KeyPress);
             // 
             // txtPrecioPublico
             // 
@@ -235,7 +181,6 @@
             this.txtPrecioPublico.Name = "txtPrecioPublico";
             this.txtPrecioPublico.Size = new System.Drawing.Size(196, 20);
             this.txtPrecioPublico.TabIndex = 3;
-            this.txtPrecioPublico.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioPublico_KeyPress);
             // 
             // txtNombre
             // 
@@ -316,23 +261,71 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "Nombre";
             // 
-            // FrmModificarProductos
+            // groupBox1
+            // 
+            this.groupBox1.AutoSize = true;
+            this.groupBox1.Controls.Add(this.txtbuscarNom);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.flexProveedor);
+            this.groupBox1.Location = new System.Drawing.Point(50, 81);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(747, 213);
+            this.groupBox1.TabIndex = 105;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Proveedor";
+            // 
+            // txtbuscarNom
+            // 
+            this.txtbuscarNom.Location = new System.Drawing.Point(195, 25);
+            this.txtbuscarNom.Name = "txtbuscarNom";
+            this.txtbuscarNom.Size = new System.Drawing.Size(316, 20);
+            this.txtbuscarNom.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(27, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(151, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Busqueda por Codigo de barra";
+            // 
+            // flexProveedor
+            // 
+            this.flexProveedor.ColumnInfo = resources.GetString("flexProveedor.ColumnInfo");
+            this.flexProveedor.Location = new System.Drawing.Point(26, 64);
+            this.flexProveedor.Name = "flexProveedor";
+            this.flexProveedor.Rows.DefaultSize = 19;
+            this.flexProveedor.Size = new System.Drawing.Size(698, 129);
+            this.flexProveedor.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(229, 24);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(366, 23);
+            this.label9.TabIndex = 104;
+            this.label9.Text = "Asistente para modificar productos en el sistema";
+            // 
+            // FrmModificarProveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 633);
+            this.ClientSize = new System.Drawing.Size(827, 609);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label9);
-            this.Name = "FrmModificarProductos";
+            this.Name = "FrmModificarProveedor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modificar Productos";
-            this.Load += new System.EventHandler(this.FrmModificarClientecs_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).EndInit();
+            this.Text = "Modificar Proveedor";
+            this.Load += new System.EventHandler(this.FrmModificarProveedor_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.flexProveedor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -340,12 +333,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtbuscarCod;
-        private System.Windows.Forms.Label label4;
-        private C1.Win.C1FlexGrid.C1FlexGrid flexProductos;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtcantidad;
         private System.Windows.Forms.TextBox txtbarra;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dtpfecha_nac;
@@ -365,6 +354,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtcantidad;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtbuscarNom;
+        private System.Windows.Forms.Label label4;
+        private C1.Win.C1FlexGrid.C1FlexGrid flexProveedor;
+        private System.Windows.Forms.Label label9;
+
     }
 }

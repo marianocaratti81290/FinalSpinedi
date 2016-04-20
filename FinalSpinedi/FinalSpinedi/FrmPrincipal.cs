@@ -20,7 +20,7 @@ namespace FinalSpinedi
         {            
             cargarProductos_Clientes();
 
-string usr = FrmLogin.UsuarioPermiso;
+            string usr = FrmLogin.UsuarioPermiso;
             string frm = "FrmClienteNuevo";
             int existe= brl.PermisosPuntualesUsuarios(usr,frm);
             if (existe == 1)
@@ -153,7 +153,7 @@ string usr = FrmLogin.UsuarioPermiso;
                   habilitarUsuariosToolStripMenuItem.Enabled = false;
               }
          //   --------------------------------------------------------------------- //Usuario
-              frm = "FrmInhabilitarUsuarios";
+              frm = "FrmPermisoSistemas";
               existe = brl.PermisosPuntualesUsuarios(usr, frm);
               if (existe == 1)
               {
@@ -163,7 +163,7 @@ string usr = FrmLogin.UsuarioPermiso;
               {
                   permisosSistemaToolStripMenuItem.Enabled = false;
               }
-         //   --------------------------------------------------------------------- //Usuario
+         //   --------------------------------------------------------------------- //PermisoSistemas
                
         
     }
@@ -269,12 +269,12 @@ string usr = FrmLogin.UsuarioPermiso;
 
         private void nuevoProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        
+            new FrmProveedorNuevo().ShowDialog();
         }
 
         private void modificarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        
+            new FrmModificarProveedor().ShowDialog();
         }
 
         private void eliminarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -285,6 +285,26 @@ string usr = FrmLogin.UsuarioPermiso;
         private void permisosSistemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmPermisoSistemas().ShowDialog();
+        }
+
+        private void listadoDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmLstClientes().ShowDialog();
+        }
+
+        private void listadoDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmLstProductos().ShowDialog();
+        }
+
+        private void listadoDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmLstUsuarios().ShowDialog();
+        }
+
+        private void listadoDeProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmLstProveedor().ShowDialog();
         }
     }
       

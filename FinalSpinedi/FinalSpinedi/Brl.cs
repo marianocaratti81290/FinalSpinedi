@@ -714,6 +714,88 @@ namespace FinalSpinedi
            }
 
        }
+       public static void ModificarPermisosUsuarioI(string usr, string formulario)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("InsertarPermisosPuntuales_i_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@usr", usr);
+
+               cmd.Parameters.AddWithValue("@formulario", formulario);
+
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+       public static void ModificarPermisosUsuarioD(string usr, string formulario)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("EliminarPermisosPuntuales_d_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@usr", usr);
+
+               cmd.Parameters.AddWithValue("@formulario", formulario);
+
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+       public static DataTable PermisosxUsuario(string usr)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("ObtenerPermisosxUsuario_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@usr", usr);
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
         }
 
 }

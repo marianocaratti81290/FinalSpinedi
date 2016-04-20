@@ -19,7 +19,7 @@ namespace FinalSpinedi
             this.labelVersion.Text = String.Format("Versión {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
             this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+          
         }
 
         #region Descriptores de acceso de atributos de ensamblado

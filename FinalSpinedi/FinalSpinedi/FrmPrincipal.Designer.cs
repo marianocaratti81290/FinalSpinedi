@@ -43,6 +43,7 @@
             this.nuevoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pedirProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -183,7 +184,8 @@
             this.productosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoProductoToolStripMenuItem,
             this.modificarProductoToolStripMenuItem,
-            this.eliminarProductoToolStripMenuItem});
+            this.eliminarProductoToolStripMenuItem,
+            this.pedirProductosToolStripMenuItem});
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
             this.productosToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.productosToolStripMenuItem.Text = "Productos";
@@ -208,6 +210,12 @@
             this.eliminarProductoToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.eliminarProductoToolStripMenuItem.Text = "Eliminar Producto";
             this.eliminarProductoToolStripMenuItem.Click += new System.EventHandler(this.eliminarProductoToolStripMenuItem_Click);
+            // 
+            // pedirProductosToolStripMenuItem
+            // 
+            this.pedirProductosToolStripMenuItem.Name = "pedirProductosToolStripMenuItem";
+            this.pedirProductosToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.pedirProductosToolStripMenuItem.Text = "Pedir Productos";
             // 
             // proveedoresToolStripMenuItem
             // 
@@ -305,18 +313,21 @@
             this.listadoDeProductosToolStripMenuItem.Name = "listadoDeProductosToolStripMenuItem";
             this.listadoDeProductosToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
             this.listadoDeProductosToolStripMenuItem.Text = "Listado de Productos";
+            this.listadoDeProductosToolStripMenuItem.Click += new System.EventHandler(this.listadoDeProductosToolStripMenuItem_Click);
             // 
             // listadoDeClientesToolStripMenuItem
             // 
             this.listadoDeClientesToolStripMenuItem.Name = "listadoDeClientesToolStripMenuItem";
             this.listadoDeClientesToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
             this.listadoDeClientesToolStripMenuItem.Text = "Listado de Clientes";
+            this.listadoDeClientesToolStripMenuItem.Click += new System.EventHandler(this.listadoDeClientesToolStripMenuItem_Click);
             // 
             // listadoDeProveedoresToolStripMenuItem
             // 
             this.listadoDeProveedoresToolStripMenuItem.Name = "listadoDeProveedoresToolStripMenuItem";
             this.listadoDeProveedoresToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
             this.listadoDeProveedoresToolStripMenuItem.Text = "Listado de Proveedores";
+            this.listadoDeProveedoresToolStripMenuItem.Click += new System.EventHandler(this.listadoDeProveedoresToolStripMenuItem_Click);
             // 
             // listadoDeProductosPendientesToolStripMenuItem
             // 
@@ -329,6 +340,7 @@
             this.listadoDeUsuarioToolStripMenuItem.Name = "listadoDeUsuarioToolStripMenuItem";
             this.listadoDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
             this.listadoDeUsuarioToolStripMenuItem.Text = "Listado de Usuario";
+            this.listadoDeUsuarioToolStripMenuItem.Click += new System.EventHandler(this.listadoDeUsuarioToolStripMenuItem_Click);
             // 
             // permisosSistemaToolStripMenuItem
             // 
@@ -502,6 +514,7 @@
         private System.Windows.Forms.Label label4;
         private C1.Win.C1FlexGrid.C1FlexGrid flexProductosCod;
         private System.Windows.Forms.ToolStripMenuItem permisosSistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pedirProductosToolStripMenuItem;
     }
 }
 
