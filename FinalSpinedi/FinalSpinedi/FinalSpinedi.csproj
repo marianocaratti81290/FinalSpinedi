@@ -173,6 +173,9 @@
     <EmbeddedResource Include="FrmNuevoUsuario.resx">
       <DependentUpon>FrmNuevoUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPermisoSistemas.resx">
+      <DependentUpon>FrmPermisoSistemas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
