@@ -46,13 +46,12 @@ namespace FinalSpinedi
 
                         txtNombre.Text = dtCliente.Rows[0]["Nombre"].ToString();
                         cbEstado.Text = dtCliente.Rows[0]["estado"].ToString();
-                        cbProveedor.Text = dtCliente.Rows[0]["Proveedor"].ToString();
-                        txtPrecioPublico.Text = dtCliente.Rows[0]["Precio_Publico"].ToString();
-                        txtcantidad.Text = dtCliente.Rows[0]["Cantidad"].ToString();
-                        txtPrecioProveedor.Text = dtCliente.Rows[0]["Precio_Proveedor"].ToString();
-                        txtDescrip.Text = dtCliente.Rows[0]["Descrip"].ToString();
-                        dtpfecha_nac.Text = dtCliente.Rows[0]["fecha"].ToString();
-                        txtbarra.Text = dtCliente.Rows[0]["codbarra"].ToString();
+                        txtDescrip.Text = dtCliente.Rows[0]["descripcion"].ToString();
+                        txtTelFijo.Text = dtCliente.Rows[0]["tel_fijo"].ToString();
+                        txtCel.Text = dtCliente.Rows[0]["cel"].ToString();
+                        txtReferente.Text = dtCliente.Rows[0]["nombre_contacto"].ToString();
+                        txtEmail.Text = dtCliente.Rows[0]["email"].ToString();
+                        
                     }
 
 
@@ -87,7 +86,7 @@ namespace FinalSpinedi
                 }
 
 
-                brl.modificarProducto(modSeleccion, txtNombre.Text, estadoProveedor, cbProveedor.SelectedIndex, Convert.ToInt32(txtPrecioPublico.Text), Convert.ToInt32(txtcantidad.Text), Convert.ToInt32(txtPrecioProveedor.Text), txtDescrip.Text, dtpfecha_nac.Text, txtbarra.Text);
+                brl.modificarProducto(modSeleccion, txtNombre.Text, estadoProveedor, txtDescrip.Text, txtTelFijo.Text, txtCel.Text, txtDescrip.Text, txtEmail.Text);
                 
                 MessageBox.Show("El producto se modifico con exito");
                 GrillaProductos();

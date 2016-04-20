@@ -298,6 +298,7 @@
             this.flexProveedor.Rows.DefaultSize = 19;
             this.flexProveedor.Size = new System.Drawing.Size(698, 129);
             this.flexProveedor.TabIndex = 0;
+            this.flexProveedor.SelChange += new System.EventHandler(this.flexProveedor_SelChange);
             // 
             // label9
             // 

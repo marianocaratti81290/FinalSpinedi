@@ -398,7 +398,7 @@ namespace FinalSpinedi
            }
        }
 
-       public static void modificarProducto(int id_producto,string nombre, int estado, int proveedor, int precio_publico, int cantidad, int precio_proveedor, string descrip, string fecha, string codBarra)
+       public static void modificarProducto(int id_producto,string nombre, int estado, string descrip, string tel_fijo, string cel, string referente, string email)
        {
            try
            {
@@ -409,13 +409,11 @@ namespace FinalSpinedi
                cmd.Parameters.AddWithValue("@id_producto", id_producto);          
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@estado", estado);
-               cmd.Parameters.AddWithValue("@id_proveedor", proveedor);
-               cmd.Parameters.AddWithValue("@precio_publico", precio_publico);
-               cmd.Parameters.AddWithValue("@cantidad", cantidad);
-               cmd.Parameters.AddWithValue("@precio_proveedor", precio_proveedor);
-               cmd.Parameters.AddWithValue("@descrip", descrip);
-               cmd.Parameters.AddWithValue("@fecha", fecha);
-               cmd.Parameters.AddWithValue("@codBarra", codBarra);
+               cmd.Parameters.AddWithValue("@descripcion", descrip);
+               cmd.Parameters.AddWithValue("@tel_fijo", tel_fijo);
+               cmd.Parameters.AddWithValue("@cel", cel);
+               cmd.Parameters.AddWithValue("@nombre_contacto", referente);
+               cmd.Parameters.AddWithValue("@email", email);
 
                Comun.establecerConexion.Open();
 

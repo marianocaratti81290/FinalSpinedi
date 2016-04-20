@@ -28,31 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarProductos));
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtbuscarCod = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.flexProductos = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtcantidad = new System.Windows.Forms.TextBox();
-            this.txtbarra = new System.Windows.Forms.TextBox();
+            this.txtTelFijo = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
-            this.cbProveedor = new System.Windows.Forms.ComboBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.txtDescrip = new System.Windows.Forms.TextBox();
-            this.txtPrecioProveedor = new System.Windows.Forms.TextBox();
-            this.txtPrecioPublico = new System.Windows.Forms.TextBox();
+            this.txtCel = new System.Windows.Forms.TextBox();
+            this.txtReferente = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -101,7 +96,7 @@
             // 
             // flexProductos
             // 
-            this.flexProductos.ColumnInfo = resources.GetString("flexProductos.ColumnInfo");
+            this.flexProductos.ColumnInfo = "10,1,0,0,0,95,Columns:";
             this.flexProductos.Location = new System.Drawing.Point(26, 64);
             this.flexProductos.Name = "flexProductos";
             this.flexProductos.Rows.DefaultSize = 19;
@@ -111,76 +106,52 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.txtcantidad);
-            this.groupBox2.Controls.Add(this.txtbarra);
+            this.groupBox2.Controls.Add(this.txtTelFijo);
+            this.groupBox2.Controls.Add(this.txtEmail);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.dtpfecha_nac);
-            this.groupBox2.Controls.Add(this.cbProveedor);
             this.groupBox2.Controls.Add(this.cbEstado);
             this.groupBox2.Controls.Add(this.btnVolver);
             this.groupBox2.Controls.Add(this.btnAceptar);
             this.groupBox2.Controls.Add(this.txtDescrip);
-            this.groupBox2.Controls.Add(this.txtPrecioProveedor);
-            this.groupBox2.Controls.Add(this.txtPrecioPublico);
+            this.groupBox2.Controls.Add(this.txtCel);
+            this.groupBox2.Controls.Add(this.txtReferente);
             this.groupBox2.Controls.Add(this.txtNombre);
-            this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Location = new System.Drawing.Point(25, 348);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(747, 249);
+            this.groupBox2.Size = new System.Drawing.Size(747, 209);
             this.groupBox2.TabIndex = 103;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Nuevo Producto";
             // 
-            // txtcantidad
+            // txtTelFijo
             // 
-            this.txtcantidad.Location = new System.Drawing.Point(112, 161);
-            this.txtcantidad.Name = "txtcantidad";
-            this.txtcantidad.Size = new System.Drawing.Size(196, 20);
-            this.txtcantidad.TabIndex = 12;
-            this.txtcantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcantidad_KeyPress);
+            this.txtTelFijo.Location = new System.Drawing.Point(112, 161);
+            this.txtTelFijo.Name = "txtTelFijo";
+            this.txtTelFijo.Size = new System.Drawing.Size(196, 20);
+            this.txtTelFijo.TabIndex = 12;
+            this.txtTelFijo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcantidad_KeyPress);
             // 
-            // txtbarra
+            // txtEmail
             // 
-            this.txtbarra.Location = new System.Drawing.Point(510, 164);
-            this.txtbarra.Name = "txtbarra";
-            this.txtbarra.Size = new System.Drawing.Size(196, 20);
-            this.txtbarra.TabIndex = 8;
+            this.txtEmail.Location = new System.Drawing.Point(512, 100);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(196, 20);
+            this.txtEmail.TabIndex = 8;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(418, 167);
+            this.label10.Location = new System.Drawing.Point(420, 103);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(87, 13);
+            this.label10.Size = new System.Drawing.Size(32, 13);
             this.label10.TabIndex = 11;
-            this.label10.Text = "Codigo de barras";
-            // 
-            // dtpfecha_nac
-            // 
-            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpfecha_nac.Location = new System.Drawing.Point(510, 126);
-            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
-            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
-            this.dtpfecha_nac.Name = "dtpfecha_nac";
-            this.dtpfecha_nac.ShowUpDown = true;
-            this.dtpfecha_nac.Size = new System.Drawing.Size(196, 20);
-            this.dtpfecha_nac.TabIndex = 7;
-            // 
-            // cbProveedor
-            // 
-            this.cbProveedor.FormattingEnabled = true;
-            this.cbProveedor.Location = new System.Drawing.Point(112, 94);
-            this.cbProveedor.Name = "cbProveedor";
-            this.cbProveedor.Size = new System.Drawing.Size(196, 21);
-            this.cbProveedor.TabIndex = 2;
-            this.cbProveedor.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbProveedor_MouseClick);
+            this.label10.Text = "Email";
             // 
             // cbEstado
             // 
@@ -195,7 +166,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(535, 209);
+            this.btnVolver.Location = new System.Drawing.Point(535, 154);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 10;
@@ -205,7 +176,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(631, 209);
+            this.btnAceptar.Location = new System.Drawing.Point(631, 154);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 9;
@@ -215,27 +186,27 @@
             // 
             // txtDescrip
             // 
-            this.txtDescrip.Location = new System.Drawing.Point(510, 64);
+            this.txtDescrip.Location = new System.Drawing.Point(112, 100);
             this.txtDescrip.Multiline = true;
             this.txtDescrip.Name = "txtDescrip";
             this.txtDescrip.Size = new System.Drawing.Size(196, 46);
             this.txtDescrip.TabIndex = 6;
             // 
-            // txtPrecioProveedor
+            // txtCel
             // 
-            this.txtPrecioProveedor.Location = new System.Drawing.Point(510, 32);
-            this.txtPrecioProveedor.Name = "txtPrecioProveedor";
-            this.txtPrecioProveedor.Size = new System.Drawing.Size(196, 20);
-            this.txtPrecioProveedor.TabIndex = 5;
-            this.txtPrecioProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioProveedor_KeyPress);
+            this.txtCel.Location = new System.Drawing.Point(510, 32);
+            this.txtCel.Name = "txtCel";
+            this.txtCel.Size = new System.Drawing.Size(196, 20);
+            this.txtCel.TabIndex = 5;
+            this.txtCel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioProveedor_KeyPress);
             // 
-            // txtPrecioPublico
+            // txtReferente
             // 
-            this.txtPrecioPublico.Location = new System.Drawing.Point(112, 129);
-            this.txtPrecioPublico.Name = "txtPrecioPublico";
-            this.txtPrecioPublico.Size = new System.Drawing.Size(196, 20);
-            this.txtPrecioPublico.TabIndex = 3;
-            this.txtPrecioPublico.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioPublico_KeyPress);
+            this.txtReferente.Location = new System.Drawing.Point(511, 64);
+            this.txtReferente.Name = "txtReferente";
+            this.txtReferente.Size = new System.Drawing.Size(196, 20);
+            this.txtReferente.TabIndex = 3;
+            this.txtReferente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioPublico_KeyPress);
             // 
             // txtNombre
             // 
@@ -244,19 +215,10 @@
             this.txtNombre.Size = new System.Drawing.Size(196, 20);
             this.txtNombre.TabIndex = 0;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(418, 132);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(37, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Fecha";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(418, 67);
+            this.label7.Location = new System.Drawing.Point(20, 103);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 13);
             this.label7.TabIndex = 6;
@@ -267,9 +229,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(418, 35);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 13);
+            this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Precio proveedor";
+            this.label6.Text = "Celular";
             // 
             // label5
             // 
@@ -278,25 +240,16 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Cantidad";
+            this.label5.Text = "Telefono";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 132);
+            this.label1.Location = new System.Drawing.Point(420, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Precio al publico";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 97);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Proveedor";
+            this.label1.Text = "Referente";
             // 
             // label2
             // 
@@ -320,7 +273,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 633);
+            this.ClientSize = new System.Drawing.Size(796, 588);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label9);
@@ -346,25 +299,21 @@
         private System.Windows.Forms.Label label4;
         private C1.Win.C1FlexGrid.C1FlexGrid flexProductos;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox txtbarra;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DateTimePicker dtpfecha_nac;
-        private System.Windows.Forms.ComboBox cbProveedor;
         private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.TextBox txtDescrip;
-        private System.Windows.Forms.TextBox txtPrecioProveedor;
-        private System.Windows.Forms.TextBox txtPrecioPublico;
+        private System.Windows.Forms.TextBox txtCel;
+        private System.Windows.Forms.TextBox txtReferente;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtcantidad;
+        private System.Windows.Forms.TextBox txtTelFijo;
     }
 }
