@@ -21,5 +21,15 @@ namespace FinalSpinedi
         {
 
         }
+
+        private void txttel_fijo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmProveedorNuevo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

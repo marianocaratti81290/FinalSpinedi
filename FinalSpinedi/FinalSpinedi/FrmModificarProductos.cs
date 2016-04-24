@@ -46,11 +46,13 @@ namespace FinalSpinedi
 
                         txtNombre.Text = dtCliente.Rows[0]["Nombre"].ToString();
                         cbEstado.Text = dtCliente.Rows[0]["estado"].ToString();
-                        txtDescrip.Text = dtCliente.Rows[0]["descripcion"].ToString();
-                        txtTelFijo.Text = dtCliente.Rows[0]["tel_fijo"].ToString();
-                        txtCel.Text = dtCliente.Rows[0]["cel"].ToString();
-                        txtReferente.Text = dtCliente.Rows[0]["nombre_contacto"].ToString();
-                        txtEmail.Text = dtCliente.Rows[0]["email"].ToString();
+                        cbProveedor.Text = dtCliente.Rows[0]["Proveedor"].ToString();
+                        txtPrecioPublico.Text = dtCliente.Rows[0]["Precio_Publico"].ToString();
+                        txtcantidad.Text = dtCliente.Rows[0]["Cantidad"].ToString();
+                        txtPrecioProveedor.Text = dtCliente.Rows[0]["Precio_Proveedor"].ToString();
+                        txtDescrip.Text = dtCliente.Rows[0]["Descrip"].ToString();
+                        dtpfecha_nac.Text = dtCliente.Rows[0]["fecha"].ToString();
+                        txtbarra.Text = dtCliente.Rows[0]["codbarra"].ToString();
                         
                     }
 
@@ -64,46 +66,7 @@ namespace FinalSpinedi
             }
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Estas seguro que desea modificar el producto?", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                int estadoProveedor;
-
-                if (cbEstado.Text == "Activo")
-                {
-                    estadoProveedor = 1;
-                }
-                else
-                {
-                    estadoProveedor=0;
-
-                }
-
-
-                brl.modificarProducto(modSeleccion, txtNombre.Text, estadoProveedor, txtDescrip.Text, txtTelFijo.Text, txtCel.Text, txtDescrip.Text, txtEmail.Text);
-                
-                MessageBox.Show("El producto se modifico con exito");
-                GrillaProductos();
-            }
-        }
-
-        private void cbProveedor_MouseClick(object sender, MouseEventArgs e)
-        {
-            cbProveedor.DataSource = brl.obtenerProveedor();
-            //indicamos el valor de los miembros
-            cbProveedor.ValueMember = "Nombre";
-            //se indica el valor a desplegar en el combobox
-            cbProveedor.DisplayMember = "Nombre";
-
-        }
-
-        private void txtPrecioPublico_KeyPress(object sender, KeyPressEventArgs e)
+         private void txtPrecioPublico_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -132,8 +95,53 @@ namespace FinalSpinedi
                 return;
             }
         }
-       
-        
+
+        private void btnAceptar_Click_1(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Estas seguro que desea modificar el producto?", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                int estadoProveedor;
+
+                if (cbEstado.Text == "Activo")
+                {
+                    estadoProveedor = 1;
+                }
+                else
+                {
+                    estadoProveedor = 0;
+
+                }
+
+
+                brl.modificarProducto(modSeleccion,
+                                      txtNombre.Text,
+                                      estadoProveedor,
+                                      cbProveedor.SelectedIndex,
+                                      Convert.ToInt32(txtcantidad.Text),
+                                      Convert.ToInt32(txtPrecioPublico.Text),
+                                      Convert.ToInt32(txtPrecioProveedor.Text),
+                                      txtDescrip.Text,
+                                      dtpfecha_nac.Text,
+                                      txtbarra.Text);
+
+                MessageBox.Show("El producto se modifico con exito");
+                GrillaProductos();
+            }
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cbProveedor_MouseClick(object sender, MouseEventArgs e)
+        {
+            cbProveedor.DataSource = brl.obtenerProveedor();
+            //indicamos el valor de los miembros
+            cbProveedor.ValueMember = "nombre";
+            //se indica el valor a desplegar en el combobox
+            cbProveedor.DisplayMember = "nombre";
+        }
 
     }
 }
