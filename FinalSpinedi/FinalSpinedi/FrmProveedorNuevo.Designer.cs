@@ -46,8 +46,8 @@
             this.btnaceptar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtContacto = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,7 +90,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(425, 551);
+            this.label12.Location = new System.Drawing.Point(457, 466);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(32, 13);
             this.label12.TabIndex = 111;
@@ -128,9 +128,9 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(500, 548);
+            this.txtEmail.Location = new System.Drawing.Point(532, 463);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(141, 20);
+            this.txtEmail.Size = new System.Drawing.Size(156, 20);
             this.txtEmail.TabIndex = 109;
             // 
             // label7
@@ -206,22 +206,22 @@
             this.pictureBox1.TabIndex = 124;
             this.pictureBox1.TabStop = false;
             // 
+            // txtContacto
+            // 
+            this.txtContacto.Location = new System.Drawing.Point(531, 425);
+            this.txtContacto.MaxLength = 15;
+            this.txtContacto.Name = "txtContacto";
+            this.txtContacto.Size = new System.Drawing.Size(157, 20);
+            this.txtContacto.TabIndex = 126;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(456, 433);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 127;
-            this.label2.Text = "Celular";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(531, 425);
-            this.textBox1.MaxLength = 15;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 20);
-            this.textBox1.TabIndex = 126;
+            this.label2.Text = "Contacto";
             // 
             // FrmProveedorNuevo
             // 
@@ -229,7 +229,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(770, 653);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtContacto);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label16);
@@ -276,7 +276,7 @@
         private System.Windows.Forms.Button btnaceptar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtContacto;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }

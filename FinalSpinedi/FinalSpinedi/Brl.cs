@@ -828,6 +828,38 @@ namespace FinalSpinedi
            }
 
        }
+
+       public static void agregarProveedor(string nombre, string estado, string descripcion, string tel_fijo, string cel, string referente, string email)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("modificarProveedor_u_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+              // cmd.Parameters.AddWithValue("@id_producto", id_producto);
+               cmd.Parameters.AddWithValue("@nombre", nombre);
+               cmd.Parameters.AddWithValue("@estado", estado);
+               cmd.Parameters.AddWithValue("@descripcion", descripcion);
+               cmd.Parameters.AddWithValue("@tel_fijo", tel_fijo);
+               cmd.Parameters.AddWithValue("@cel", cel);
+               cmd.Parameters.AddWithValue("@nombre_contacto", referente);
+               cmd.Parameters.AddWithValue("@email", email);
+
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
         }
 
 }
