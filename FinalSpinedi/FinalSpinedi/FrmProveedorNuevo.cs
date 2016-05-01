@@ -16,6 +16,7 @@ namespace FinalSpinedi
         {
             InitializeComponent();
         }
+        private static int cbEstadoint;
 
         private void btnaceptar_Click(object sender, EventArgs e)
         {
@@ -46,8 +47,36 @@ namespace FinalSpinedi
                     else
                    
                        {
-                          brl.agregarProveedor(txtnombre.Text, cbEstado.Text, txtdescrip.Text, txtcel.Text, txttel_fijo.Text, txtContacto.Text, txtEmail.Text);
+
+                          brl.agregarProveedor(txtnombre.Text, cbEstadoint, txtdescrip.Text, txtcel.Text, txttel_fijo.Text, txtContacto.Text, txtEmail.Text);
                        }
+        }
+
+        private void ConsultarEstado()
+        {
+            
+            if (cbEstado.Text == "Activo")
+            {
+                cbEstadoint = 1;
+            }
+            else
+            {
+                cbEstadoint = 0;
+            }
+
+        }
+            
+
+        private void limpiarClientes()
+        {
+            txtnombre.Clear();
+            cbEstado.Text = "";
+            txtdescrip.Clear();
+            txttel_fijo.Clear();
+            txtcel.Clear();
+            txtContacto.Clear();
+            txtEmail.Clear();
+
         }
 
         private void txttel_fijo_TextChanged(object sender, EventArgs e)

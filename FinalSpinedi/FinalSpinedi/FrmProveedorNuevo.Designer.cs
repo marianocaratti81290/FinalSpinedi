@@ -63,7 +63,7 @@
             // txtdescrip
             // 
             this.txtdescrip.Location = new System.Drawing.Point(230, 429);
-            this.txtdescrip.MaxLength = 4;
+            this.txtdescrip.MaxLength = 50;
             this.txtdescrip.Multiline = true;
             this.txtdescrip.Name = "txtdescrip";
             this.txtdescrip.Size = new System.Drawing.Size(162, 59);
@@ -110,8 +110,8 @@
             this.cbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEstado.FormattingEnabled = true;
             this.cbEstado.Items.AddRange(new object[] {
-            "Masculino",
-            "Femenino"});
+            "Activo",
+            "Inactivo"});
             this.cbEstado.Location = new System.Drawing.Point(230, 385);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(162, 21);

@@ -828,13 +828,12 @@ namespace FinalSpinedi
            }
 
        }
-
-       public static void agregarProveedor(string nombre, string estado, string descripcion, string tel_fijo, string cel, string referente, string email)
+          public static void agregarProveedor(string nombre, int estado, string descripcion, string tel_fijo, string cel, string referente, string email)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("modificarProveedor_u_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("nuevoProveedor_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
               // cmd.Parameters.AddWithValue("@id_producto", id_producto);
