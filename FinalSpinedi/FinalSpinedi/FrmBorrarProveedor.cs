@@ -34,12 +34,12 @@ namespace FinalSpinedi
                 if (flexGrillaProveedor.RowSel != -1)
                 {
                     int modSeleccion = (int)flexGrillaProveedor[flexGrillaProveedor.RowSel, "id_proveedor"];
-                    brl.borrarUsuario(modSeleccion);
+                    brl.borrarProveedor(modSeleccion);
                     MessageBox.Show("El proveedor se borro con exito");
                     GrillaProveedor();
                 }
             }
-
+        }
             private void GrillaProveedor()
             {
                 flexGrillaProveedor.DataSource = brl.obtenerProveedor();
@@ -47,4 +47,4 @@ namespace FinalSpinedi
             }
         }
     }
-}
+

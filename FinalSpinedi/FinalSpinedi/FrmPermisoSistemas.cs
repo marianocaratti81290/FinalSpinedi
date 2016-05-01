@@ -36,14 +36,7 @@ namespace FinalSpinedi
 
         private void chkNuevoCliente_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkNuevoCliente.Checked == true)
-            {
-            ModificarPermisoUsuarioI(usr, "FrmClienteNuevo");
-            }
-            else
-            {
-                ModificarPermisoUsuarioD(usr, "FrmClienteNuevo");
-            }
+           
         }
 
         private void flexGrillaCliente_Click(object sender, EventArgs e)
@@ -62,134 +55,341 @@ namespace FinalSpinedi
 
         }
 
-        private void chkModificarCliente_CheckedChanged(object sender, EventArgs e)
+        private void obtenerPermisosxUsuario (string usr)
         {
-            if (chkModificarCliente.Checked == false)
+            DataTable dtTable = brl.PermisosxUsuario(usr);
+            for (int i = 0; i < dtTable.Rows.Count; i++)
+            {
+                string mostrar = dtTable.Rows[i]["Formulario"].ToString();
+                
+                    if (mostrar == "FrmAcercaDe")
+                    {
+                        chkAcercaDe.Checked = true;
+                    }
+                    if (mostrar == "FrmBorrarCliente")
+                    {
+                        chkBorrarCliente.Checked = true;                    
+                    }
+                    if (mostrar == "FrmBorrarProducto")
+                    {
+                        chkBorrarCliente.Checked = true;
+                    }
+                    if (mostrar == "FrmBorrarProveedor")
+                    {
+                        chkBorrarProveedor.Checked = true;
+                    }
+                    if (mostrar == "FrmBorrarUsuario")
+                    {
+                        chkBorrarUsuario.Checked = true;
+                    }
+                    if (mostrar == "FrmClienteNuevo")
+                    {
+                        chkNuevoCliente.Checked = true;
+                    }
+                    if (mostrar == "FrmInhabilitarUsuarios")
+                    {
+                        chkInUsuario.Checked = true;
+                    }
+                    if (mostrar == "FrmLstClientes")
+                    {
+                        chkLstCliente.Checked = true;
+                    }
+                    if (mostrar == "FrmLstProductos")
+                    {
+                        chkLstProducto.Checked = true;
+                    }
+                    if (mostrar == "FrmLstProveedor")
+                    {
+                        chkLstProveedor.Checked = true;
+                    }
+                    if (mostrar == "FrmLstUsuarios")
+                    {
+                        chkLstUsuarios.Checked = true;
+                    }
+                    if (mostrar == "FrmModificarCliente")
+                    {
+                        chkModificarCliente.Checked = true;
+                    }
+                    if (mostrar == "FrmModificarProductos")
+                    {
+                        chkModificarProducto.Checked = true;
+                    }
+                    if (mostrar == "FrmModificarProveedor")
+                    {
+                        chkModificarProveedor.Checked = true;
+                    }
+                    if (mostrar == "FrmModificarUsuario")
+                    {
+                        chkModificarUsuario.Checked = true;
+                    }
+                    if (mostrar == "FrmNuevoUsuario")
+                    {
+                        chkNuevoUsuario.Checked = true;
+                    }
+                    if (mostrar == "FrmPermisoSistemas")
+                    {
+                        chkPermisosSistema.Checked = true;
+                    }
+                    if (mostrar == "FrmProductoNuevo")
+                    {
+                        chkNuevoProducto.Checked = true;
+                    }
+                    if (mostrar == "FrmProveedorNuevo")
+                    {
+                        chkNuevoProveedor.Checked = true;
+                    }
+            }
+            
+
+        }
+
+        private void chkNuevoCliente_Click(object sender, EventArgs e)
+        {
+            if (chkNuevoCliente.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmClienteNuevo");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmClienteNuevo");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkModificarCliente_Click(object sender, EventArgs e)
+        {
+            if (chkModificarCliente.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmModificarCliente");
+                MessageBox.Show("Permiso Insertado con exito");
             }
 
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmModificarCliente");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkBorrarCliente_CheckedChanged(object sender, EventArgs e)
+
+        private void chkBorrarCliente_Click(object sender, EventArgs e)
         {
-            if (chkBorrarCliente.Checked == false)
+            if (chkBorrarCliente.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmBorrarCliente");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmBorrarCliente");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
 
-        private void chkNuevoProducto_CheckedChanged(object sender, EventArgs e)
+        private void chkNuevoProducto_Click(object sender, EventArgs e)
         {
-            if (chkNuevoProducto.Checked == false)
+            if (chkNuevoProducto.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmProductoNuevo");
-            }  
+                MessageBox.Show("Permiso Insertado con exito");
+            }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmProductoNuevo");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
 
-        private void chkModificarProducto_CheckedChanged(object sender, EventArgs e)
+        private void chkModificarProducto_Click(object sender, EventArgs e)
         {
-            if (chkModificarProducto.Checked == false)
+            if (chkModificarProducto.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmModificarProductos");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmModificarProductos");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkBorrarProducto_CheckedChanged(object sender, EventArgs e)
+
+        private void chkBorrarProducto_Click(object sender, EventArgs e)
         {
-            if (chkBorrarProducto.Checked == false)
+            if (chkBorrarProducto.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmBorrarUsuario");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmBorrarUsuario");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkNuevoUsuario_CheckedChanged(object sender, EventArgs e)
+
+        private void chkNuevoUsuario_Click(object sender, EventArgs e)
         {
-            if (chkNuevoUsuario.Checked == false)
+            if (chkNuevoUsuario.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmNuevoUsuario");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmNuevoUsuario");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkModificarUsuario_CheckedChanged(object sender, EventArgs e)
+
+        private void chkModificarUsuario_Click(object sender, EventArgs e)
         {
-            if (chkModificarUsuario.Checked == false)
+            if (chkModificarUsuario.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmModificarUsuario");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmModificarUsuario");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkBorrarUsuario_CheckedChanged(object sender, EventArgs e)
+
+        private void chkBorrarUsuario_Click(object sender, EventArgs e)
         {
-            if (chkBorrarUsuario.Checked == false)
+            if (chkBorrarUsuario.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmBorrarUsuario");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmBorrarUsuario");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkPermisosSistema_CheckedChanged(object sender, EventArgs e)
+
+        private void chkPermisosSistema_Click(object sender, EventArgs e)
         {
-            if (chkPermisosSistema.Checked == false)
+            if (chkPermisosSistema.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmPermisoSistemas");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmPermisoSistemas");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkAcercaDe_CheckedChanged(object sender, EventArgs e)
+
+        private void chkAcercaDe_Click(object sender, EventArgs e)
         {
-            if (chkAcercaDe.Checked == false)
+            if (chkAcercaDe.Checked == true)
             {
                 ModificarPermisoUsuarioI(usr, "FrmAcercaDe");
+                MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmAcercaDe");
+                MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
-        private void chkSalir_CheckedChanged(object sender, EventArgs e)
-        {
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
-        private void obtenerPermisosxUsuario (string usr)
+        private void chkInUsuario_CheckedChanged(object sender, EventArgs e)
         {
-            //DataTable dtTable = brl.PermisosxUsuario(usr);
+           
+        }
 
-            //foreach (DataRow row in dtTable.Rows)
-            //{
-            //    Console.WriteLine(row);
-            //}
-            
+        private void chkLstProducto_Click(object sender, EventArgs e)
+        {
+            if (chkLstProducto.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmLstProductos");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmLstProductos");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
 
+        private void chkLstCliente_Click(object sender, EventArgs e)
+        {
+            if (chkLstCliente.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmLstClientes");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmLstClientes");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkLstProveedor_Click(object sender, EventArgs e)
+        {
+            if (chkLstProveedor.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmLstProveedor");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmLstProveedor");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkSalir_Click(object sender, EventArgs e)
+        {
+            if (chkSalir.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "Salir");                
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "Salir");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkInUsuario_Click(object sender, EventArgs e)
+        {
+            if (chkInUsuario.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmInhabilitarUsuarios");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmInhabilitarUsuarios");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkHabUsuario_Click(object sender, EventArgs e)
+        {
+            if (chkHabUsuario.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmhabilitarUsuarios");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmhabilitarUsuarios");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
         }
     }
 }

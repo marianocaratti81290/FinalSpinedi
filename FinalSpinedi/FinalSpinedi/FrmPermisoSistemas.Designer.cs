@@ -46,6 +46,8 @@
             this.chkModificarProveedor = new System.Windows.Forms.CheckBox();
             this.chkNuevoProveedor = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.chkHabUsuario = new System.Windows.Forms.CheckBox();
+            this.chkInUsuario = new System.Windows.Forms.CheckBox();
             this.chkBorrarUsuario = new System.Windows.Forms.CheckBox();
             this.chkModificarUsuario = new System.Windows.Forms.CheckBox();
             this.chkNuevoUsuario = new System.Windows.Forms.CheckBox();
@@ -54,10 +56,10 @@
             this.chkAcercaDe = new System.Windows.Forms.CheckBox();
             this.chkPermisosSistema = new System.Windows.Forms.CheckBox();
             this.chkLstUsuarios = new System.Windows.Forms.CheckBox();
-            this.chkLstProductosPendientes = new System.Windows.Forms.CheckBox();
             this.chkLstProveedor = new System.Windows.Forms.CheckBox();
             this.chkLstCliente = new System.Windows.Forms.CheckBox();
             this.chkLstProducto = new System.Windows.Forms.CheckBox();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -128,7 +130,7 @@
             this.chkBorrarCliente.TabIndex = 2;
             this.chkBorrarCliente.Text = "Borrar Cliente";
             this.chkBorrarCliente.UseVisualStyleBackColor = true;
-            this.chkBorrarCliente.CheckedChanged += new System.EventHandler(this.chkBorrarCliente_CheckedChanged);
+            this.chkBorrarCliente.Click += new System.EventHandler(this.chkBorrarCliente_Click);
             // 
             // chkModificarCliente
             // 
@@ -139,7 +141,7 @@
             this.chkModificarCliente.TabIndex = 1;
             this.chkModificarCliente.Text = "Modificar Cliente";
             this.chkModificarCliente.UseVisualStyleBackColor = true;
-            this.chkModificarCliente.CheckedChanged += new System.EventHandler(this.chkModificarCliente_CheckedChanged);
+            this.chkModificarCliente.Click += new System.EventHandler(this.chkModificarCliente_Click);
             // 
             // chkNuevoCliente
             // 
@@ -151,6 +153,7 @@
             this.chkNuevoCliente.Text = "Nuevo Cliente";
             this.chkNuevoCliente.UseVisualStyleBackColor = true;
             this.chkNuevoCliente.CheckedChanged += new System.EventHandler(this.chkNuevoCliente_CheckedChanged);
+            this.chkNuevoCliente.Click += new System.EventHandler(this.chkNuevoCliente_Click);
             // 
             // groupBox3
             // 
@@ -173,7 +176,7 @@
             this.chkBorrarProducto.TabIndex = 5;
             this.chkBorrarProducto.Text = "Borrar Producto";
             this.chkBorrarProducto.UseVisualStyleBackColor = true;
-            this.chkBorrarProducto.CheckedChanged += new System.EventHandler(this.chkBorrarProducto_CheckedChanged);
+            this.chkBorrarProducto.Click += new System.EventHandler(this.chkBorrarProducto_Click);
             // 
             // chkModificarProducto
             // 
@@ -184,7 +187,7 @@
             this.chkModificarProducto.TabIndex = 4;
             this.chkModificarProducto.Text = "Modificar Producto";
             this.chkModificarProducto.UseVisualStyleBackColor = true;
-            this.chkModificarProducto.CheckedChanged += new System.EventHandler(this.chkModificarProducto_CheckedChanged);
+            this.chkModificarProducto.Click += new System.EventHandler(this.chkModificarProducto_Click);
             // 
             // chkNuevoProducto
             // 
@@ -195,7 +198,7 @@
             this.chkNuevoProducto.TabIndex = 3;
             this.chkNuevoProducto.Text = "Nuevo Producto";
             this.chkNuevoProducto.UseVisualStyleBackColor = true;
-            this.chkNuevoProducto.CheckedChanged += new System.EventHandler(this.chkNuevoProducto_CheckedChanged);
+            this.chkNuevoProducto.Click += new System.EventHandler(this.chkNuevoProducto_Click);
             // 
             // groupBox4
             // 
@@ -241,15 +244,40 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.chkHabUsuario);
+            this.groupBox5.Controls.Add(this.chkInUsuario);
             this.groupBox5.Controls.Add(this.chkBorrarUsuario);
             this.groupBox5.Controls.Add(this.chkModificarUsuario);
             this.groupBox5.Controls.Add(this.chkNuevoUsuario);
             this.groupBox5.Location = new System.Drawing.Point(727, 300);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(200, 147);
+            this.groupBox5.Size = new System.Drawing.Size(200, 215);
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Usuario";
+            // 
+            // chkHabUsuario
+            // 
+            this.chkHabUsuario.AutoSize = true;
+            this.chkHabUsuario.Location = new System.Drawing.Point(25, 170);
+            this.chkHabUsuario.Name = "chkHabUsuario";
+            this.chkHabUsuario.Size = new System.Drawing.Size(103, 17);
+            this.chkHabUsuario.TabIndex = 13;
+            this.chkHabUsuario.Text = "Habilitar Usuario";
+            this.chkHabUsuario.UseVisualStyleBackColor = true;
+            this.chkHabUsuario.Click += new System.EventHandler(this.chkHabUsuario_Click);
+            // 
+            // chkInUsuario
+            // 
+            this.chkInUsuario.AutoSize = true;
+            this.chkInUsuario.Location = new System.Drawing.Point(25, 135);
+            this.chkInUsuario.Name = "chkInUsuario";
+            this.chkInUsuario.Size = new System.Drawing.Size(110, 17);
+            this.chkInUsuario.TabIndex = 12;
+            this.chkInUsuario.Text = "Inhabilitar Usuario";
+            this.chkInUsuario.UseVisualStyleBackColor = true;
+            this.chkInUsuario.CheckedChanged += new System.EventHandler(this.chkInUsuario_CheckedChanged);
+            this.chkInUsuario.Click += new System.EventHandler(this.chkInUsuario_Click);
             // 
             // chkBorrarUsuario
             // 
@@ -260,7 +288,7 @@
             this.chkBorrarUsuario.TabIndex = 11;
             this.chkBorrarUsuario.Text = "Borrar Usuario";
             this.chkBorrarUsuario.UseVisualStyleBackColor = true;
-            this.chkBorrarUsuario.CheckedChanged += new System.EventHandler(this.chkBorrarUsuario_CheckedChanged);
+            this.chkBorrarUsuario.Click += new System.EventHandler(this.chkBorrarUsuario_Click);
             // 
             // chkModificarUsuario
             // 
@@ -271,7 +299,7 @@
             this.chkModificarUsuario.TabIndex = 10;
             this.chkModificarUsuario.Text = "Modificar Usuario";
             this.chkModificarUsuario.UseVisualStyleBackColor = true;
-            this.chkModificarUsuario.CheckedChanged += new System.EventHandler(this.chkModificarUsuario_CheckedChanged);
+            this.chkModificarUsuario.Click += new System.EventHandler(this.chkModificarUsuario_Click);
             // 
             // chkNuevoUsuario
             // 
@@ -282,7 +310,7 @@
             this.chkNuevoUsuario.TabIndex = 9;
             this.chkNuevoUsuario.Text = "Nuevo Usuario";
             this.chkNuevoUsuario.UseVisualStyleBackColor = true;
-            this.chkNuevoUsuario.CheckedChanged += new System.EventHandler(this.chkNuevoUsuario_CheckedChanged);
+            this.chkNuevoUsuario.Click += new System.EventHandler(this.chkNuevoUsuario_Click);
             // 
             // groupBox6
             // 
@@ -290,13 +318,12 @@
             this.groupBox6.Controls.Add(this.chkAcercaDe);
             this.groupBox6.Controls.Add(this.chkPermisosSistema);
             this.groupBox6.Controls.Add(this.chkLstUsuarios);
-            this.groupBox6.Controls.Add(this.chkLstProductosPendientes);
             this.groupBox6.Controls.Add(this.chkLstProveedor);
             this.groupBox6.Controls.Add(this.chkLstCliente);
             this.groupBox6.Controls.Add(this.chkLstProducto);
             this.groupBox6.Location = new System.Drawing.Point(30, 454);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(897, 100);
+            this.groupBox6.Size = new System.Drawing.Size(662, 100);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Otros";
@@ -304,55 +331,45 @@
             // chkSalir
             // 
             this.chkSalir.AutoSize = true;
-            this.chkSalir.Location = new System.Drawing.Point(562, 62);
+            this.chkSalir.Location = new System.Drawing.Point(560, 29);
             this.chkSalir.Name = "chkSalir";
             this.chkSalir.Size = new System.Drawing.Size(46, 17);
             this.chkSalir.TabIndex = 10;
             this.chkSalir.Text = "Salir";
             this.chkSalir.UseVisualStyleBackColor = true;
-            this.chkSalir.CheckedChanged += new System.EventHandler(this.chkSalir_CheckedChanged);
+            this.chkSalir.Click += new System.EventHandler(this.chkSalir_Click);
             // 
             // chkAcercaDe
             // 
             this.chkAcercaDe.AutoSize = true;
-            this.chkAcercaDe.Location = new System.Drawing.Point(562, 29);
+            this.chkAcercaDe.Location = new System.Drawing.Point(376, 62);
             this.chkAcercaDe.Name = "chkAcercaDe";
             this.chkAcercaDe.Size = new System.Drawing.Size(78, 17);
             this.chkAcercaDe.TabIndex = 9;
             this.chkAcercaDe.Text = "Acerca de ";
             this.chkAcercaDe.UseVisualStyleBackColor = true;
-            this.chkAcercaDe.CheckedChanged += new System.EventHandler(this.chkAcercaDe_CheckedChanged);
+            this.chkAcercaDe.Click += new System.EventHandler(this.chkAcercaDe_Click);
             // 
             // chkPermisosSistema
             // 
             this.chkPermisosSistema.AutoSize = true;
-            this.chkPermisosSistema.Location = new System.Drawing.Point(376, 62);
+            this.chkPermisosSistema.Location = new System.Drawing.Point(376, 29);
             this.chkPermisosSistema.Name = "chkPermisosSistema";
             this.chkPermisosSistema.Size = new System.Drawing.Size(108, 17);
             this.chkPermisosSistema.TabIndex = 8;
             this.chkPermisosSistema.Text = "Permisos Sistema";
             this.chkPermisosSistema.UseVisualStyleBackColor = true;
-            this.chkPermisosSistema.CheckedChanged += new System.EventHandler(this.chkPermisosSistema_CheckedChanged);
+            this.chkPermisosSistema.Click += new System.EventHandler(this.chkPermisosSistema_Click);
             // 
             // chkLstUsuarios
             // 
             this.chkLstUsuarios.AutoSize = true;
-            this.chkLstUsuarios.Location = new System.Drawing.Point(376, 29);
+            this.chkLstUsuarios.Location = new System.Drawing.Point(178, 62);
             this.chkLstUsuarios.Name = "chkLstUsuarios";
             this.chkLstUsuarios.Size = new System.Drawing.Size(119, 17);
             this.chkLstUsuarios.TabIndex = 7;
             this.chkLstUsuarios.Text = "Listado de Usuarios";
             this.chkLstUsuarios.UseVisualStyleBackColor = true;
-            // 
-            // chkLstProductosPendientes
-            // 
-            this.chkLstProductosPendientes.AutoSize = true;
-            this.chkLstProductosPendientes.Location = new System.Drawing.Point(178, 62);
-            this.chkLstProductosPendientes.Name = "chkLstProductosPendientes";
-            this.chkLstProductosPendientes.Size = new System.Drawing.Size(177, 17);
-            this.chkLstProductosPendientes.TabIndex = 6;
-            this.chkLstProductosPendientes.Text = "Listadi de Productos pendientes";
-            this.chkLstProductosPendientes.UseVisualStyleBackColor = true;
             // 
             // chkLstProveedor
             // 
@@ -363,6 +380,7 @@
             this.chkLstProveedor.TabIndex = 5;
             this.chkLstProveedor.Text = "Listado de Proveedores";
             this.chkLstProveedor.UseVisualStyleBackColor = true;
+            this.chkLstProveedor.Click += new System.EventHandler(this.chkLstProveedor_Click);
             // 
             // chkLstCliente
             // 
@@ -373,6 +391,7 @@
             this.chkLstCliente.TabIndex = 4;
             this.chkLstCliente.Text = "Listado de Clientes";
             this.chkLstCliente.UseVisualStyleBackColor = true;
+            this.chkLstCliente.Click += new System.EventHandler(this.chkLstCliente_Click);
             // 
             // chkLstProducto
             // 
@@ -383,12 +402,24 @@
             this.chkLstProducto.TabIndex = 3;
             this.chkLstProducto.Text = "Listado de Productos";
             this.chkLstProducto.UseVisualStyleBackColor = true;
+            this.chkLstProducto.Click += new System.EventHandler(this.chkLstProducto_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(787, 531);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 6;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // FrmPermisoSistemas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 694);
+            this.ClientSize = new System.Drawing.Size(970, 578);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -441,11 +472,13 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.CheckBox chkLstCliente;
         private System.Windows.Forms.CheckBox chkLstProducto;
-        private System.Windows.Forms.CheckBox chkLstProductosPendientes;
         private System.Windows.Forms.CheckBox chkLstProveedor;
         private System.Windows.Forms.CheckBox chkPermisosSistema;
         private System.Windows.Forms.CheckBox chkLstUsuarios;
         private System.Windows.Forms.CheckBox chkSalir;
         private System.Windows.Forms.CheckBox chkAcercaDe;
+        private System.Windows.Forms.CheckBox chkHabUsuario;
+        private System.Windows.Forms.CheckBox chkInUsuario;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

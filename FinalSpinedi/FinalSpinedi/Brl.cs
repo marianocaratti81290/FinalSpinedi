@@ -859,6 +859,32 @@ namespace FinalSpinedi
            }
 
        }
+
+          public static void borrarProveedor(int id_proveedor)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("borrarProveedor_d_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@id_proveedor", id_proveedor);
+
+                  Comun.establecerConexion.Open();
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  cmd.ExecuteReader().Close();
+                  Comun.establecerConexion.Close();
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
         }
 
 }

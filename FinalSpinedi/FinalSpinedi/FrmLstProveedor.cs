@@ -24,5 +24,10 @@ namespace FinalSpinedi
 
             this.reportViewer1.RefreshReport();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -30,15 +30,25 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.ProveedorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.StockDataSet4 = new FinalSpinedi.StockDataSet4();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.StockDataSet4 = new FinalSpinedi.StockDataSet4();
-            this.ProveedorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ProveedorTableAdapter = new FinalSpinedi.StockDataSet4TableAdapters.ProveedorTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.StockDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProveedorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StockDataSet4)).BeginInit();
             this.SuspendLayout();
+            // 
+            // ProveedorBindingSource
+            // 
+            this.ProveedorBindingSource.DataMember = "Proveedor";
+            this.ProveedorBindingSource.DataSource = this.StockDataSet4;
+            // 
+            // StockDataSet4
+            // 
+            this.StockDataSet4.DataSetName = "StockDataSet4";
+            this.StockDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label1
             // 
@@ -46,7 +56,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(269, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 16);
+            this.label1.Size = new System.Drawing.Size(273, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "Listado de clientes - Sistema de Stock";
             // 
@@ -58,6 +68,7 @@
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Volver";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // reportViewer1
             // 
@@ -69,16 +80,6 @@
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(770, 246);
             this.reportViewer1.TabIndex = 5;
-            // 
-            // StockDataSet4
-            // 
-            this.StockDataSet4.DataSetName = "StockDataSet4";
-            this.StockDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ProveedorBindingSource
-            // 
-            this.ProveedorBindingSource.DataMember = "Proveedor";
-            this.ProveedorBindingSource.DataSource = this.StockDataSet4;
             // 
             // ProveedorTableAdapter
             // 
@@ -95,8 +96,8 @@
             this.Name = "FrmLstProveedor";
             this.Text = "FrmLstProveedor";
             this.Load += new System.EventHandler(this.FrmLstProveedor_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.StockDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProveedorBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StockDataSet4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

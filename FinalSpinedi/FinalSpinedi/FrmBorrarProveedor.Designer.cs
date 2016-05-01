@@ -130,6 +130,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "FrmBorrarProveedor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Borrar Proveedor";
             this.Load += new System.EventHandler(this.FrmBorrarProveedor_Load);
             this.groupBox1.ResumeLayout(false);

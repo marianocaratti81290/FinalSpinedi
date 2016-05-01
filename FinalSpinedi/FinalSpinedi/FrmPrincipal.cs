@@ -11,6 +11,7 @@ namespace FinalSpinedi
             InitializeComponent();
         }
 
+        
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -164,8 +165,33 @@ namespace FinalSpinedi
                   permisosSistemaToolStripMenuItem.Enabled = false;
               }
          //   --------------------------------------------------------------------- //PermisoSistemas
+
+              frm = "Salir";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  salirToolStripMenuItem.Enabled = true;
+              }
+              else
+              {
+                  salirToolStripMenuItem.Enabled = false;
+              }
+            //   --------------------------------------------------------------------- //Salir
+
+              frm = "FrmhabilitarUsuarios";            
+            existe = brl.PermisosPuntualesUsuarios(usr, frm);
+            if (existe == 1)
+            {
+                habilitarUsuariosToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                habilitarUsuariosToolStripMenuItem.Enabled = false;
+            }
+            //   --------------------------------------------------------------------- //Habilitar Usuarios
+          
+
                
-        
     }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -175,6 +201,8 @@ namespace FinalSpinedi
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Comun.establecerConexion.Close();
+            MessageBox.Show("Gracias por utilizar el sistema");
             this.Close();
         }
 
@@ -279,7 +307,7 @@ namespace FinalSpinedi
 
         private void eliminarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        
+            new FrmBorrarProveedor().ShowDialog();
         }
 
         private void permisosSistemaToolStripMenuItem_Click(object sender, EventArgs e)
