@@ -155,5 +155,10 @@ namespace FinalSpinedi
             }
         }
 
+        private void FrmModificarCliente_KeyUp(object sender, KeyEventArgs e)
+        {
+
+        }
+
     }
 }

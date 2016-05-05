@@ -439,6 +439,7 @@
             this.Text = "Sistema de Gestion de Stock";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmPrincipal_KeyUp);
             this.Grupo1.ResumeLayout(false);
             this.Grupo1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductosPedidos)).EndInit();

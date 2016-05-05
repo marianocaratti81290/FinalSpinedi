@@ -301,6 +301,7 @@ namespace FinalSpinedi
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
+            MessageBox.Show("Presione F10 para refrezcar los permisos de usuario. Muchas Gracias");
         }
 
         private void chkInUsuario_CheckedChanged(object sender, EventArgs e)
@@ -390,6 +391,11 @@ namespace FinalSpinedi
                 ModificarPermisoUsuarioD(usr, "FrmhabilitarUsuarios");
                 MessageBox.Show("Permiso DesHabilitado con exito");
             }
+        }
+
+        private void FrmPermisoSistemas_KeyUp(object sender, KeyEventArgs e)
+        {
+          
         }
     }
 }

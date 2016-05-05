@@ -430,6 +430,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permisos para usuarios del sistema";
             this.Load += new System.EventHandler(this.FrmPermisoSistemas_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmPermisoSistemas_KeyUp);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();

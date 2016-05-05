@@ -334,6 +334,15 @@ namespace FinalSpinedi
         {
             new FrmLstProveedor().ShowDialog();
         }
+
+        private void FrmPrincipal_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == (char)Keys.F10)
+            {
+                menuStrip1.Refresh();
+
+            }
+        }
     }
       
 }

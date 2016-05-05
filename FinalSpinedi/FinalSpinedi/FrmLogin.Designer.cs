@@ -87,6 +87,7 @@
             // txtpass
             // 
             this.txtpass.Location = new System.Drawing.Point(175, 354);
+            this.txtpass.MaxLength = 20;
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(150, 20);
@@ -98,6 +99,7 @@
             // 
             this.txtusuario.AcceptsTab = true;
             this.txtusuario.Location = new System.Drawing.Point(175, 305);
+            this.txtusuario.MaxLength = 20;
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(150, 20);
             this.txtusuario.TabIndex = 31;
@@ -171,7 +173,7 @@
             this.Controls.Add(this.PictureBox1);
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmLogin";
+            this.Text = "Formulario de logeo";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);

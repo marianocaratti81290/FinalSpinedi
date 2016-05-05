@@ -399,6 +399,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Clientes";
             this.Load += new System.EventHandler(this.FrmModificarCliente_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmModificarCliente_KeyUp);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();
