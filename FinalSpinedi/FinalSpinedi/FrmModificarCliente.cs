@@ -17,7 +17,7 @@ namespace FinalSpinedi
             InitializeComponent();
         }
 
-        public static int modSeleccion;
+        public static int modSeleccion=1;
 
         private void FrmModificarCliente_Load(object sender, EventArgs e)
         {
@@ -29,11 +29,12 @@ namespace FinalSpinedi
         {
             flexGrillaCliente.DataSource = brl.obtenerClientes();
         }
+   
         private void flexGrillaCliente_SelChange(object sender, EventArgs e)
         {
             if (flexGrillaCliente.RowSel != -1)
             {
-                modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
+                modSeleccion= (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
 
 
                 try
@@ -76,6 +77,7 @@ namespace FinalSpinedi
                 brl.modificarCliente(modSeleccion, txtNombre.Text, txtApellido.Text, txtDni.Text, dtpfecha_nac.Text, cbSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtCp.Text, txtEmail.Text);
                                         
                 MessageBox.Show("El cliente se modifico con exito");
+
                 GrillaClientes();
             }
 

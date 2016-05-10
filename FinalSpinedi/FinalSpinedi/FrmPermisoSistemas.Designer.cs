@@ -370,6 +370,7 @@
             this.chkLstUsuarios.TabIndex = 7;
             this.chkLstUsuarios.Text = "Listado de Usuarios";
             this.chkLstUsuarios.UseVisualStyleBackColor = true;
+            this.chkLstUsuarios.Click += new System.EventHandler(this.chkLstUsuarios_Click);
             // 
             // chkLstProveedor
             // 
@@ -430,7 +431,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permisos para usuarios del sistema";
             this.Load += new System.EventHandler(this.FrmPermisoSistemas_Load);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmPermisoSistemas_KeyUp);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();

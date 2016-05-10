@@ -218,12 +218,12 @@ namespace FinalSpinedi
         {
             if (chkBorrarProducto.Checked == true)
             {
-                ModificarPermisoUsuarioI(usr, "FrmBorrarUsuario");
+                ModificarPermisoUsuarioI(usr, "FrmBorrarProducto");
                 MessageBox.Show("Permiso Insertado con exito");
             }
             else
             {
-                ModificarPermisoUsuarioD(usr, "FrmBorrarUsuario");
+                ModificarPermisoUsuarioD(usr, "FrmBorrarProducto");
                 MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
@@ -393,9 +393,18 @@ namespace FinalSpinedi
             }
         }
 
-        private void FrmPermisoSistemas_KeyUp(object sender, KeyEventArgs e)
+        private void chkLstUsuarios_Click(object sender, EventArgs e)
         {
-          
+            if (chkLstUsuarios.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmLstUsuarios");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmLstUsuarios");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
         }
     }
 }

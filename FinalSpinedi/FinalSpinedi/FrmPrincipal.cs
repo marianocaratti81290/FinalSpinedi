@@ -81,11 +81,11 @@ namespace FinalSpinedi
               existe = brl.PermisosPuntualesUsuarios(usr, frm);
               if (existe == 1)
               {
-                  eliminarProductoToolStripMenuItem.Enabled = true;
+                  eliminarProveedorToolStripMenuItem.Enabled = true;
               }
               else
               {
-                  eliminarProductoToolStripMenuItem.Enabled = false;
+                  eliminarProveedorToolStripMenuItem.Enabled = false;
               }
            // --------------------------------------------------------------------- //Producto
               frm = "FrmProveedorNuevo";
@@ -99,6 +99,32 @@ namespace FinalSpinedi
                   eliminarProductoToolStripMenuItem.Enabled = false;
               }
            // --------------------------------------------------------------------- //Proveedor
+
+              frm = "FrmModificarProveedor";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  modificarProveedorToolStripMenuItem.Enabled = true;
+              }
+              else
+              {
+                  modificarProveedorToolStripMenuItem.Enabled = false;
+              }
+              // --------------------------------------------------------------------- //Proveedor
+
+              // --------------------------------------------------------------------- //Proveedor
+
+              frm = "FrmBorrarProveedor";
+              existe = brl.PermisosPuntualesUsuarios(usr, frm);
+              if (existe == 1)
+              {
+                  modificarProveedorToolStripMenuItem.Enabled = true;
+              }
+              else
+              {
+                  modificarProveedorToolStripMenuItem.Enabled = false;
+              }
+
               frm = "FrmNuevoUsuario";
               existe = brl.PermisosPuntualesUsuarios(usr, frm);
               if (existe == 1)
