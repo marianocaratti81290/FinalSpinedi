@@ -221,6 +221,7 @@
             this.chkBorrarProveedor.TabIndex = 8;
             this.chkBorrarProveedor.Text = "Borrar Proveedor";
             this.chkBorrarProveedor.UseVisualStyleBackColor = true;
+            this.chkBorrarProveedor.Click += new System.EventHandler(this.chkBorrarProveedor_Click);
             // 
             // chkModificarProveedor
             // 
@@ -231,6 +232,7 @@
             this.chkModificarProveedor.TabIndex = 7;
             this.chkModificarProveedor.Text = "Modificar Proveedor";
             this.chkModificarProveedor.UseVisualStyleBackColor = true;
+            this.chkModificarProveedor.Click += new System.EventHandler(this.chkModificarProveedor_Click);
             // 
             // chkNuevoProveedor
             // 
@@ -241,6 +243,7 @@
             this.chkNuevoProveedor.TabIndex = 6;
             this.chkNuevoProveedor.Text = "Nuevo Proveedor";
             this.chkNuevoProveedor.UseVisualStyleBackColor = true;
+            this.chkNuevoProveedor.Click += new System.EventHandler(this.chkNuevoProveedor_Click);
             // 
             // groupBox5
             // 

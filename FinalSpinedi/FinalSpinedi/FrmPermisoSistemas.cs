@@ -72,7 +72,7 @@ namespace FinalSpinedi
                     }
                     if (mostrar == "FrmBorrarProducto")
                     {
-                        chkBorrarCliente.Checked = true;
+                        chkBorrarProducto.Checked = true;
                     }
                     if (mostrar == "FrmBorrarProveedor")
                     {
@@ -403,6 +403,48 @@ namespace FinalSpinedi
             else
             {
                 ModificarPermisoUsuarioD(usr, "FrmLstUsuarios");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkModificarProveedor_Click(object sender, EventArgs e)
+        {
+            if (chkModificarProveedor.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmModificarProveedor");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmModificarProveedor");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkNuevoProveedor_Click(object sender, EventArgs e)
+        {
+            if (chkNuevoProveedor.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmProveedorNuevo");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmProveedorNuevo");
+                MessageBox.Show("Permiso DesHabilitado con exito");
+            }
+        }
+
+        private void chkBorrarProveedor_Click(object sender, EventArgs e)
+        {
+            if (chkBorrarProveedor.Checked == true)
+            {
+                ModificarPermisoUsuarioI(usr, "FrmBorrarProveedor");
+                MessageBox.Show("Permiso Insertado con exito");
+            }
+            else
+            {
+                ModificarPermisoUsuarioD(usr, "FrmBorrarProveedor");
                 MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }

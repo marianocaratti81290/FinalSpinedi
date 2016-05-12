@@ -81,11 +81,11 @@ namespace FinalSpinedi
               existe = brl.PermisosPuntualesUsuarios(usr, frm);
               if (existe == 1)
               {
-                  eliminarProveedorToolStripMenuItem.Enabled = true;
+                  eliminarProductoToolStripMenuItem.Enabled = true;
               }
               else
               {
-                  eliminarProveedorToolStripMenuItem.Enabled = false;
+                  eliminarProductoToolStripMenuItem.Enabled = false;
               }
            // --------------------------------------------------------------------- //Producto
               frm = "FrmProveedorNuevo";
@@ -96,7 +96,7 @@ namespace FinalSpinedi
               }
               else
               {
-                  eliminarProductoToolStripMenuItem.Enabled = false;
+                  nuevoProveedorToolStripMenuItem.Enabled = false;
               }
            // --------------------------------------------------------------------- //Proveedor
 
@@ -118,22 +118,22 @@ namespace FinalSpinedi
               existe = brl.PermisosPuntualesUsuarios(usr, frm);
               if (existe == 1)
               {
-                  modificarProveedorToolStripMenuItem.Enabled = true;
+                  eliminarProveedorToolStripMenuItem.Enabled = true;
               }
               else
               {
-                  modificarProveedorToolStripMenuItem.Enabled = false;
+                  eliminarProveedorToolStripMenuItem.Enabled = false;
               }
 
               frm = "FrmNuevoUsuario";
               existe = brl.PermisosPuntualesUsuarios(usr, frm);
               if (existe == 1)
               {
-                  modificarUsuarioToolStripMenuItem.Enabled = true;
+                  nuevoUsuarioToolStripMenuItem.Enabled = true;
               }
               else
               {
-                  modificarUsuarioToolStripMenuItem.Enabled = false;
+                  nuevoUsuarioToolStripMenuItem.Enabled = false;
               }
            // --------------------------------------------------------------------- //Usuario
               frm = "FrmModificarUsuario";
@@ -166,7 +166,7 @@ namespace FinalSpinedi
               }
               else
               {
-                  modificarUsuarioToolStripMenuItem.Enabled = false;
+                  inhabilitarUsuariosToolStripMenuItem.Enabled = false;
               }
            // --------------------------------------------------------------------- //Usuario
               frm = "FrmInhabilitarUsuarios";
