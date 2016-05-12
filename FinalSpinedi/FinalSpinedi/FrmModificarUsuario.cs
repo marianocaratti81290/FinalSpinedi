@@ -1,4 +1,5 @@
-﻿using System;
+﻿using C1.Win.C1FlexGrid;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -148,6 +149,26 @@ namespace FinalSpinedi
                 return;
             }
         }
-         
+
+         private void txtBuscar1_KeyPress(object sender, KeyPressEventArgs e)
+         {
+             if (e.KeyChar == 13)
+             {
+                 flexGrillaCliente.ClearFilter();
+                 var filter = new ConditionFilter();
+
+             //    if (flexGrillaCliente.Text != "")
+               //  {
+                     filter.Condition1.Operator = ConditionOperator.Contains;
+                     filter.Condition1.Parameter = txtBuscar1.Text;
+                     flexGrillaCliente.Cols["Nombre"].Filter = filter;
+                 //}
+             }
+         }
+
+         private void flexGrillaCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+         {
+             flexGrillaCliente.DataSource = brl.obtenerClientes();
+         }
     }
 }

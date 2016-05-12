@@ -215,9 +215,56 @@ namespace FinalSpinedi
                 habilitarUsuariosToolStripMenuItem.Enabled = false;
             }
             //   --------------------------------------------------------------------- //Habilitar Usuarios
-          
+            frm = "FrmLstProductos";
+            existe = brl.PermisosPuntualesUsuarios(usr, frm);
+            if (existe == 1)
+            {
+                listadoDeProductosToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                listadoDeProductosToolStripMenuItem.Enabled = false;
+            }
+            //   --------------------------------------------------------------------- //lst productos
 
-               
+            frm = "FrmLstClientes";
+            existe = brl.PermisosPuntualesUsuarios(usr, frm);
+            if (existe == 1)
+            {
+                listadoDeClientesToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                listadoDeClientesToolStripMenuItem.Enabled = false;
+            }
+            //   --------------------------------------------------------------------- //lst clientes
+
+
+            frm = "FrmLstProveedor";
+            existe = brl.PermisosPuntualesUsuarios(usr, frm);
+            if (existe == 1)
+            {
+                listadoDeProveedoresToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                listadoDeProveedoresToolStripMenuItem.Enabled = false;
+            }
+            //   --------------------------------------------------------------------- //lst proveedor
+
+
+            frm = "FrmLstUsuarios";
+            existe = brl.PermisosPuntualesUsuarios(usr, frm);
+            if (existe == 1)
+            {
+                listadoDeUsuarioToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                listadoDeUsuarioToolStripMenuItem.Enabled = false;
+            }
+            //   --------------------------------------------------------------------- //lst proveedor
+             
     }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -242,7 +289,7 @@ namespace FinalSpinedi
             try
             {
                 flexProductosCod.DataSource= brl.ObtenerProductos();
-                flexGrillaProductosPedidos.DataSource = brl.ObtenerProductosPedidos();
+                //flexGrillaProductosPedidos.DataSource = brl.ObtenerProductosPedidos();
                 flexGrillaClientes.DataSource = brl.obtenerClientes();
             }
             catch (Exception)
@@ -367,6 +414,22 @@ namespace FinalSpinedi
             {
                 menuStrip1.Refresh();
 
+            }
+        }
+
+        private void txtbuscarCod_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexProductosCod.ClearFilter();
+                var filter = new ConditionFilter();
+
+                if (txtbuscarCod.Text != "")
+                {
+                    filter.Condition1.Operator = ConditionOperator.Contains;
+                    filter.Condition1.Parameter = txtbuscarCod.Text;
+                    flexProductosCod.Cols["Nombre"].Filter = filter;
+                }
             }
         }
     }

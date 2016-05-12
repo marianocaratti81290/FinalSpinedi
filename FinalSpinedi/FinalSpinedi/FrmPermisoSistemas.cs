@@ -49,10 +49,33 @@ namespace FinalSpinedi
             if (flexGrillaCliente.RowSel != -1)
             {
                 usr = flexGrillaCliente[flexGrillaCliente.RowSel, "usr"].ToString();
+                limpiarCotrolesTextbox();
                 obtenerPermisosxUsuario(usr);
             }
 
 
+        }
+
+        private void limpiarCotrolesTextbox()
+        {
+            chkAcercaDe.Checked = false;
+            chkSalir.Checked = false;
+            chkNuevoProveedor.Checked = false;
+            chkNuevoProducto.Checked = false;
+            chkNuevoCliente.Checked = false;
+            chkNuevoUsuario.Checked = false;
+            chkModificarUsuario.Checked = false;
+            chkModificarProveedor.Checked = false;
+            chkModificarProducto.Checked = false;
+            chkBorrarCliente.Checked = false;
+            chkBorrarProducto.Checked = false;
+            chkBorrarProveedor.Checked = false;
+            chkBorrarUsuario.Checked = false;
+            chkLstCliente.Checked = false;
+            chkLstProducto.Checked = false;
+            chkLstProveedor.Checked = false;
+            chkLstUsuarios.Checked = false;
+            
         }
 
         private void obtenerPermisosxUsuario (string usr)

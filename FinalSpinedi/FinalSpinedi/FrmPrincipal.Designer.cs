@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.label1 = new System.Windows.Forms.Label();
-            this.Grupo1 = new System.Windows.Forms.GroupBox();
-            this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.flexGrillaProductosPedidos = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,8 +65,6 @@
             this.txtbuscarCod = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.flexProductosCod = new C1.Win.C1FlexGrid.C1FlexGrid();
-            this.Grupo1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductosPedidos)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.Grupo2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaClientes)).BeginInit();
@@ -82,52 +76,14 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(301, 41);
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(219, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 25);
+            this.label1.Size = new System.Drawing.Size(328, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Sistemas de Stock";
+            this.label1.Text = "Sistemas de Gestion de Stock";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // Grupo1
-            // 
-            this.Grupo1.AutoSize = true;
-            this.Grupo1.Controls.Add(this.txtBuscar);
-            this.Grupo1.Controls.Add(this.label2);
-            this.Grupo1.Controls.Add(this.flexGrillaProductosPedidos);
-            this.Grupo1.Location = new System.Drawing.Point(13, 326);
-            this.Grupo1.Name = "Grupo1";
-            this.Grupo1.Size = new System.Drawing.Size(1018, 193);
-            this.Grupo1.TabIndex = 1;
-            this.Grupo1.TabStop = false;
-            this.Grupo1.Text = "Productos pedidos y en estado pendientes";
-            // 
-            // txtBuscar
-            // 
-            this.txtBuscar.Location = new System.Drawing.Point(166, 25);
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(316, 20);
-            this.txtBuscar.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Buscar productos pedidos ";
-            // 
-            // flexGrillaProductosPedidos
-            // 
-            this.flexGrillaProductosPedidos.ColumnInfo = resources.GetString("flexGrillaProductosPedidos.ColumnInfo");
-            this.flexGrillaProductosPedidos.Location = new System.Drawing.Point(26, 64);
-            this.flexGrillaProductosPedidos.Name = "flexGrillaProductosPedidos";
-            this.flexGrillaProductosPedidos.Rows.DefaultSize = 19;
-            this.flexGrillaProductosPedidos.Size = new System.Drawing.Size(978, 109);
-            this.flexGrillaProductosPedidos.TabIndex = 0;
             // 
             // menuStrip1
             // 
@@ -142,7 +98,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1043, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -352,9 +308,9 @@
             this.Grupo2.Controls.Add(this.txtBuscar1);
             this.Grupo2.Controls.Add(this.label3);
             this.Grupo2.Controls.Add(this.flexGrillaClientes);
-            this.Grupo2.Location = new System.Drawing.Point(13, 525);
+            this.Grupo2.Location = new System.Drawing.Point(27, 331);
             this.Grupo2.Name = "Grupo2";
-            this.Grupo2.Size = new System.Drawing.Size(1018, 193);
+            this.Grupo2.Size = new System.Drawing.Size(725, 208);
             this.Grupo2.TabIndex = 3;
             this.Grupo2.TabStop = false;
             this.Grupo2.Text = "Clientes";
@@ -378,10 +334,10 @@
             // flexGrillaClientes
             // 
             this.flexGrillaClientes.ColumnInfo = resources.GetString("flexGrillaClientes.ColumnInfo");
-            this.flexGrillaClientes.Location = new System.Drawing.Point(26, 64);
+            this.flexGrillaClientes.Location = new System.Drawing.Point(27, 64);
             this.flexGrillaClientes.Name = "flexGrillaClientes";
             this.flexGrillaClientes.Rows.DefaultSize = 19;
-            this.flexGrillaClientes.Size = new System.Drawing.Size(978, 109);
+            this.flexGrillaClientes.Size = new System.Drawing.Size(677, 127);
             this.flexGrillaClientes.TabIndex = 0;
             // 
             // groupBox1
@@ -390,9 +346,9 @@
             this.groupBox1.Controls.Add(this.txtbuscarCod);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.flexProductosCod);
-            this.groupBox1.Location = new System.Drawing.Point(13, 90);
+            this.groupBox1.Location = new System.Drawing.Point(29, 106);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1018, 213);
+            this.groupBox1.Size = new System.Drawing.Size(723, 213);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Productos ";
@@ -403,6 +359,7 @@
             this.txtbuscarCod.Name = "txtbuscarCod";
             this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
             this.txtbuscarCod.TabIndex = 2;
+            this.txtbuscarCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbuscarCod_KeyPress);
             // 
             // label4
             // 
@@ -416,10 +373,10 @@
             // flexProductosCod
             // 
             this.flexProductosCod.ColumnInfo = resources.GetString("flexProductosCod.ColumnInfo");
-            this.flexProductosCod.Location = new System.Drawing.Point(26, 64);
+            this.flexProductosCod.Location = new System.Drawing.Point(27, 64);
             this.flexProductosCod.Name = "flexProductosCod";
             this.flexProductosCod.Rows.DefaultSize = 19;
-            this.flexProductosCod.Size = new System.Drawing.Size(978, 129);
+            this.flexProductosCod.Size = new System.Drawing.Size(675, 129);
             this.flexProductosCod.TabIndex = 0;
             this.flexProductosCod.SelChange += new System.EventHandler(this.flexProductosCod_SelChange);
             this.flexProductosCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.flexProductosCod_KeyPress);
@@ -428,21 +385,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1043, 733);
+            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Grupo2);
-            this.Controls.Add(this.Grupo1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de Gestion de Stock";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmPrincipal_KeyUp);
-            this.Grupo1.ResumeLayout(false);
-            this.Grupo1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaProductosPedidos)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.Grupo2.ResumeLayout(false);
@@ -459,7 +413,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox Grupo1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
@@ -468,9 +421,6 @@
         private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaProductosPedidos;
-        private System.Windows.Forms.TextBox txtBuscar;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox Grupo2;
         private System.Windows.Forms.TextBox txtBuscar1;
         private System.Windows.Forms.Label label3;

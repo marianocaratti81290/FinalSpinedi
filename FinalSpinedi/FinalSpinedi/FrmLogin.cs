@@ -34,6 +34,7 @@ namespace FinalSpinedi
         private void btncancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+            Comun.establecerConexion.Close();
         }
 
 

@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmModificarUsuario));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtusr = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtpass = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
             this.cbLocalidad = new System.Windows.Forms.ComboBox();
             this.cbProvincia = new System.Windows.Forms.ComboBox();
@@ -61,10 +65,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtBuscar1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtusr = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.txtpass = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -108,6 +108,40 @@
             this.groupBox2.TabIndex = 102;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modificar clientes";
+            // 
+            // txtusr
+            // 
+            this.txtusr.Location = new System.Drawing.Point(259, 262);
+            this.txtusr.MaxLength = 4;
+            this.txtusr.Name = "txtusr";
+            this.txtusr.Size = new System.Drawing.Size(174, 20);
+            this.txtusr.TabIndex = 33;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(210, 269);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(43, 13);
+            this.label15.TabIndex = 32;
+            this.label15.Text = "Usuario";
+            // 
+            // txtpass
+            // 
+            this.txtpass.Location = new System.Drawing.Point(507, 262);
+            this.txtpass.MaxLength = 50;
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(174, 20);
+            this.txtpass.TabIndex = 31;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(448, 269);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(53, 13);
+            this.label16.TabIndex = 30;
+            this.label16.Text = "Password";
             // 
             // dtpfecha_nac
             // 
@@ -381,6 +415,7 @@
             this.txtBuscar1.Name = "txtBuscar1";
             this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
             this.txtBuscar1.TabIndex = 4;
+            this.txtBuscar1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar1_KeyPress);
             // 
             // label3
             // 
@@ -391,45 +426,11 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Buscar Clientes";
             // 
-            // txtusr
-            // 
-            this.txtusr.Location = new System.Drawing.Point(259, 262);
-            this.txtusr.MaxLength = 4;
-            this.txtusr.Name = "txtusr";
-            this.txtusr.Size = new System.Drawing.Size(174, 20);
-            this.txtusr.TabIndex = 33;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(210, 269);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(43, 13);
-            this.label15.TabIndex = 32;
-            this.label15.Text = "Usuario";
-            // 
-            // txtpass
-            // 
-            this.txtpass.Location = new System.Drawing.Point(507, 262);
-            this.txtpass.MaxLength = 50;
-            this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(174, 20);
-            this.txtpass.TabIndex = 31;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(448, 269);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(53, 13);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Password";
-            // 
             // FrmModificarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 737);
+            this.ClientSize = new System.Drawing.Size(914, 733);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox1);
