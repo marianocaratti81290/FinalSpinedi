@@ -421,15 +421,15 @@ namespace FinalSpinedi
         {
             if (e.KeyChar == 13)
             {
-                flexProductosCod.ClearFilter();
-                var filter = new ConditionFilter();
+                flexProductosCod.DataSource = brl.buscarProducto(txtbuscarCod.Text);
+            }
+        }
 
-                if (txtbuscarCod.Text != "")
-                {
-                    filter.Condition1.Operator = ConditionOperator.Contains;
-                    filter.Condition1.Parameter = txtbuscarCod.Text;
-                    flexProductosCod.Cols["Nombre"].Filter = filter;
-                }
+        private void txtBuscar1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexGrillaClientes.DataSource = brl.buscarCliente(txtBuscar1.Text);
             }
         }
     }

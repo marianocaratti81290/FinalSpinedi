@@ -75,6 +75,7 @@
             this.txtbuscarNom.Name = "txtbuscarNom";
             this.txtbuscarNom.Size = new System.Drawing.Size(316, 20);
             this.txtbuscarNom.TabIndex = 2;
+            this.txtbuscarNom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbuscarNom_KeyPress);
             // 
             // label4
             // 

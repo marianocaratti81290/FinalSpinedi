@@ -96,5 +96,13 @@ namespace FinalSpinedi
         {
 
         }
+
+        private void txtbuscarNom_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexProveedor.DataSource = brl.buscarProveedor(txtbuscarNom.Text);
+            }
+        }
     }
 }

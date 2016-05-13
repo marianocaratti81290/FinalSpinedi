@@ -143,5 +143,13 @@ namespace FinalSpinedi
             cbProveedor.DisplayMember = "nombre";
         }
 
+        private void txtbuscarCod_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexProductos.DataSource = brl.buscarProducto(txtbuscarCod.Text);
+            }
+        }
+
     }
 }

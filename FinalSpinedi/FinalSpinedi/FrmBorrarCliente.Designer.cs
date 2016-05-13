@@ -48,9 +48,9 @@
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(162, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(338, 23);
+            this.label1.Size = new System.Drawing.Size(328, 23);
             this.label1.TabIndex = 100;
-            this.label1.Text = "Asistente para borrar usuarios  en el sistema";
+            this.label1.Text = "Asistente para borrar cliente  en el sistema";
             // 
             // pictureBox1
             // 
@@ -79,6 +79,7 @@
             this.txtBuscar1.Name = "txtBuscar1";
             this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
             this.txtBuscar1.TabIndex = 4;
+            this.txtBuscar1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar1_KeyPress);
             // 
             // label3
             // 

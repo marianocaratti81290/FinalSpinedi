@@ -40,19 +40,21 @@ namespace FinalSpinedi
 
         private void validarUsuario()
         {
-          
+               if (txtusuario.Text == "" && txtpass.Text == "")
+                {
+                    MessageBox.Show("Ingrese usuario y password");
+                }
+               else
                 if (txtusuario.Text == "")
                 {
                     MessageBox.Show("Ingrese un usuario");
                 }
+                else
                 if (txtpass.Text == "")
                 {
                     MessageBox.Show("Ingrese la contraseña");
-                }
-                if (txtusuario.Text == "" && txtpass.Text == "")
-                {
-                    MessageBox.Show("Ingrese usuario y password");
-                }
+                }                
+               
                 else
                 {
                     int existe = brl.logearUsuario(txtusuario.Text, txtpass.Text);
@@ -67,7 +69,7 @@ namespace FinalSpinedi
                     }
                     else
                     {
-                        MessageBox.Show("No esta registrado");
+                        MessageBox.Show("Sus datos no se encuentra en la base de datos. Consulte con su administrador");
                         limpiarLogin();
                         txtusuario.Focus();
                     }

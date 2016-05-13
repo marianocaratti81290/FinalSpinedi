@@ -914,6 +914,113 @@ namespace FinalSpinedi
 
           }
 
+          public static DataTable buscarCliente(string buscar)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarClienteFiltrado_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
+
+          public static DataTable buscarProducto(string buscar)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarProductoFiltrado_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
+
+          public static DataTable buscarProveedor(string buscar)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarProveedorFiltrado_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
+
+          public static DataTable buscarUsuarioFiltradoEstado(string buscar)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarUsuarioFiltradoEstado_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
         }
 
 }

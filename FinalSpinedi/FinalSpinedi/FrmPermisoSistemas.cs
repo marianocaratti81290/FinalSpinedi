@@ -471,5 +471,13 @@ namespace FinalSpinedi
                 MessageBox.Show("Permiso DesHabilitado con exito");
             }
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexGrillaCliente.DataSource = brl.buscarCliente(txtbuscar.Text);
+            }
+        }
     }
 }

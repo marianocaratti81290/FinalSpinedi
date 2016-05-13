@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="flexGrillaProveedor.ColumnInfo" xml:space="preserve">
-    <value>12,1,0,0,0,95,Columns:1{Name:"id_usuario";Caption:"id_usuario";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Apellido";Caption:"Apellido";}	4{Name:"DNI";Caption:"DNI";}	5{Name:"tel";Caption:"tel";}	6{Name:"localidad";Caption:"localidad";}	7{Name:"Provincia";Caption:"Provincia";}	8{Width:373;Name:"Email";Caption:"Email";}	9{Name:"usr";Caption:"usr";}	10{Name:"pass";Caption:"pass";}	11{Visible:False;}	</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -31,6 +31,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
             this.txtcantidad = new System.Windows.Forms.TextBox();
             this.txtbarra = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -53,7 +54,6 @@
             this.txtbuscarCod = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.flexProductos = new C1.Win.C1FlexGrid.C1FlexGrid();
-            this.dtpfecha_nac = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).BeginInit();
@@ -111,6 +111,17 @@
             this.groupBox2.TabIndex = 107;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modificar Proveedor";
+            // 
+            // dtpfecha_nac
+            // 
+            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpfecha_nac.Location = new System.Drawing.Point(510, 126);
+            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
+            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpfecha_nac.Name = "dtpfecha_nac";
+            this.dtpfecha_nac.ShowUpDown = true;
+            this.dtpfecha_nac.Size = new System.Drawing.Size(196, 20);
+            this.dtpfecha_nac.TabIndex = 30;
             // 
             // txtcantidad
             // 
@@ -282,6 +293,7 @@
             this.txtbuscarCod.Name = "txtbuscarCod";
             this.txtbuscarCod.Size = new System.Drawing.Size(316, 20);
             this.txtbuscarCod.TabIndex = 2;
+            this.txtbuscarCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbuscarCod_KeyPress);
             // 
             // label4
             // 
@@ -301,17 +313,6 @@
             this.flexProductos.Size = new System.Drawing.Size(698, 129);
             this.flexProductos.TabIndex = 0;
             this.flexProductos.SelChange += new System.EventHandler(this.flexProductos_SelChange);
-            // 
-            // dtpfecha_nac
-            // 
-            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpfecha_nac.Location = new System.Drawing.Point(510, 126);
-            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
-            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
-            this.dtpfecha_nac.Name = "dtpfecha_nac";
-            this.dtpfecha_nac.ShowUpDown = true;
-            this.dtpfecha_nac.Size = new System.Drawing.Size(196, 20);
-            this.dtpfecha_nac.TabIndex = 30;
             // 
             // FrmModificarProductos
             // 

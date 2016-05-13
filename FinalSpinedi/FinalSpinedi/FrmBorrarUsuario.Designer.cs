@@ -80,6 +80,7 @@
             this.txtBuscar1.Name = "txtBuscar1";
             this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
             this.txtBuscar1.TabIndex = 4;
+            this.txtBuscar1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar1_KeyPress);
             // 
             // label3
             // 
@@ -93,7 +94,7 @@
             // flexGrillaCliente
             // 
             this.flexGrillaCliente.AllowEditing = false;
-            this.flexGrillaCliente.ColumnInfo = resources.GetString("flexGrillaCliente.ColumnInfo");
+            this.flexGrillaCliente.ColumnInfo = "10,1,0,0,0,95,Columns:";
             this.flexGrillaCliente.Location = new System.Drawing.Point(16, 75);
             this.flexGrillaCliente.Name = "flexGrillaCliente";
             this.flexGrillaCliente.Rows.DefaultSize = 19;

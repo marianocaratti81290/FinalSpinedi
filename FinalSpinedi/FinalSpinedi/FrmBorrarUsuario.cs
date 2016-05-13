@@ -45,5 +45,13 @@ namespace FinalSpinedi
         {
             flexGrillaCliente.DataSource = brl.obtenerUsuarios();
         }
+
+        private void txtBuscar1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                flexGrillaCliente.DataSource = brl.buscarCliente(txtBuscar1.Text);
+            }
+        }
     }
 }
