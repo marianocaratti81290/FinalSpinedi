@@ -154,15 +154,7 @@ namespace FinalSpinedi
          {
              if (e.KeyChar == 13)
              {
-                 flexGrillaCliente.ClearFilter();
-                 var filter = new ConditionFilter();
-
-             //    if (flexGrillaCliente.Text != "")
-               //  {
-                     filter.Condition1.Operator = ConditionOperator.Contains;
-                     filter.Condition1.Parameter = txtBuscar1.Text;
-                     flexGrillaCliente.Cols["Nombre"].Filter = filter;
-                 //}
+                 flexGrillaCliente.DataSource= brl.buscarUsuario(txtBuscar1.Text);
              }
          }
 

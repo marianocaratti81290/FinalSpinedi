@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Brl.cs" />
     <Compile Include="Comun.cs" />
+    <Compile Include="ConditionFilter10.cs" />
     <Compile Include="FrmAcercaDe.cs">
       <SubType>Form</SubType>
     </Compile>

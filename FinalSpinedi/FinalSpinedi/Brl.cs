@@ -885,6 +885,35 @@ namespace FinalSpinedi
               }
 
           }
+
+
+          public static DataTable buscarUsuario(string buscar)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarUsuario_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
+
         }
 
 }
