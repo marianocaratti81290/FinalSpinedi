@@ -10,32 +10,32 @@ using System.Windows.Forms;
 
 namespace FinalSpinedi
 {
-    public partial class FrmBorrarCliente : Form
+    public partial class FrmBorrarSocio : Form
     {
-        public FrmBorrarCliente()
+        public FrmBorrarSocio()
         {
             InitializeComponent();
         }
 
         private void FrmBorrarCliente_Load(object sender, EventArgs e)
         {
-            GrillaClientes();
+            GrillaSocio();
         }
-        private void GrillaClientes()
+        private void GrillaSocio()
         {
-            flexGrillaCliente.DataSource = brl.obtenerClientes();
+            flexGrillaSocio.DataSource = brl.obtenerSocio();
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Estas seguro que desea eliminar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Estas seguro que desea eliminar el socio", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (flexGrillaCliente.RowSel != -1)
+                if (flexGrillaSocio.RowSel != -1)
                 {
-                    int modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
-                    brl.borrarCliente(modSeleccion);
+                    int modSeleccion = (int)flexGrillaSocio[flexGrillaSocio.RowSel, "id_socio"];
+                    brl.borrarSocio(modSeleccion);
                     MessageBox.Show("El cliente se borro con exito");
-                    GrillaClientes();
+                    GrillaSocio();
                 }
             }
         }
@@ -49,7 +49,7 @@ namespace FinalSpinedi
         {
             if (e.KeyChar == 13)
             {
-                flexGrillaCliente.DataSource = brl.buscarCliente(txtBuscar1.Text);
+                flexGrillaSocio.DataSource = brl.buscarCliente(txtBuscar1.Text);
             }
         }
        

@@ -64,11 +64,11 @@
     <Compile Include="FrmBienvenida.Designer.cs">
       <DependentUpon>FrmBienvenida.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmBorrarCliente.cs">
+    <Compile Include="FrmBorrarSocio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmBorrarCliente.Designer.cs">
-      <DependentUpon>FrmBorrarCliente.cs</DependentUpon>
+    <Compile Include="FrmBorrarSocio.Designer.cs">
+      <DependentUpon>FrmBorrarSocio.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmBorrarProducto.cs">
       <SubType>Form</SubType>
@@ -212,8 +212,8 @@
     <EmbeddedResource Include="FrmBienvenida.resx">
       <DependentUpon>FrmBienvenida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmBorrarCliente.resx">
-      <DependentUpon>FrmBorrarCliente.cs</DependentUpon>
+    <EmbeddedResource Include="FrmBorrarSocio.resx">
+      <DependentUpon>FrmBorrarSocio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBorrarProducto.resx">
       <DependentUpon>FrmBorrarProducto.cs</DependentUpon>

@@ -160,7 +160,7 @@ namespace FinalSpinedi
 
          private void flexGrillaCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
          {
-             flexGrillaCliente.DataSource = brl.obtenerClientes();
+             flexGrillaCliente.DataSource = brl.obtenerSocio();
          }
     }
 }

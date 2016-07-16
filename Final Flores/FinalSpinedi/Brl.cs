@@ -263,12 +263,12 @@ namespace FinalSpinedi
 
        }
 
-       public static DataTable obtenerClientes()
+       public static DataTable obtenerSocio()
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("obtenerClientes_q_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("obtenerSocio_q_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
 
@@ -288,16 +288,16 @@ namespace FinalSpinedi
 
        }
 
-       public static void borrarCliente(int id_cliente)
+       public static void borrarSocio(int id_socio)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("borrarCliente_d_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("borrarSocio_d_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
                
-               cmd.Parameters.AddWithValue("@id_cliente", id_cliente);
+               cmd.Parameters.AddWithValue("@id_socio", id_socio);
      
                Comun.establecerConexion.Open();
 

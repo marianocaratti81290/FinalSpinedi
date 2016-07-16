@@ -313,7 +313,7 @@ namespace FinalSpinedi
 
         private void eliminarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmBorrarCliente().ShowDialog();
+            new FrmBorrarSocio().ShowDialog();
         }
 
         private void nuevoProductoToolStripMenuItem_Click(object sender, EventArgs e)

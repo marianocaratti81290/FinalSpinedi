@@ -27,7 +27,7 @@ namespace FinalSpinedi
 
         private void GrillaClientes()
         {
-            flexGrillaCliente.DataSource = brl.obtenerClientes();
+            flexGrillaCliente.DataSource = brl.obtenerSocio();
         }
    
         private void flexGrillaCliente_SelChange(object sender, EventArgs e)

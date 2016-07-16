@@ -958,7 +958,7 @@
         +P/1r/8HE5X7s9VG0eUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="flexGrillaCliente.ColumnInfo" xml:space="preserve">
+  <data name="flexGrillaSocio.ColumnInfo" xml:space="preserve">
     <value>10,1,0,0,0,95,Columns:1{Name:"id_cliente";Caption:"id_cliente";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Apellido";Caption:"Apellido";}	4{Name:"DNI";Caption:"DNI";}	5{Name:"tel";Caption:"tel";}	6{Name:"localidad";Caption:"localidad";}	7{Name:"Provincia";Caption:"Provincia";}	8{Width:373;Name:"Email";Caption:"Email";}	9{Visible:False;}	</value>
   </data>
 </root>

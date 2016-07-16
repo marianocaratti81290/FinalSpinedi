@@ -1,6 +1,6 @@
 ﻿namespace FinalSpinedi
 {
-    partial class FrmBorrarCliente
+    partial class FrmBorrarSocio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBorrarCliente));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBorrarSocio));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtBuscar1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.flexGrillaCliente = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.flexGrillaSocio = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaSocio)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(162, 24);
+            this.label1.Location = new System.Drawing.Point(179, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(328, 23);
+            this.label1.Size = new System.Drawing.Size(310, 23);
             this.label1.TabIndex = 100;
-            this.label1.Text = "Asistente para borrar cliente  en el sistema";
+            this.label1.Text = "Asistente para borrar socio en el sistema";
             // 
             // pictureBox1
             // 
@@ -65,13 +65,13 @@
             // 
             this.groupBox1.Controls.Add(this.txtBuscar1);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.flexGrillaCliente);
+            this.groupBox1.Controls.Add(this.flexGrillaSocio);
             this.groupBox1.Location = new System.Drawing.Point(56, 369);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(616, 251);
             this.groupBox1.TabIndex = 102;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Borrar Cliente";
+            this.groupBox1.Text = "Borrar Socio";
             // 
             // txtBuscar1
             // 
@@ -86,19 +86,19 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(35, 32);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Buscar Clientes";
+            this.label3.Text = "Buscar Socio";
             // 
-            // flexGrillaCliente
+            // flexGrillaSocio
             // 
-            this.flexGrillaCliente.AllowEditing = false;
-            this.flexGrillaCliente.ColumnInfo = resources.GetString("flexGrillaCliente.ColumnInfo");
-            this.flexGrillaCliente.Location = new System.Drawing.Point(16, 75);
-            this.flexGrillaCliente.Name = "flexGrillaCliente";
-            this.flexGrillaCliente.Rows.DefaultSize = 19;
-            this.flexGrillaCliente.Size = new System.Drawing.Size(585, 155);
-            this.flexGrillaCliente.TabIndex = 1;
+            this.flexGrillaSocio.AllowEditing = false;
+            this.flexGrillaSocio.ColumnInfo = resources.GetString("flexGrillaSocio.ColumnInfo");
+            this.flexGrillaSocio.Location = new System.Drawing.Point(16, 75);
+            this.flexGrillaSocio.Name = "flexGrillaSocio";
+            this.flexGrillaSocio.Rows.DefaultSize = 19;
+            this.flexGrillaSocio.Size = new System.Drawing.Size(585, 155);
+            this.flexGrillaSocio.TabIndex = 1;
             // 
             // btnBorrar
             // 
@@ -106,7 +106,7 @@
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(111, 23);
             this.btnBorrar.TabIndex = 103;
-            this.btnBorrar.Text = "Borrar Cliente";
+            this.btnBorrar.Text = "Borrar Socio";
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
@@ -120,7 +120,7 @@
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // FrmBorrarCliente
+            // FrmBorrarSocio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,14 +130,14 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Name = "FrmBorrarCliente";
+            this.Name = "FrmBorrarSocio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Borrar Cliente";
+            this.Text = "Borrar Socio";
             this.Load += new System.EventHandler(this.FrmBorrarCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaCliente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGrillaSocio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,7 +150,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtBuscar1;
         private System.Windows.Forms.Label label3;
-        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaCliente;
+        private C1.Win.C1FlexGrid.C1FlexGrid flexGrillaSocio;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnVolver;
     }
