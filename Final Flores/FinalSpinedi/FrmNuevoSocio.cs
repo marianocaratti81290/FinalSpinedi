@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalSpinedi
 {
-    public partial class FrmClienteNuevo : Form
+    public partial class FrmNuevoSocio : Form
     {
-        public FrmClienteNuevo()
+        public FrmNuevoSocio()
         {
             InitializeComponent();
         }
@@ -24,29 +24,29 @@ namespace FinalSpinedi
 
         private void btnaceptar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Estas seguro que desea agregar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Estas seguro que desea agregar el socio", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 verificarDatos();
-                limpiarClientes();
+                limpiarSocio();
                 MessageBox.Show("El cliente se grabó con exito");
             }
                       
         }
 
-        private void limpiarClientes()
+        private void limpiarSocio()
         {
             txtnombre.Clear();
             txtapellido.Clear();
             txtdni.Clear();
-            cbsexo.Text = "";
-            txtcel.Clear();
+            dtpFechaAlta.Text = "";
+            dtpfecha_nac.Text= "";
             txttel_fijo.Clear();
-            txtdomicilio.Clear();
+            txtDireccion.Clear();
             cbProvincia.Refresh();
             cbLocalidad.Refresh();
             txtcp.Clear();
-            txtEmail.Clear();
-            dtpfecha_nac.Refresh();
+            txtEmail.Clear();          
+            txtObservaciones.Clear();
 
         }
 
@@ -54,51 +54,56 @@ namespace FinalSpinedi
         {
             if (txtnombre.Text =="")
             {
-                MessageBox.Show("Ingrese el Nombre del Cliente");
+                MessageBox.Show("Ingrese el Nombre del socio");
             }
             else
                 if (txtapellido.Text == "")
                 {
-                    MessageBox.Show("Ingrese el apellido del cliente");
+                    MessageBox.Show("Ingrese el apellido del socio");
                 }
                 else
                     if (txtdni.Text == "")
                     {
-                        MessageBox.Show("Ingrese el dni del cliente");
+                        MessageBox.Show("Ingrese el dni del socio");
                     }
                     else
-                        if (cbsexo.Text == "")
+                        if (dtpfecha_nac.Text == "")
                         {
-                            MessageBox.Show("Ingrese el sexo del cliente");
+                            MessageBox.Show("Ingrese la fecha del socio");
                         }
                         else
-                            if (txtdomicilio.Text == "")
+                            if (dtpFechaAlta.Text == "")
                             {
-                                MessageBox.Show("Ingrese el domicilio");
+                                MessageBox.Show("Ingrese la fecha de alta del socio");
+                            }
+                            else
+                            if (txtDireccion.Text == "")
+                            {
+                                MessageBox.Show("Ingrese la direccion del socio");
                             }
                             else
                                 if (cbProvincia.Text == "")
                                 {
-                                    MessageBox.Show("ingrese la provincia del cliente");
+                                    MessageBox.Show("ingrese la provincia del socio");
                                 }
                                 else
                                     if (cbLocalidad.Text == "")
                                     {
-                                        MessageBox.Show("Ingrese la localidad del cliente");
+                                        MessageBox.Show("Ingrese la localidad del socio");
                                     }
                                     else
                                         if (txtcp.Text == "")
                                         {
-                                            MessageBox.Show("Ingrese el codigo postal del cliente");
+                                            MessageBox.Show("Ingrese el codigo postal del socio");
                                         }
                                         else
-                                            if (dtpfecha_nac.Text == "")
+                                            if (txttel_fijo.Text == "")
                                             {
-                                                MessageBox.Show("Ingrese la fecha de nacimiento");
+                                                MessageBox.Show("Ingrese el telefono del socio");
                                             }
                                             else
                                             {
-                                                brl.agregarCliente(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, cbsexo.Text, txtcel.Text, txttel_fijo.Text, txtdomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtcp.Text, txtEmail.Text);
+                                                brl.agregarSocio(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, dtpFechaAlta.Text, txtDireccion.Text, cbProvincia.Text, cbLocalidad.Text, txttel_fijo.Text, txtEmail.Text, cbEstado.Text, txtcp.Text, txtObservaciones.Text);
                                             }
         }
 
@@ -178,10 +183,12 @@ namespace FinalSpinedi
             catch { }
         }
 
-        private void FrmClienteNuevo_Load(object sender, EventArgs e)
+        private void FrmNuevoSocio_Load(object sender, EventArgs e)
         {
-
+            cbEstado.SelectedIndex = 0;
         }
+
+
 
     }
 }

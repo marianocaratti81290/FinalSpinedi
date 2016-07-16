@@ -19,251 +19,251 @@ namespace FinalSpinedi
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {            
-            cargarProductos_Clientes();
+         //   cargarProductos_Clientes();
 
-            string usr = FrmLogin.UsuarioPermiso;
-            string frm = "FrmClienteNuevo";
-            int existe= brl.PermisosPuntualesUsuarios(usr,frm);
-            if (existe == 1)
-            {
-                crearClienteToolStripMenuItem.Enabled = true;
-            }
-            else
-            {
-                crearClienteToolStripMenuItem.Enabled = false;
-            }
-           // --------------------------------------------------------------------- //Cliente
-              frm = "FrmModificarCliente";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  modificarClienteToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  modificarClienteToolStripMenuItem.Enabled = false;
-              }
-          //  --------------------------------------------------------------------- //Cliente
-              frm = "FrmBorrarCliente";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  eliminarClienteToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  eliminarClienteToolStripMenuItem.Enabled = false;
-              }
-          //  --------------------------------------------------------------------- //Cliente
-              frm = "FrmProductoNuevo";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  nuevoProductoToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  nuevoProductoToolStripMenuItem.Enabled = false;
-              }
-           // --------------------------------------------------------------------- //Producto
-              frm = "FrmModificarProductos";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  modificarProductoToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  modificarProductoToolStripMenuItem.Enabled = false;
-              }
-           // --------------------------------------------------------------------- //Producto
-              frm = "FrmBorrarProducto";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  eliminarProductoToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  eliminarProductoToolStripMenuItem.Enabled = false;
-              }
-           // --------------------------------------------------------------------- //Producto
-              frm = "FrmProveedorNuevo";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  nuevoProveedorToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  nuevoProveedorToolStripMenuItem.Enabled = false;
-              }
-           // --------------------------------------------------------------------- //Proveedor
+         //   string usr = FrmLogin.UsuarioPermiso;
+         //   string frm = "FrmClienteNuevo";
+         //   int existe= brl.PermisosPuntualesUsuarios(usr,frm);
+         //   if (existe == 1)
+         //   {
+         //       crearClienteToolStripMenuItem.Enabled = true;
+         //   }
+         //   else
+         //   {
+         //       crearClienteToolStripMenuItem.Enabled = false;
+         //   }
+         //  // --------------------------------------------------------------------- //Cliente
+         //     frm = "FrmModificarCliente";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         modificarClienteToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         modificarClienteToolStripMenuItem.Enabled = false;
+         //     }
+         // //  --------------------------------------------------------------------- //Cliente
+         //     frm = "FrmBorrarCliente";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         eliminarClienteToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         eliminarClienteToolStripMenuItem.Enabled = false;
+         //     }
+         // //  --------------------------------------------------------------------- //Cliente
+         //     frm = "FrmProductoNuevo";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         nuevoProductoToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         nuevoProductoToolStripMenuItem.Enabled = false;
+         //     }
+         //  // --------------------------------------------------------------------- //Producto
+         //     frm = "FrmModificarProductos";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         modificarProductoToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         modificarProductoToolStripMenuItem.Enabled = false;
+         //     }
+         //  // --------------------------------------------------------------------- //Producto
+         //     frm = "FrmBorrarProducto";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         eliminarProductoToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         eliminarProductoToolStripMenuItem.Enabled = false;
+         //     }
+         //  // --------------------------------------------------------------------- //Producto
+         //     frm = "FrmProveedorNuevo";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         nuevoProveedorToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         nuevoProveedorToolStripMenuItem.Enabled = false;
+         //     }
+         //  // --------------------------------------------------------------------- //Proveedor
 
-              frm = "FrmModificarProveedor";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  modificarProveedorToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  modificarProveedorToolStripMenuItem.Enabled = false;
-              }
-              // --------------------------------------------------------------------- //Proveedor
+         //     frm = "FrmModificarProveedor";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         modificarProveedorToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         modificarProveedorToolStripMenuItem.Enabled = false;
+         //     }
+         //     // --------------------------------------------------------------------- //Proveedor
 
-              // --------------------------------------------------------------------- //Proveedor
+         //     // --------------------------------------------------------------------- //Proveedor
 
-              frm = "FrmBorrarProveedor";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  eliminarProveedorToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  eliminarProveedorToolStripMenuItem.Enabled = false;
-              }
+         //     frm = "FrmBorrarProveedor";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         eliminarProveedorToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         eliminarProveedorToolStripMenuItem.Enabled = false;
+         //     }
 
-              frm = "FrmNuevoUsuario";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  nuevoUsuarioToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  nuevoUsuarioToolStripMenuItem.Enabled = false;
-              }
-           // --------------------------------------------------------------------- //Usuario
-              frm = "FrmModificarUsuario";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  modificarUsuarioToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  modificarUsuarioToolStripMenuItem.Enabled = false;
-              }
-            //--------------------------------------------------------------------- //Usuario
-              frm = "FrmBorrarUsuario";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  eliminarUsuarioToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  eliminarUsuarioToolStripMenuItem.Enabled = false;
-              }
-            //--------------------------------------------------------------------- //Usuario
-              frm = "FrmInhabilitarUsuarios";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  inhabilitarUsuariosToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  inhabilitarUsuariosToolStripMenuItem.Enabled = false;
-              }
-           // --------------------------------------------------------------------- //Usuario
-              frm = "FrmInhabilitarUsuarios";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  habilitarUsuariosToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  habilitarUsuariosToolStripMenuItem.Enabled = false;
-              }
-         //   --------------------------------------------------------------------- //Usuario
-              frm = "FrmPermisoSistemas";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  permisosSistemaToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  permisosSistemaToolStripMenuItem.Enabled = false;
-              }
-         //   --------------------------------------------------------------------- //PermisoSistemas
+         //     frm = "FrmNuevoUsuario";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         nuevoUsuarioToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         nuevoUsuarioToolStripMenuItem.Enabled = false;
+         //     }
+         //  // --------------------------------------------------------------------- //Usuario
+         //     frm = "FrmModificarUsuario";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         modificarUsuarioToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         modificarUsuarioToolStripMenuItem.Enabled = false;
+         //     }
+         //   //--------------------------------------------------------------------- //Usuario
+         //     frm = "FrmBorrarUsuario";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         eliminarUsuarioToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         eliminarUsuarioToolStripMenuItem.Enabled = false;
+         //     }
+         //   //--------------------------------------------------------------------- //Usuario
+         //     frm = "FrmInhabilitarUsuarios";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         inhabilitarUsuariosToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         inhabilitarUsuariosToolStripMenuItem.Enabled = false;
+         //     }
+         //  // --------------------------------------------------------------------- //Usuario
+         //     frm = "FrmInhabilitarUsuarios";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         habilitarUsuariosToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         habilitarUsuariosToolStripMenuItem.Enabled = false;
+         //     }
+         ////   --------------------------------------------------------------------- //Usuario
+         //     frm = "FrmPermisoSistemas";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         permisosSistemaToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         permisosSistemaToolStripMenuItem.Enabled = false;
+         //     }
+         ////   --------------------------------------------------------------------- //PermisoSistemas
 
-              frm = "Salir";
-              existe = brl.PermisosPuntualesUsuarios(usr, frm);
-              if (existe == 1)
-              {
-                  salirToolStripMenuItem.Enabled = true;
-              }
-              else
-              {
-                  salirToolStripMenuItem.Enabled = false;
-              }
-            //   --------------------------------------------------------------------- //Salir
+         //     frm = "Salir";
+         //     existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //     if (existe == 1)
+         //     {
+         //         salirToolStripMenuItem.Enabled = true;
+         //     }
+         //     else
+         //     {
+         //         salirToolStripMenuItem.Enabled = false;
+         //     }
+         //   //   --------------------------------------------------------------------- //Salir
 
-              frm = "FrmhabilitarUsuarios";            
-            existe = brl.PermisosPuntualesUsuarios(usr, frm);
-            if (existe == 1)
-            {
-                habilitarUsuariosToolStripMenuItem.Enabled = true;
-            }
-            else
-            {
-                habilitarUsuariosToolStripMenuItem.Enabled = false;
-            }
-            //   --------------------------------------------------------------------- //Habilitar Usuarios
-            frm = "FrmLstProductos";
-            existe = brl.PermisosPuntualesUsuarios(usr, frm);
-            if (existe == 1)
-            {
-                listadoDeProductosToolStripMenuItem.Enabled = true;
-            }
-            else
-            {
-                listadoDeProductosToolStripMenuItem.Enabled = false;
-            }
-            //   --------------------------------------------------------------------- //lst productos
+         //     frm = "FrmhabilitarUsuarios";            
+         //   existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //   if (existe == 1)
+         //   {
+         //       habilitarUsuariosToolStripMenuItem.Enabled = true;
+         //   }
+         //   else
+         //   {
+         //       habilitarUsuariosToolStripMenuItem.Enabled = false;
+         //   }
+         //   //   --------------------------------------------------------------------- //Habilitar Usuarios
+         //   frm = "FrmLstProductos";
+         //   existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //   if (existe == 1)
+         //   {
+         //       listadoDeProductosToolStripMenuItem.Enabled = true;
+         //   }
+         //   else
+         //   {
+         //       listadoDeProductosToolStripMenuItem.Enabled = false;
+         //   }
+         //   //   --------------------------------------------------------------------- //lst productos
 
-            frm = "FrmLstClientes";
-            existe = brl.PermisosPuntualesUsuarios(usr, frm);
-            if (existe == 1)
-            {
-                listadoDeClientesToolStripMenuItem.Enabled = true;
-            }
-            else
-            {
-                listadoDeClientesToolStripMenuItem.Enabled = false;
-            }
-            //   --------------------------------------------------------------------- //lst clientes
-
-
-            frm = "FrmLstProveedor";
-            existe = brl.PermisosPuntualesUsuarios(usr, frm);
-            if (existe == 1)
-            {
-                listadoDeProveedoresToolStripMenuItem.Enabled = true;
-            }
-            else
-            {
-                listadoDeProveedoresToolStripMenuItem.Enabled = false;
-            }
-            //   --------------------------------------------------------------------- //lst proveedor
+         //   frm = "FrmLstClientes";
+         //   existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //   if (existe == 1)
+         //   {
+         //       listadoDeClientesToolStripMenuItem.Enabled = true;
+         //   }
+         //   else
+         //   {
+         //       listadoDeClientesToolStripMenuItem.Enabled = false;
+         //   }
+         //   //   --------------------------------------------------------------------- //lst clientes
 
 
-            frm = "FrmLstUsuarios";
-            existe = brl.PermisosPuntualesUsuarios(usr, frm);
-            if (existe == 1)
-            {
-                listadoDeUsuarioToolStripMenuItem.Enabled = true;
-            }
-            else
-            {
-                listadoDeUsuarioToolStripMenuItem.Enabled = false;
-            }
-            //   --------------------------------------------------------------------- //lst proveedor
+         //   frm = "FrmLstProveedor";
+         //   existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //   if (existe == 1)
+         //   {
+         //       listadoDeProveedoresToolStripMenuItem.Enabled = true;
+         //   }
+         //   else
+         //   {
+         //       listadoDeProveedoresToolStripMenuItem.Enabled = false;
+         //   }
+         //   //   --------------------------------------------------------------------- //lst proveedor
+
+
+         //   frm = "FrmLstUsuarios";
+         //   existe = brl.PermisosPuntualesUsuarios(usr, frm);
+         //   if (existe == 1)
+         //   {
+         //       listadoDeUsuarioToolStripMenuItem.Enabled = true;
+         //   }
+         //   else
+         //   {
+         //       listadoDeUsuarioToolStripMenuItem.Enabled = false;
+         //   }
+         //   //   --------------------------------------------------------------------- //lst proveedor
              
     }
 
@@ -286,36 +286,24 @@ namespace FinalSpinedi
 
         private void cargarProductos_Clientes()
         {
-            try
-            {
-                flexProductosCod.DataSource= brl.ObtenerProductos();
-                //flexGrillaProductosPedidos.DataSource = brl.ObtenerProductosPedidos();
-                flexGrillaClientes.DataSource = brl.obtenerClientes();
-            }
-            catch (Exception)
-            {
+            //try
+            //{
+            //    flexProductosCod.DataSource= brl.ObtenerProductos();
+            //    //flexGrillaProductosPedidos.DataSource = brl.ObtenerProductosPedidos();
+            //    flexGrillaClientes.DataSource = brl.obtenerClientes();
+            //}
+            //catch (Exception)
+            //{
                 
-                throw;
-            }
+            //    throw;
+            //}
  
         }
 
-        private void flexProductosCod_KeyPress(object sender, KeyPressEventArgs e)
-        {
-          if (flexProductosCod.RowSel != -1)
-             {
-                flexProductosCod.DataSource = brl.ObtenerProductos();
-             }
-        }       
-
-        private void flexProductosCod_SelChange(object sender, EventArgs e)
-        {            
-                flexProductosCod.DataSource = brl.ObtenerProductos();         
-        }
 
         private void crearClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmClienteNuevo().ShowDialog();
+            new FrmNuevoSocio().ShowDialog();
         }
 
         private void modificarClienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -417,20 +405,15 @@ namespace FinalSpinedi
             }
         }
 
-        private void txtbuscarCod_KeyPress(object sender, KeyPressEventArgs e)
+
+        private void filtradaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == 13)
-            {
-                flexProductosCod.DataSource = brl.buscarProducto(txtbuscarCod.Text);
-            }
+
         }
 
-        private void txtBuscar1_KeyPress(object sender, KeyPressEventArgs e)
+        private void modificacionDevolucionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == 13)
-            {
-                flexGrillaClientes.DataSource = brl.buscarCliente(txtBuscar1.Text);
-            }
+
         }
     }
       

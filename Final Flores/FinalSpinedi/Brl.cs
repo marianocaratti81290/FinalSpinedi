@@ -60,28 +60,30 @@ namespace FinalSpinedi
 
        }
 
-       public static void agregarCliente(string nombre,string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-           string provincia, string localidad, string cp, string email)
+       public static void agregarSocio(string apellido,string nombre, string dni, string fecha_nacimiento, string fecha_alta, string direccion, string provincia, string localidad,
+           string telefono, string email, string estado, string cp, string observaciones)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("nuevoCliente_i_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("nuevoSocio_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
                //cmd.Parameters.AddWithValue("@id_cliente", "");          
-               cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@apellido", apellido);
+               cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@dni", dni);
                cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
-               cmd.Parameters.AddWithValue("@sexo", sexo);
-               cmd.Parameters.AddWithValue("@cel", cel);
-               cmd.Parameters.AddWithValue("@tel", tel);
-               cmd.Parameters.AddWithValue("@domicilio", domicilio);
-               cmd.Parameters.AddWithValue("@provincia", provincia);
+               cmd.Parameters.AddWithValue("@fecha_alta", fecha_alta);
+               cmd.Parameters.AddWithValue("@direccion", direccion);
                cmd.Parameters.AddWithValue("@localidad", localidad);
-               cmd.Parameters.AddWithValue("@cp", cp);          
+               cmd.Parameters.AddWithValue("@provincia", provincia);
+               cmd.Parameters.AddWithValue("@telefono", telefono);
                cmd.Parameters.AddWithValue("@email", email);
+               cmd.Parameters.AddWithValue("@sancionado", 0);          
+               cmd.Parameters.AddWithValue("@fecha_fin_sancion", "");
+               cmd.Parameters.AddWithValue("@activo", 1);
+               cmd.Parameters.AddWithValue("@observacion", observaciones);
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);

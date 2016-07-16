@@ -58,6 +58,12 @@
     <Compile Include="FrmAcercaDe.Designer.cs">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBienvenida.Designer.cs">
+      <DependentUpon>FrmBienvenida.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBorrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +88,11 @@
     <Compile Include="FrmBorrarUsuario.Designer.cs">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmClienteNuevo.cs">
+    <Compile Include="FrmNuevoSocio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmClienteNuevo.Designer.cs">
-      <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
+    <Compile Include="FrmNuevoSocio.Designer.cs">
+      <DependentUpon>FrmNuevoSocio.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmInhabilitarUsuarios.cs">
       <SubType>Form</SubType>
@@ -203,6 +209,9 @@
     <EmbeddedResource Include="FrmAcercaDe.resx">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmBienvenida.resx">
+      <DependentUpon>FrmBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBorrarCliente.resx">
       <DependentUpon>FrmBorrarCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -215,8 +224,8 @@
     <EmbeddedResource Include="FrmBorrarUsuario.resx">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmClienteNuevo.resx">
-      <DependentUpon>FrmClienteNuevo.cs</DependentUpon>
+    <EmbeddedResource Include="FrmNuevoSocio.resx">
+      <DependentUpon>FrmNuevoSocio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInhabilitarUsuarios.resx">
       <DependentUpon>FrmInhabilitarUsuarios.cs</DependentUpon>
