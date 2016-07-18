@@ -49,6 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BibliotecaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Brl.cs" />
     <Compile Include="Comun.cs" />
     <Compile Include="ConditionFilter10.cs" />
@@ -88,6 +93,12 @@
     <Compile Include="FrmBorrarUsuario.Designer.cs">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLstGeneralesSocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLstGeneralesSocio.Designer.cs">
+      <DependentUpon>FrmLstGeneralesSocio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmNuevoSocio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,30 +116,6 @@
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmLstClientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLstClientes.Designer.cs">
-      <DependentUpon>FrmLstClientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmLstProductos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLstProductos.Designer.cs">
-      <DependentUpon>FrmLstProductos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmLstProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLstProveedor.Designer.cs">
-      <DependentUpon>FrmLstProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmLstUsuarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLstUsuarios.Designer.cs">
-      <DependentUpon>FrmLstUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmModificarCliente.cs">
       <SubType>Form</SubType>
@@ -186,26 +173,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StockDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="StockDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockDataSet3.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="StockDataSet4.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockDataSet4.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="StockDsClientes.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockDsClientes.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="FrmAcercaDe.resx">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
     </EmbeddedResource>
@@ -224,6 +191,9 @@
     <EmbeddedResource Include="FrmBorrarUsuario.resx">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmLstGeneralesSocio.resx">
+      <DependentUpon>FrmLstGeneralesSocio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmNuevoSocio.resx">
       <DependentUpon>FrmNuevoSocio.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,18 +202,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLstClientes.resx">
-      <DependentUpon>FrmLstClientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLstProductos.resx">
-      <DependentUpon>FrmLstProductos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLstProveedor.resx">
-      <DependentUpon>FrmLstProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLstUsuarios.resx">
-      <DependentUpon>FrmLstUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModificarCliente.resx">
       <DependentUpon>FrmModificarCliente.cs</DependentUpon>
@@ -283,9 +241,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
-    <EmbeddedResource Include="Report2.rdlc" />
-    <EmbeddedResource Include="Report3.rdlc" />
-    <EmbeddedResource Include="Report4.rdlc" />
+    <None Include="BibliotecaDataSet.xsc">
+      <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BibliotecaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BibliotecaDataSet.xss">
+      <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -295,50 +261,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="StockDataSet2.xsc">
-      <DependentUpon>StockDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="StockDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>StockDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="StockDataSet2.xss">
-      <DependentUpon>StockDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="StockDataSet3.xsc">
-      <DependentUpon>StockDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="StockDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>StockDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="StockDataSet3.xss">
-      <DependentUpon>StockDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="StockDataSet4.xsc">
-      <DependentUpon>StockDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="StockDataSet4.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>StockDataSet4.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="StockDataSet4.xss">
-      <DependentUpon>StockDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="StockDsClientes.xsc">
-      <DependentUpon>StockDsClientes.xsd</DependentUpon>
-    </None>
-    <None Include="StockDsClientes.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>StockDsClientes.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="StockDsClientes.xss">
-      <DependentUpon>StockDsClientes.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

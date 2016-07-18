@@ -32,5 +32,16 @@ namespace FinalSpinedi.Properties {
                 return ((string)(this["StockConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=HACHITO\\SQLEXPRESS;Initial Catalog=Biblioteca;Integrated Security=Tru" +
+            "e")]
+        public string BibliotecaConnectionString {
+            get {
+                return ((string)(this["BibliotecaConnectionString"]));
+            }
+        }
     }
 }

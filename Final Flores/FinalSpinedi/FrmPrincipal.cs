@@ -378,22 +378,22 @@ namespace FinalSpinedi
 
         private void listadoDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmLstClientes().ShowDialog();
+            
         }
 
         private void listadoDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmLstProductos().ShowDialog();
+            
         }
 
         private void listadoDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmLstUsuarios().ShowDialog();
+            
         }
 
         private void listadoDeProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmLstProveedor().ShowDialog();
+           
         }
 
         private void FrmPrincipal_KeyUp(object sender, KeyEventArgs e)
@@ -414,6 +414,16 @@ namespace FinalSpinedi
         private void modificacionDevolucionToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void generalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void generalesToolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            new FrmLstGeneralesSocio().ShowDialog();
         }
     }
       
