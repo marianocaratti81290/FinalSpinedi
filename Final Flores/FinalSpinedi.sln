@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalSpinedi", "FinalSpinedi\FinalSpinedi.csproj", "{41F12673-3729-4C04-ABE9-AB94DD0153B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalFlores", "FinalSpinedi\FinalFlores.csproj", "{41F12673-3729-4C04-ABE9-AB94DD0153B0}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup", "Setup\Setup.isproj", "{52F68991-706F-4F25-9E96-9C3AB8EF41ED}"
 EndProject
