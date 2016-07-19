@@ -318,7 +318,7 @@ namespace FinalSpinedi
 
         private void nuevoProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmProductoNuevo().ShowDialog();
+            new FrmLibroNuevo().ShowDialog();
         }
 
         private void modificarProductoToolStripMenuItem_Click(object sender, EventArgs e)

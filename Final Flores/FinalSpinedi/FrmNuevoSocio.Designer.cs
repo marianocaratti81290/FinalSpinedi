@@ -61,7 +61,9 @@
             this.cbEstado = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtObservaciones = new System.Windows.Forms.TextBox();
+            this.bibliotecaDataSet1 = new FinalSpinedi.BibliotecaDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // label16
@@ -362,6 +364,11 @@
             this.txtObservaciones.Size = new System.Drawing.Size(412, 43);
             this.txtObservaciones.TabIndex = 13;
             // 
+            // bibliotecaDataSet1
+            // 
+            this.bibliotecaDataSet1.DataSetName = "BibliotecaDataSet";
+            this.bibliotecaDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // FrmNuevoSocio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -404,6 +411,7 @@
             this.Text = "Nuevo Socio";
             this.Load += new System.EventHandler(this.FrmNuevoSocio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,5 +451,6 @@
         private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtObservaciones;
+        private BibliotecaDataSet bibliotecaDataSet1;
     }
 }

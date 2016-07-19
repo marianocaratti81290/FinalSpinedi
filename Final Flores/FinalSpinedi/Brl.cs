@@ -314,24 +314,26 @@ namespace FinalSpinedi
 
        }
 
-       public static void agregarProducto(string nombre, int estado, int proveedor, int precio_publico, int cantidad, int precio_proveedor, string descrip, string fecha, string codBarra)
+       public static void agregarLibro(string Titulo, string Autor, string fechaEdicion, string FechaAlta, int Genero, string Editorial, string ISBN, int Donado, string Estado, int Activo, string Observacion)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("nuevoProducto_i_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("nuevoLibro_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
                //cmd.Parameters.AddWithValue("@id_cliente", "");          
-               cmd.Parameters.AddWithValue("@nombre", nombre);
-               cmd.Parameters.AddWithValue("@estado", estado);
-               cmd.Parameters.AddWithValue("@id_proveedor", proveedor);
-               cmd.Parameters.AddWithValue("@precio_publico", precio_publico);
-               cmd.Parameters.AddWithValue("@cantidad", cantidad);
-               cmd.Parameters.AddWithValue("@precio_proveedor", precio_proveedor);
-               cmd.Parameters.AddWithValue("@descrip", descrip);
-               cmd.Parameters.AddWithValue("@fecha", fecha);
-               cmd.Parameters.AddWithValue("@codBarra", codBarra);
+               cmd.Parameters.AddWithValue("@Titulo", Titulo);
+               cmd.Parameters.AddWithValue("@Autor", Autor);
+               cmd.Parameters.AddWithValue("@fechaEdicion", fechaEdicion);
+               cmd.Parameters.AddWithValue("@FechaAlta", FechaAlta);
+               cmd.Parameters.AddWithValue("@Genero", Genero);
+               cmd.Parameters.AddWithValue("@Editorial", Editorial);
+               cmd.Parameters.AddWithValue("@ISBN", ISBN);
+               cmd.Parameters.AddWithValue("@Donado", Donado);
+               cmd.Parameters.AddWithValue("@Estado", Estado);
+               cmd.Parameters.AddWithValue("@Activo", Activo);
+               cmd.Parameters.AddWithValue("@Observacion", Observacion);
        
                Comun.establecerConexion.Open();
 
