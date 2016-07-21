@@ -358,7 +358,7 @@ namespace FinalSpinedi
 
         private void nuevoProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmProveedorNuevo().ShowDialog();
+            new FrmProveedorNuevo().ShowDialog();//
         }
 
         private void modificarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
