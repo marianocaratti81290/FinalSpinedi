@@ -57,7 +57,7 @@ namespace FinalSpinedi
              if (MessageBox.Show("Estas seguro que desea agregar el Libro", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {                                   
                 verificarDatos();
-                limpiarClientes();              
+                limpiarClientes();             // 
             }
                       
         }
