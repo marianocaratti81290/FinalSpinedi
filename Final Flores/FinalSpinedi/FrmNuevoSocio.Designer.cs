@@ -140,7 +140,7 @@
             // 
             // dtpfecha_nac
             // 
-            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpfecha_nac.Location = new System.Drawing.Point(320, 399);
             this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
             this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
@@ -316,7 +316,7 @@
             // 
             // dtpFechaAlta
             // 
-            this.dtpFechaAlta.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFechaAlta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaAlta.Location = new System.Drawing.Point(321, 440);
             this.dtpFechaAlta.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
             this.dtpFechaAlta.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
@@ -324,6 +324,8 @@
             this.dtpFechaAlta.ShowUpDown = true;
             this.dtpFechaAlta.Size = new System.Drawing.Size(135, 20);
             this.dtpFechaAlta.TabIndex = 4;
+            this.dtpFechaAlta.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpFechaAlta_KeyDown);
+            this.dtpFechaAlta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtpFechaAlta_KeyPress);
             // 
             // label2
             // 

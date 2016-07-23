@@ -99,28 +99,31 @@ namespace FinalSpinedi
 
        }
 
-       public static void modificarCliente(int id_cliente, string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-         string provincia, string localidad, string cp, string email)
+       public static void modificarSocio(int id_socio, string apellido, string nombre, string dni, string fecha_nacimiento, string fecha_alta, string direccion, string localidad, string provincia,
+         string telefono, string email, string sancionado, string fecha_sancion, string estado, string observacion)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("modificarCliente_u_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("modificarSocio_u_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id_cliente", id_cliente);          
-               cmd.Parameters.AddWithValue("@nombre", nombre);
+               cmd.Parameters.AddWithValue("@id_cliente", id_socio);          
                cmd.Parameters.AddWithValue("@apellido", apellido);
+               cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@dni", dni);
                cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
-               cmd.Parameters.AddWithValue("@sexo", sexo);
-               cmd.Parameters.AddWithValue("@cel", cel);
-               cmd.Parameters.AddWithValue("@tel", tel);
-               cmd.Parameters.AddWithValue("@domicilio", domicilio);
-               cmd.Parameters.AddWithValue("@provincia", provincia);
+               cmd.Parameters.AddWithValue("@fecha_alta", fecha_alta);
+               cmd.Parameters.AddWithValue("@direccion", direccion);
                cmd.Parameters.AddWithValue("@localidad", localidad);
-               cmd.Parameters.AddWithValue("@cp", cp);
+               cmd.Parameters.AddWithValue("@provincia", provincia);
+               cmd.Parameters.AddWithValue("@telefono", telefono);
                cmd.Parameters.AddWithValue("@email", email);
+               cmd.Parameters.AddWithValue("@sancionado", sancionado);
+               cmd.Parameters.AddWithValue("@fecha_fin_sancion", fecha_sancion);
+               cmd.Parameters.AddWithValue("@activo", estado);
+               cmd.Parameters.AddWithValue("@observacion", observacion);
+
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -212,16 +215,16 @@ namespace FinalSpinedi
 
        }
 
-       public static DataTable obtenerClienteSeleccionado(int id_cliente)
+       public static DataTable obtenerSocioSeleccionado(int id_socio)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("obtenerClienteSeleccionado_q_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("obtenerSocioSeleccionado_q_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
 
-               cmd.Parameters.AddWithValue("id_cliente", id_cliente);
+               cmd.Parameters.AddWithValue("id_socio", id_socio);
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
 

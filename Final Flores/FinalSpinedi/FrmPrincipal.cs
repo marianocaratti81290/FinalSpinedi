@@ -281,7 +281,7 @@ namespace FinalSpinedi
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new AboutBox1().ShowDialog();
+            new FrmAcercaDe().ShowDialog();
         }
 
         private void cargarProductos_Clientes()
@@ -308,7 +308,7 @@ namespace FinalSpinedi
 
         private void modificarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmModificarCliente().ShowDialog();
+            new FrmModificarSocio().ShowDialog();
         }
 
         private void eliminarClienteToolStripMenuItem_Click(object sender, EventArgs e)

@@ -188,6 +188,16 @@ namespace FinalSpinedi
             cbEstado.SelectedIndex = 0;
         }
 
+        private void dtpFechaAlta_KeyPress(object sender, KeyPressEventArgs e)
+        {
+           
+        }
+
+        private void dtpFechaAlta_KeyDown(object sender, KeyEventArgs e)
+        {
+     
+        }
+
 
 
     }

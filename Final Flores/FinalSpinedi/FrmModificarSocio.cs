@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalSpinedi
 {
-    public partial class FrmModificarCliente : Form
+    public partial class FrmModificarSocio : Form
     {
-        public FrmModificarCliente()
+        public FrmModificarSocio()
         {
             InitializeComponent();
         }
@@ -21,47 +21,70 @@ namespace FinalSpinedi
 
         private void FrmModificarCliente_Load(object sender, EventArgs e)
         {
-            GrillaClientes();
+            GrillaSocio();
             obtenerProvincia();
         }
 
-        private void GrillaClientes()
+        private void GrillaSocio()
         {
-            flexGrillaCliente.DataSource = brl.obtenerSocio();
+            if (flexGrillaSocio.RowSel != -1)
+            {
+                flexGrillaSocio.DataSource = brl.obtenerSocio();
+            }
+               
         }
    
         private void flexGrillaCliente_SelChange(object sender, EventArgs e)
         {
-            if (flexGrillaCliente.RowSel != -1)
+            if (flexGrillaSocio.RowSel != -1)
             {
-                modSeleccion= (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_cliente"];
+                modSeleccion= (int)flexGrillaSocio[flexGrillaSocio.RowSel, "id_socio"];
 
 
                 try
                 {
-                    DataTable dtCliente = new DataTable();
-                    dtCliente = brl.obtenerClienteSeleccionado(modSeleccion);
+                    DataTable dtSocio = new DataTable();
+                    dtSocio = brl.obtenerSocioSeleccionado(modSeleccion);
 
-                    if (dtCliente.Rows.Count > 0)
+                    if (dtSocio.Rows.Count > 0)
                     {
 
-                        txtNombre.Text = dtCliente.Rows[0]["Nombre"].ToString();
-                        txtApellido.Text = dtCliente.Rows[0]["Apellido"].ToString();
-                        txtDni.Text = dtCliente.Rows[0]["DNI"].ToString();
-                        dtpfecha_nac.Text = dtCliente.Rows[0]["fecha_nacimiento"].ToString();
-                        cbSexo.Text = dtCliente.Rows[0]["sexo"].ToString();
-                        txtCel.Text = dtCliente.Rows[0]["cel"].ToString();
-                        txtTelefono.Text = dtCliente.Rows[0]["tel"].ToString();
-                        cbLocalidad.Text = dtCliente.Rows[0]["Localidad"].ToString();
-                        cbProvincia.Text = dtCliente.Rows[0]["Provincia"].ToString();
-                        txtDomicilio.Text = dtCliente.Rows[0]["domicilio"].ToString();
-                        txtCp.Text = dtCliente.Rows[0]["cp"].ToString();
-                        txtEmail.Text = dtCliente.Rows[0]["Email"].ToString();
+                        txtApellid.Text = dtSocio.Rows[0]["apellido"].ToString();
+                        txtNombre.Text = dtSocio.Rows[0]["nombre"].ToString();
+                        txtDni.Text = dtSocio.Rows[0]["dni"].ToString();
+                        dtpfecha_nac.Text = dtSocio.Rows[0]["fecha_nacimiento"].ToString();
+                        dtpfecha_alta.Text = dtSocio.Rows[0]["fecha_alta"].ToString();
+                        txtDireccion.Text = dtSocio.Rows[0]["direccion"].ToString();
+                        cbLocalidad.Text = dtSocio.Rows[0]["localidad"].ToString();
+                        cbProvincia.Text = dtSocio.Rows[0]["provincia"].ToString();
+                        txtTelefono.Text = dtSocio.Rows[0]["telefono"].ToString();
+                        txtEmail.Text = dtSocio.Rows[0]["email"].ToString();
+                        cbSancionado.Text = dtSocio.Rows[0]["sancionado"].ToString();
+                        dtpfcha_sancion.Text = dtSocio.Rows[0]["fecha_fin_sancion"].ToString();
+                        cbEstado.Text = dtSocio.Rows[0]["activo"].ToString();
+                        //txtobservacion.Text = dtSocio.Rows[0]["obsevacion"].ToString();
 
+
+                        if (cbEstado.Text == "1")
+                        {
+                            cbEstado.Text = "Activo";
+
+                        }
+                        else
+                            cbEstado.Text = "Inactivo";
                     }
 
+                    if (cbSancionado.Text == "1")
+                    {
+                        cbSancionado.Text = "SI";
 
+                    }
+                    else
+                    {
+                        cbSancionado.Text = "NO";
+                    }
                 }
+
                 catch (Exception ex)
                 {
 
@@ -72,13 +95,13 @@ namespace FinalSpinedi
 
         private void btnMod_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Estas seguro que desea modificar el cliente", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Estas seguro que desea modificar el socio", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                brl.modificarCliente(modSeleccion, txtNombre.Text, txtApellido.Text, txtDni.Text, dtpfecha_nac.Text, cbSexo.Text, txtCel.Text, txtTelefono.Text, txtDomicilio.Text, cbProvincia.Text, cbLocalidad.Text, txtCp.Text, txtEmail.Text);
+                brl.modificarSocio(modSeleccion, txtApellid.Text, txtNombre.Text, txtDni.Text, dtpfecha_nac.Text, dtpfecha_alta.Text, txtDireccion.Text, cbLocalidad.Text, cbProvincia.Text, txtTelefono.Text, txtEmail.Text, cbSancionado.Text, dtpfcha_sancion.Text, cbEstado.Text, txtobservacion.Text);
                                         
-                MessageBox.Show("El cliente se modifico con exito");
+                MessageBox.Show("El socio se modifico con exito");
 
-                GrillaClientes();
+                GrillaSocio();
             }
 
         }
@@ -166,8 +189,13 @@ namespace FinalSpinedi
         {
             if (e.KeyChar == 13)
             {
-                flexGrillaCliente.DataSource = brl.buscarUsuario(txtBuscar1.Text);
+                flexGrillaSocio.DataSource = brl.buscarUsuario(txtBuscar1.Text);
             }
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
 
     }

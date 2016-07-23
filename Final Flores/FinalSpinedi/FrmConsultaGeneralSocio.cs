@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalSpinedi
 {
-    public partial class FrmAcercaDe : Form
+    public partial class FrmConsultaGeneralSocio : Form
     {
-        public FrmAcercaDe()
+        public FrmConsultaGeneralSocio()
         {
             InitializeComponent();
         }
