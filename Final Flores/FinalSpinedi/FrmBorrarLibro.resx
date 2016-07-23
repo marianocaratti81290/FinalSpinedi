@@ -958,7 +958,7 @@
         +P/1r/8HE5X7s9VG0eUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="flexProductos.ColumnInfo" xml:space="preserve">
+  <data name="flexGridLibros.ColumnInfo" xml:space="preserve">
     <value>12,1,0,0,0,95,Columns:1{Name:"id_producto";Caption:"id_producto";}	2{Name:"Nombre";Caption:"Nombre";}	3{Name:"Estado";Caption:"Estado";}	4{Width:150;Name:"id_proveedor";Caption:"Proveedor";}	5{Name:"Precio_publico";Caption:"Precio";}	6{Name:"Cantidad";Caption:"Cantidad";}	7{Name:"descrip";Caption:"Descripcion";}	8{Name:"fecha";Caption:"Fecha";}	9{Name:"id_cliente";Caption:"id_cliente";}	10{Visible:False;}	11{Visible:False;}	</value>
   </data>
 </root>

@@ -1,6 +1,6 @@
 ﻿namespace FinalSpinedi
 {
-    partial class FrmBorrarProducto
+    partial class FrmBorrarLibro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBorrarProducto));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBorrarLibro));
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -36,10 +36,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtbuscarCod = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.flexProductos = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.flexGridLibros = new C1.Win.C1FlexGrid.C1FlexGrid();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGridLibros)).BeginInit();
             this.SuspendLayout();
             // 
             // btnVolver
@@ -86,13 +86,13 @@
             this.groupBox1.AutoSize = true;
             this.groupBox1.Controls.Add(this.txtbuscarCod);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.flexProductos);
+            this.groupBox1.Controls.Add(this.flexGridLibros);
             this.groupBox1.Location = new System.Drawing.Point(43, 395);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(747, 213);
             this.groupBox1.TabIndex = 109;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Productos ";
+            this.groupBox1.Text = "Libros";
             // 
             // txtbuscarCod
             // 
@@ -107,20 +107,20 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(27, 28);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 13);
+            this.label4.Size = new System.Drawing.Size(113, 13);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Busqueda por Codigo de barra";
+            this.label4.Text = "Busqueda por Nombre";
             // 
-            // flexProductos
+            // flexGridLibros
             // 
-            this.flexProductos.ColumnInfo = resources.GetString("flexProductos.ColumnInfo");
-            this.flexProductos.Location = new System.Drawing.Point(26, 64);
-            this.flexProductos.Name = "flexProductos";
-            this.flexProductos.Rows.DefaultSize = 19;
-            this.flexProductos.Size = new System.Drawing.Size(698, 129);
-            this.flexProductos.TabIndex = 0;
+            this.flexGridLibros.ColumnInfo = resources.GetString("flexGridLibros.ColumnInfo");
+            this.flexGridLibros.Location = new System.Drawing.Point(26, 64);
+            this.flexGridLibros.Name = "flexGridLibros";
+            this.flexGridLibros.Rows.DefaultSize = 19;
+            this.flexGridLibros.Size = new System.Drawing.Size(698, 129);
+            this.flexGridLibros.TabIndex = 0;
             // 
-            // FrmBorrarProducto
+            // FrmBorrarLibro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,13 +130,13 @@
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Name = "FrmBorrarProducto";
+            this.Name = "FrmBorrarLibro";
             this.Text = "FrmBorrarProducto";
             this.Load += new System.EventHandler(this.FrmBorrarProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flexProductos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flexGridLibros)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,6 +151,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtbuscarCod;
         private System.Windows.Forms.Label label4;
-        private C1.Win.C1FlexGrid.C1FlexGrid flexProductos;
+        private C1.Win.C1FlexGrid.C1FlexGrid flexGridLibros;
     }
 }

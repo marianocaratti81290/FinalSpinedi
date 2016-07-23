@@ -162,6 +162,12 @@ namespace FinalSpinedi
 
         }
 
+        private void FrmLibroNuevo_Load(object sender, EventArgs e)
+        {
+            cbActivo.SelectedIndex = 1;
+            cbDonado.SelectedIndex = 0;
+        }
+
       
 }
 

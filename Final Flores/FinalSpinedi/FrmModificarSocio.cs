@@ -76,12 +76,12 @@ namespace FinalSpinedi
 
                     if (cbSancionado.Text == "1")
                     {
-                        cbSancionado.Text = "SI";
+                        cbSancionado.Text = "Si";
 
                     }
                     else
                     {
-                        cbSancionado.Text = "NO";
+                        cbSancionado.Text = "No";
                     }
                 }
 

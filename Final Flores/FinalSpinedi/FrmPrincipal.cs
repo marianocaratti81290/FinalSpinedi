@@ -328,7 +328,7 @@ namespace FinalSpinedi
 
         private void eliminarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmBorrarProducto().ShowDialog();
+            new FrmBorrarLibro().ShowDialog();
         }
 
         private void modificarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)

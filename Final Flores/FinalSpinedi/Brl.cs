@@ -108,7 +108,7 @@ namespace FinalSpinedi
                SqlCommand cmd = new SqlCommand("modificarSocio_u_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id_cliente", id_socio);          
+               cmd.Parameters.AddWithValue("@id_socio", id_socio);          
                cmd.Parameters.AddWithValue("@apellido", apellido);
                cmd.Parameters.AddWithValue("@nombre", nombre);
                cmd.Parameters.AddWithValue("@dni", dni);
@@ -921,6 +921,34 @@ namespace FinalSpinedi
 
           }
 
+          public static DataTable buscarSocioFiltrado(string buscar, int filtro)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarSocioFiltrado_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  cmd.Parameters.AddWithValue("@filtro", filtro);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
           public static DataTable buscarCliente(string buscar)
           {
               try

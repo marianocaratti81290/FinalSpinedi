@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalSpinedi
 {
-    public partial class FrmBorrarProducto : Form
+    public partial class FrmBorrarLibro : Form
     {
-        public FrmBorrarProducto()
+        public FrmBorrarLibro()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace FinalSpinedi
 
         private void grillaProductos()
         {
-            flexProductos.DataSource = brl.ObtenerProductos();
+            flexGridLibros.DataSource = brl.ObtenerProductos();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -36,12 +36,12 @@ namespace FinalSpinedi
         {
             if (MessageBox.Show("Estas seguro que desea eliminar el producto", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (flexProductos.RowSel != -1)
+                if (flexGridLibros.RowSel != -1)
                 {
-                    int modSeleccion = (int)flexProductos[flexProductos.RowSel, "id_producto"];
+                    int modSeleccion = (int)flexGridLibros[flexGridLibros.RowSel, "id_producto"];
                     brl.borrarProducto(modSeleccion);
                     MessageBox.Show("El cliente se borro con exito");
-                    flexProductos.Refresh();
+                    flexGridLibros.Refresh();
                         
                 }
             }
@@ -51,7 +51,7 @@ namespace FinalSpinedi
         {
             if (e.KeyChar == 13)
             {
-                flexProductos.DataSource = brl.buscarProducto(txtbuscarCod.Text);
+                flexGridLibros.DataSource = brl.buscarProducto(txtbuscarCod.Text);
             }
         }
     }

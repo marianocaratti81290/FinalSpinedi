@@ -31,6 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLibroNuevo));
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbActivo = new System.Windows.Forms.ComboBox();
+            this.cbDonado = new System.Windows.Forms.ComboBox();
+            this.cbGenero = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtEditorial = new System.Windows.Forms.TextBox();
+            this.txtAutor = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dtpFechaAlta = new System.Windows.Forms.DateTimePicker();
+            this.label11 = new System.Windows.Forms.Label();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.dtpfechaEdicion = new System.Windows.Forms.DateTimePicker();
@@ -47,15 +56,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dtpFechaAlta = new System.Windows.Forms.DateTimePicker();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txtAutor = new System.Windows.Forms.TextBox();
-            this.txtEditorial = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cbGenero = new System.Windows.Forms.ComboBox();
-            this.cbDonado = new System.Windows.Forms.ComboBox();
-            this.cbActivo = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -104,6 +104,111 @@
             this.groupBox1.Text = "Nuevo Libro";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // cbActivo
+            // 
+            this.cbActivo.FormattingEnabled = true;
+            this.cbActivo.Items.AddRange(new object[] {
+            "No",
+            "Si"});
+            this.cbActivo.Location = new System.Drawing.Point(442, 117);
+            this.cbActivo.Name = "cbActivo";
+            this.cbActivo.Size = new System.Drawing.Size(196, 21);
+            this.cbActivo.TabIndex = 9;
+            // 
+            // cbDonado
+            // 
+            this.cbDonado.FormattingEnabled = true;
+            this.cbDonado.Items.AddRange(new object[] {
+            "No",
+            "Si"});
+            this.cbDonado.Location = new System.Drawing.Point(442, 60);
+            this.cbDonado.Name = "cbDonado";
+            this.cbDonado.Size = new System.Drawing.Size(196, 21);
+            this.cbDonado.TabIndex = 1;
+            this.cbDonado.Tag = "1";
+            // 
+            // cbGenero
+            // 
+            this.cbGenero.FormattingEnabled = true;
+            this.cbGenero.Items.AddRange(new object[] {
+            "Autobiografia",
+            "Aventuras",
+            "Bélicos",
+            "Ciencia Ficción",
+            "Detectives",
+            "Divulgación Científica",
+            "Fantasía",
+            "Fantasía Épica",
+            "Ficción Historica",
+            "Humor",
+            "Historia",
+            "Juvenil",
+            "Narrativa",
+            "Narrativa Historica",
+            "Novela Historica",
+            "Novela Negra",
+            "Policiaco",
+            "Romance",
+            "Viajes",
+            "Thriller",
+            "Terror"});
+            this.cbGenero.Location = new System.Drawing.Point(112, 146);
+            this.cbGenero.Name = "cbGenero";
+            this.cbGenero.Size = new System.Drawing.Size(196, 21);
+            this.cbGenero.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(350, 63);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(45, 13);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Donado";
+            // 
+            // txtEditorial
+            // 
+            this.txtEditorial.Location = new System.Drawing.Point(112, 177);
+            this.txtEditorial.Name = "txtEditorial";
+            this.txtEditorial.Size = new System.Drawing.Size(196, 20);
+            this.txtEditorial.TabIndex = 5;
+            // 
+            // txtAutor
+            // 
+            this.txtAutor.Location = new System.Drawing.Point(112, 64);
+            this.txtAutor.Name = "txtAutor";
+            this.txtAutor.Size = new System.Drawing.Size(196, 20);
+            this.txtAutor.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(21, 180);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(44, 13);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "Editorial";
+            // 
+            // dtpFechaAlta
+            // 
+            this.dtpFechaAlta.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFechaAlta.Location = new System.Drawing.Point(112, 119);
+            this.dtpFechaAlta.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
+            this.dtpFechaAlta.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaAlta.Name = "dtpFechaAlta";
+            this.dtpFechaAlta.ShowUpDown = true;
+            this.dtpFechaAlta.Size = new System.Drawing.Size(196, 20);
+            this.dtpFechaAlta.TabIndex = 3;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(20, 125);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(73, 13);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Fecha de Alta";
+            // 
             // txtEstado
             // 
             this.txtEstado.Location = new System.Drawing.Point(442, 90);
@@ -129,14 +234,14 @@
             this.dtpfechaEdicion.Name = "dtpfechaEdicion";
             this.dtpfechaEdicion.ShowUpDown = true;
             this.dtpfechaEdicion.Size = new System.Drawing.Size(196, 20);
-            this.dtpfechaEdicion.TabIndex = 7;
+            this.dtpfechaEdicion.TabIndex = 2;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(467, 209);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
+            this.button2.TabIndex = 12;
             this.button2.Text = "Volver";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -146,7 +251,7 @@
             this.button1.Location = new System.Drawing.Point(563, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
+            this.button1.TabIndex = 11;
             this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -157,14 +262,14 @@
             this.txtObservacion.Multiline = true;
             this.txtObservacion.Name = "txtObservacion";
             this.txtObservacion.Size = new System.Drawing.Size(196, 46);
-            this.txtObservacion.TabIndex = 6;
+            this.txtObservacion.TabIndex = 10;
             // 
             // txtISBN
             // 
             this.txtISBN.Location = new System.Drawing.Point(442, 35);
             this.txtISBN.Name = "txtISBN";
             this.txtISBN.Size = new System.Drawing.Size(196, 20);
-            this.txtISBN.TabIndex = 5;
+            this.txtISBN.TabIndex = 6;
             this.txtISBN.TextChanged += new System.EventHandler(this.txtPrecioProveedor_TextChanged);
             this.txtISBN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioProveedor_KeyPress);
             // 
@@ -250,110 +355,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // dtpFechaAlta
-            // 
-            this.dtpFechaAlta.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFechaAlta.Location = new System.Drawing.Point(112, 119);
-            this.dtpFechaAlta.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
-            this.dtpFechaAlta.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaAlta.Name = "dtpFechaAlta";
-            this.dtpFechaAlta.ShowUpDown = true;
-            this.dtpFechaAlta.Size = new System.Drawing.Size(196, 20);
-            this.dtpFechaAlta.TabIndex = 12;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(20, 125);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(73, 13);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Fecha de Alta";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(21, 180);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 13);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Editorial";
-            // 
-            // txtAutor
-            // 
-            this.txtAutor.Location = new System.Drawing.Point(112, 64);
-            this.txtAutor.Name = "txtAutor";
-            this.txtAutor.Size = new System.Drawing.Size(196, 20);
-            this.txtAutor.TabIndex = 16;
-            // 
-            // txtEditorial
-            // 
-            this.txtEditorial.Location = new System.Drawing.Point(112, 177);
-            this.txtEditorial.Name = "txtEditorial";
-            this.txtEditorial.Size = new System.Drawing.Size(196, 20);
-            this.txtEditorial.TabIndex = 17;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(350, 63);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Donado";
-            // 
-            // cbGenero
-            // 
-            this.cbGenero.FormattingEnabled = true;
-            this.cbGenero.Items.AddRange(new object[] {
-            "Autobiografia",
-            "Aventuras",
-            "Bélicos",
-            "Ciencia Ficción",
-            "Detectives",
-            "Divulgación Científica",
-            "Fantasía",
-            "Fantasía Épica",
-            "Ficción Historica",
-            "Humor",
-            "Historia",
-            "Juvenil",
-            "Narrativa",
-            "Narrativa Historica",
-            "Novela Historica",
-            "Novela Negra",
-            "Policiaco",
-            "Romance",
-            "Viajes",
-            "Thriller",
-            "Terror"});
-            this.cbGenero.Location = new System.Drawing.Point(112, 146);
-            this.cbGenero.Name = "cbGenero";
-            this.cbGenero.Size = new System.Drawing.Size(196, 21);
-            this.cbGenero.TabIndex = 21;
-            // 
-            // cbDonado
-            // 
-            this.cbDonado.FormattingEnabled = true;
-            this.cbDonado.Items.AddRange(new object[] {
-            "No",
-            "Si"});
-            this.cbDonado.Location = new System.Drawing.Point(442, 60);
-            this.cbDonado.Name = "cbDonado";
-            this.cbDonado.Size = new System.Drawing.Size(196, 21);
-            this.cbDonado.TabIndex = 22;
-            // 
-            // cbActivo
-            // 
-            this.cbActivo.FormattingEnabled = true;
-            this.cbActivo.Items.AddRange(new object[] {
-            "No",
-            "Si"});
-            this.cbActivo.Location = new System.Drawing.Point(442, 117);
-            this.cbActivo.Name = "cbActivo";
-            this.cbActivo.Size = new System.Drawing.Size(196, 21);
-            this.cbActivo.TabIndex = 23;
-            // 
             // FrmLibroNuevo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -365,6 +366,7 @@
             this.Name = "FrmLibroNuevo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Producto";
+            this.Load += new System.EventHandler(this.FrmLibroNuevo_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
