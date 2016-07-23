@@ -186,6 +186,7 @@
             this.filtradasToolStripMenuItem.Name = "filtradasToolStripMenuItem";
             this.filtradasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.filtradasToolStripMenuItem.Text = "Filtradas";
+            this.filtradasToolStripMenuItem.Click += new System.EventHandler(this.filtradasToolStripMenuItem_Click);
             // 
             // generalesToolStripMenuItem
             // 
@@ -206,7 +207,7 @@
             // filtradosToolStripMenuItem1
             // 
             this.filtradosToolStripMenuItem1.Name = "filtradosToolStripMenuItem1";
-            this.filtradosToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
+            this.filtradosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.filtradosToolStripMenuItem1.Text = "Filtrados";
             // 
             // generalesToolStripMenuItem7

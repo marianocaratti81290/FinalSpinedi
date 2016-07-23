@@ -418,12 +418,17 @@ namespace FinalSpinedi
 
         private void generalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new FrmConsultaGeneralSocio().ShowDialog();
         }
 
         private void generalesToolStripMenuItem7_Click(object sender, EventArgs e)
         {
             new FrmLstGeneralesSocio().ShowDialog();
+        }
+
+        private void filtradasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmConsultaFiltradaSocio().ShowDialog();
         }
     }
       

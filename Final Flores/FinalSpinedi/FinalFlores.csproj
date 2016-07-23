@@ -96,6 +96,18 @@
     <Compile Include="FrmBorrarUsuario.Designer.cs">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsultaFiltradaSocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaFiltradaSocio.Designer.cs">
+      <DependentUpon>FrmConsultaFiltradaSocio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralSocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralSocio.Designer.cs">
+      <DependentUpon>FrmConsultaGeneralSocio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLstGeneralesSocio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,11 +194,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prueba.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Prueba.tt</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="FrmAcercaDeSistema.resx">
       <DependentUpon>FrmAcercaDeSistema.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,6 +211,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBorrarUsuario.resx">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaFiltradaSocio.resx">
+      <DependentUpon>FrmConsultaFiltradaSocio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaGeneralSocio.resx">
+      <DependentUpon>FrmConsultaGeneralSocio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLstGeneralesSocio.resx">
       <DependentUpon>FrmLstGeneralesSocio.cs</DependentUpon>
@@ -278,10 +291,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Prueba.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Prueba.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -16,5 +16,27 @@ namespace FinalSpinedi
         {
             InitializeComponent();
         }
+
+        private void FrmConsultaGeneralSocio_Load(object sender, EventArgs e)
+        {
+          
+            GrillaSocio();
+        
+        }
+
+        private void GrillaSocio()
+        {
+            if (flexGrillaSocio.RowSel != -1)
+            {
+                flexGrillaSocio.DataSource = brl.obtenerSocio();
+            }
+               
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        
     }
 }
