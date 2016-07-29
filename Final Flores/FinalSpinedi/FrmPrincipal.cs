@@ -323,7 +323,7 @@ namespace FinalSpinedi
 
         private void modificarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmModificarProductos().ShowDialog();
+            new FrmModificarLibro().ShowDialog();
         }
 
         private void eliminarProductoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -358,7 +358,7 @@ namespace FinalSpinedi
 
         private void nuevoProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmProveedorNuevo().ShowDialog();//
+            new FrmNuevoPrestamo().ShowDialog();//
         }
 
         private void modificarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -373,7 +373,8 @@ namespace FinalSpinedi
 
         private void permisosSistemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmPermisoSistemas().ShowDialog();
+            MessageBox.Show("Funcion disponible en la version 1.0.1", "AVISO");
+           
         }
 
         private void listadoDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -408,7 +409,7 @@ namespace FinalSpinedi
 
         private void filtradaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new FrmConsultaFiltradaLibro().ShowDialog();
         }
 
         private void modificacionDevolucionToolStripMenuItem_Click(object sender, EventArgs e)
@@ -429,6 +430,61 @@ namespace FinalSpinedi
         private void filtradasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmConsultaFiltradaSocio().ShowDialog();
+        }
+
+        private void generalesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new FrmConsultaGeneralLibro().ShowDialog();
+        }
+
+        private void generalesToolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+            new FrmLstGeneralesLibros().ShowDialog();
+        }
+
+        private void altaUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmNuevoUsuario().ShowDialog();
+        }
+
+        private void modificacionUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmModificarUsuario().ShowDialog();
+        }
+
+        private void bajaUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmBorrarUsuario().ShowDialog();
+        }
+
+        private void inhabilitarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmInhabilitarUsuarios().ShowDialog();
+        }
+
+        private void habilitarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmInhabilitarUsuarios().ShowDialog();
+        }
+
+        private void filtradasToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            new FrmConsultaGeneralesCliente().ShowDialog();
+        }
+
+        private void generalesToolStripMenuItem11_Click(object sender, EventArgs e)
+        {
+            new FrmLstGeneralesCliente().ShowDialog();
+        }
+
+        private void generalesToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            new FrmConsultaGeneralPrestamo().ShowDialog();
+        }
+
+        private void ingresoDevolucionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmDevolucion().ShowDialog();
         }
     }
       

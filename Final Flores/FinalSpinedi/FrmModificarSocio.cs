@@ -99,9 +99,9 @@ namespace FinalSpinedi
             {
                 brl.modificarSocio(modSeleccion, txtApellid.Text, txtNombre.Text, txtDni.Text, dtpfecha_nac.Text, dtpfecha_alta.Text, txtDireccion.Text, cbLocalidad.Text, cbProvincia.Text, txtTelefono.Text, txtEmail.Text, cbSancionado.Text, dtpfcha_sancion.Text, cbEstado.Text, txtobservacion.Text);
                                         
-                MessageBox.Show("El socio se modifico con exito");
+                MessageBox.Show("El socio se modifico con exito lo cambios se van a reflejar en el proximo inicio de sesion");
 
-                GrillaSocio();
+               // GrillaSocio();
             }
 
         }
@@ -194,6 +194,11 @@ namespace FinalSpinedi
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBuscar1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -28,7 +28,8 @@ namespace FinalSpinedi
             {
                 verificarDatos();
                 limpiarSocio();
-                MessageBox.Show("El cliente se grabó con exito");
+                MessageBox.Show("El socio se agrego de forma correcta");
+               
             }
                       
         }
@@ -104,6 +105,7 @@ namespace FinalSpinedi
                                             else
                                             {
                                                 brl.agregarSocio(txtnombre.Text, txtapellido.Text, txtdni.Text, dtpfecha_nac.Text, dtpFechaAlta.Text, txtDireccion.Text, cbProvincia.Text, cbLocalidad.Text, txttel_fijo.Text, txtEmail.Text, cbEstado.Text, txtcp.Text, txtObservaciones.Text);
+                                           
                                             }
         }
 

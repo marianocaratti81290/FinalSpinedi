@@ -88,6 +88,7 @@
             this.txtBuscar1.Name = "txtBuscar1";
             this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
             this.txtBuscar1.TabIndex = 4;
+            this.txtBuscar1.TextChanged += new System.EventHandler(this.txtBuscar1_TextChanged);
             this.txtBuscar1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar1_KeyPress);
             // 
             // label3

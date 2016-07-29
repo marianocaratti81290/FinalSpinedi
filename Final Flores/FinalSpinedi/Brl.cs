@@ -36,6 +36,56 @@ namespace FinalSpinedi
 
        }
 
+       public static int validarPrestamo(int id_activo, string id_estado, int id_libro, int id_socio)
+       {
+           try
+           {
+               SqlCommand cmd = new SqlCommand("ValidarPrestamo_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               cmd.Parameters.AddWithValue("@id_activo", id_activo);
+               cmd.Parameters.AddWithValue("@id_estado", id_estado);
+               cmd.Parameters.AddWithValue("@id_libro", id_libro);
+               cmd.Parameters.AddWithValue("@id_socio", id_socio);
+               SqlParameter aprobado = new SqlParameter("@aprobado", SqlDbType.Int);
+               aprobado.Direction = ParameterDirection.Output;
+               cmd.Parameters.Add(aprobado);
+               Comun.establecerConexion.Open();
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+               return (int)aprobado.Value;
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
+       public static int validarDevolucion(int id_prestamo)
+       {
+           try
+           {
+               SqlCommand cmd = new SqlCommand("ValidarDevolucion_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@id_prestamo", id_prestamo);
+              
+               SqlParameter aprobado = new SqlParameter("@aprobado", SqlDbType.Int);
+               aprobado.Direction = ParameterDirection.Output;
+               cmd.Parameters.Add(aprobado);
+               Comun.establecerConexion.Open();
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+               return (int)aprobado.Value;
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
        public static int comprobarUsuario(string usuario)
        {
            try
@@ -138,12 +188,12 @@ namespace FinalSpinedi
            }
 
        }
-       public static DataTable ObtenerProductos()
+       public static DataTable ObtenerLibros()
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("obtenerProductos_q_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("obtenerLibros_q_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
 
@@ -291,6 +341,31 @@ namespace FinalSpinedi
 
        }
 
+       public static DataTable obtenerLibro()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerLibros_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+
        public static void borrarSocio(int id_socio)
        {
            try
@@ -317,6 +392,31 @@ namespace FinalSpinedi
 
        }
 
+       public static void modificarCuota(int valor_cuota)
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("borrarSocio_d_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               cmd.Parameters.AddWithValue("@valorCuota", valor_cuota);
+
+               Comun.establecerConexion.Open();
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
        public static void agregarLibro(string Titulo, string Autor, string fechaEdicion, string FechaAlta, int Genero, string Editorial, string ISBN, int Donado, string Estado, int Activo, string Observacion)
        {
            try
@@ -379,16 +479,16 @@ namespace FinalSpinedi
 
        }
 
-       public static DataTable obtenerProductoSeleccionado(int id_producto)
+       public static DataTable obtenerLibroSeleccionado(int id_producto)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("obtenerProductoSeleccionado_q_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("obtenerLibroSeleccionado_q_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
                       
-               cmd.Parameters.AddWithValue("@id_producto", id_producto);
+               cmd.Parameters.AddWithValue("@id_libro", id_producto);
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
 
@@ -405,24 +505,26 @@ namespace FinalSpinedi
            }
        }
 
-       public static void modificarProducto(int id_producto,string nombre, int estado, int id_proveedor, int cantidad, int precio_publico, int precio_proveedor , string descrip, string fecha, string codBarra)
+       public static void modificarLibro(int id_libro, string titulo, string autor, string fecha_Edicion, string fecha_alta, int genero, string editorial, string isbn, int donado, string estado, int activo, string obs)
        {
            try
            {
 
-               SqlCommand cmd = new SqlCommand("modificarProducto_u_sp", Comun.establecerConexion);
+               SqlCommand cmd = new SqlCommand("modificarLibro_u_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id_producto", id_producto);          
-               cmd.Parameters.AddWithValue("@nombre", nombre);
-               cmd.Parameters.AddWithValue("@estado", estado);
-               cmd.Parameters.AddWithValue("@id_proveedor", id_proveedor);
-               cmd.Parameters.AddWithValue("@cantidad", cantidad);
-               cmd.Parameters.AddWithValue("@precio_publico", precio_publico);
-               cmd.Parameters.AddWithValue("@precio_proveedor", precio_proveedor);
-               cmd.Parameters.AddWithValue("@descrip", descrip);
-               cmd.Parameters.AddWithValue("@fecha", fecha);
-               cmd.Parameters.AddWithValue("@codBarra", codBarra);
+               cmd.Parameters.AddWithValue("@id_libro", id_libro);          
+               cmd.Parameters.AddWithValue("@titulo", titulo);
+               cmd.Parameters.AddWithValue("@autor", autor);
+               cmd.Parameters.AddWithValue("@fecha_edicion", fecha_Edicion);
+               cmd.Parameters.AddWithValue("@fecha_alta", fecha_alta);
+               cmd.Parameters.AddWithValue("@genero", genero);
+               cmd.Parameters.AddWithValue("@editorial", editorial);
+               cmd.Parameters.AddWithValue("@isbn", isbn);
+               cmd.Parameters.AddWithValue("@donado", donado);
+               cmd.Parameters.AddWithValue("@Estado", estado);
+               cmd.Parameters.AddWithValue("@Activo", activo);
+               cmd.Parameters.AddWithValue("@Observacion", obs);
 
                Comun.establecerConexion.Open();
 
@@ -489,8 +591,7 @@ namespace FinalSpinedi
 
        }
 
-       public static void agregarUsuario(string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-         string provincia, string localidad, string cp, string email, string usuario, string pass, int habilitar)
+       public static void agregarUsuario( string usuario, string pass )
        {
            try
            {
@@ -498,22 +599,10 @@ namespace FinalSpinedi
                SqlCommand cmd = new SqlCommand("nuevoUsuario_i_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               //cmd.Parameters.AddWithValue("@id_cliente", "");          
-               cmd.Parameters.AddWithValue("@nombre", nombre);
-               cmd.Parameters.AddWithValue("@apellido", apellido);
-               cmd.Parameters.AddWithValue("@dni", dni);
-               cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
-               cmd.Parameters.AddWithValue("@sexo", sexo);
-               cmd.Parameters.AddWithValue("@cel", cel);
-               cmd.Parameters.AddWithValue("@tel", tel);
-               cmd.Parameters.AddWithValue("@domicilio", domicilio);
-               cmd.Parameters.AddWithValue("@provincia", provincia);
-               cmd.Parameters.AddWithValue("@localidad", localidad);
-               cmd.Parameters.AddWithValue("@cp", cp);
-               cmd.Parameters.AddWithValue("@email", email);
-               cmd.Parameters.AddWithValue("@usr", usuario);
+
+               cmd.Parameters.AddWithValue("@usr", pass);
                cmd.Parameters.AddWithValue("@pass", pass);
-               cmd.Parameters.AddWithValue("@estado", habilitar);
+               
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -529,8 +618,7 @@ namespace FinalSpinedi
 
        }
 
-       public static void modificarUsuario(int id_cliente, string nombre, string apellido, string dni, string fecha_nacimiento, string sexo, string cel, string tel, string domicilio,
-       string provincia, string localidad, string cp, string email)
+       public static void modificarUsuario(int modselection,string usr,string pass )
        {
            try
            {
@@ -538,19 +626,11 @@ namespace FinalSpinedi
                SqlCommand cmd = new SqlCommand("modificarUsuario_u_sp", Comun.establecerConexion);
 
                cmd.CommandType = CommandType.StoredProcedure;
-               cmd.Parameters.AddWithValue("@id_usuario", id_cliente);
-               cmd.Parameters.AddWithValue("@nombre", nombre);
-               cmd.Parameters.AddWithValue("@apellido", apellido);
-               cmd.Parameters.AddWithValue("@dni", dni);
-               cmd.Parameters.AddWithValue("@fecha_nacimiento", fecha_nacimiento);
-               cmd.Parameters.AddWithValue("@sexo", sexo);
-               cmd.Parameters.AddWithValue("@cel", cel);
-               cmd.Parameters.AddWithValue("@tel", tel);
-               cmd.Parameters.AddWithValue("@domicilio", domicilio);
-               cmd.Parameters.AddWithValue("@provincia", provincia);
-               cmd.Parameters.AddWithValue("@localidad", localidad);
-               cmd.Parameters.AddWithValue("@cp", cp);
-               cmd.Parameters.AddWithValue("@email", email);
+               cmd.Parameters.AddWithValue("@id", modselection);
+               cmd.Parameters.AddWithValue("@usr", usr);
+               cmd.Parameters.AddWithValue("@pass", pass);
+               
+              
                Comun.establecerConexion.Open();
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -591,6 +671,30 @@ namespace FinalSpinedi
 
        }
 
+       public static DataTable obtenerPrestamos()
+       {
+           try
+           {
+
+               SqlCommand cmd = new SqlCommand("obtenerPrestamos_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+
+               SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+               DataTable dt = new DataTable();
+
+               da.Fill(dt);
+
+               return dt;
+
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
        public static DataTable obtenerUsuarioSeleccionado(int id_usuario)
        {
            try
@@ -600,7 +704,7 @@ namespace FinalSpinedi
 
                cmd.CommandType = CommandType.StoredProcedure;
 
-               cmd.Parameters.AddWithValue("id_usuario", id_usuario);
+               cmd.Parameters.AddWithValue("id", id_usuario);
 
                SqlDataAdapter da = new SqlDataAdapter(cmd);
 
@@ -627,7 +731,7 @@ namespace FinalSpinedi
 
                cmd.CommandType = CommandType.StoredProcedure;
 
-               cmd.Parameters.AddWithValue("@id_usuario", id_usuario);
+               cmd.Parameters.AddWithValue("@id", id_usuario);
 
                Comun.establecerConexion.Open();
 
@@ -835,7 +939,32 @@ namespace FinalSpinedi
            }
 
        }
-          public static void agregarProveedor(string nombre, int estado, string descripcion, string tel_fijo, string cel, string referente, string email)
+
+
+       public static int validarPrestamo(int id_libro, int id_socio)
+       {
+           try
+           {
+               SqlCommand cmd = new SqlCommand("ValidarPrestamo_q_sp", Comun.establecerConexion);
+
+               cmd.CommandType = CommandType.StoredProcedure;
+               cmd.Parameters.AddWithValue("@id_libro", id_libro);
+               cmd.Parameters.AddWithValue("@id_socio", id_socio);
+               SqlParameter aprobado = new SqlParameter("@aprobado", SqlDbType.Int);
+               aprobado.Direction = ParameterDirection.Output;
+               cmd.Parameters.Add(aprobado);
+               Comun.establecerConexion.Open();
+               cmd.ExecuteReader().Close();
+               Comun.establecerConexion.Close();
+               return (int)aprobado.Value;
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+
+       }
+       public static void agregarProveedor(string nombre, int estado, string descripcion, string tel_fijo, string cel, string referente, string email)
        {
            try
            {
@@ -867,6 +996,7 @@ namespace FinalSpinedi
 
        }
 
+       
           public static void borrarProveedor(int id_proveedor)
           {
               try
@@ -949,12 +1079,41 @@ namespace FinalSpinedi
               }
 
           }
+
+          public static DataTable buscarLibrosFiltrado(string buscar, int filtro)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarLibroFiltrado_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  cmd.Parameters.AddWithValue("@filtro", filtro);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
           public static DataTable buscarCliente(string buscar)
           {
               try
               {
 
-                  SqlCommand cmd = new SqlCommand("buscarClienteFiltrado_q_sp", Comun.establecerConexion);
+                  SqlCommand cmd = new SqlCommand("buscarCliente_q_sp", Comun.establecerConexion);
 
                   cmd.CommandType = CommandType.StoredProcedure;
 
@@ -1056,6 +1215,34 @@ namespace FinalSpinedi
               }
 
           }
+
+          public static DataTable buscarLibro(string buscar)
+          {
+              try
+              {
+
+                  SqlCommand cmd = new SqlCommand("buscarLibro_q_sp", Comun.establecerConexion);
+
+                  cmd.CommandType = CommandType.StoredProcedure;
+
+                  cmd.Parameters.AddWithValue("@buscar", buscar);
+
+                  SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                  DataTable dt = new DataTable();
+
+                  da.Fill(dt);
+
+                  return dt;
+
+              }
+              catch (Exception ex)
+              {
+                  throw ex;
+              }
+
+          }
+    
         }
 
 }

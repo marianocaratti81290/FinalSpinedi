@@ -57,6 +57,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BibliotecaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BibliotecaDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Brl.cs" />
     <Compile Include="Comun.cs" />
     <Compile Include="ConditionFilter10.cs" />
@@ -78,11 +83,11 @@
     <Compile Include="FrmBorrarSocio.Designer.cs">
       <DependentUpon>FrmBorrarSocio.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmBorrarProducto.cs">
+    <Compile Include="FrmBorrarLibro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmBorrarProducto.Designer.cs">
-      <DependentUpon>FrmBorrarProducto.cs</DependentUpon>
+    <Compile Include="FrmBorrarLibro.Designer.cs">
+      <DependentUpon>FrmBorrarLibro.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmBorrarProveedor.cs">
       <SubType>Form</SubType>
@@ -96,17 +101,71 @@
     <Compile Include="FrmBorrarUsuario.Designer.cs">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCobroCuota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCobroCuota.Designer.cs">
+      <DependentUpon>FrmCobroCuota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaFiltradaLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaFiltradaLibro.Designer.cs">
+      <DependentUpon>FrmConsultaFiltradaLibro.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsultaFiltradaSocio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmConsultaFiltradaSocio.Designer.cs">
       <DependentUpon>FrmConsultaFiltradaSocio.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsultaGeneralesCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralesCliente.Designer.cs">
+      <DependentUpon>FrmConsultaGeneralesCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralLibro.Designer.cs">
+      <DependentUpon>FrmConsultaGeneralLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaGeneralPrestamo.Designer.cs">
+      <DependentUpon>FrmConsultaGeneralPrestamo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsultaGeneralSocio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmConsultaGeneralSocio.Designer.cs">
       <DependentUpon>FrmConsultaGeneralSocio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCostoMensual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCostoMensual.Designer.cs">
+      <DependentUpon>FrmCostoMensual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDevolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDevolucion.Designer.cs">
+      <DependentUpon>FrmDevolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLstGeneralesCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLstGeneralesCliente.Designer.cs">
+      <DependentUpon>FrmLstGeneralesCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLstGeneralesLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLstGeneralesLibros.Designer.cs">
+      <DependentUpon>FrmLstGeneralesLibros.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLstGeneralesSocio.cs">
       <SubType>Form</SubType>
@@ -138,11 +197,11 @@
     <Compile Include="FrmModificarSocio.Designer.cs">
       <DependentUpon>FrmModificarSocio.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmModificarProductos.cs">
+    <Compile Include="FrmModificarLibro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmModificarProductos.Designer.cs">
-      <DependentUpon>FrmModificarProductos.cs</DependentUpon>
+    <Compile Include="FrmModificarLibro.Designer.cs">
+      <DependentUpon>FrmModificarLibro.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmModificarProveedor.cs">
       <SubType>Form</SubType>
@@ -180,11 +239,11 @@
     <Compile Include="FrmLibroNuevo.Designer.cs">
       <DependentUpon>FrmLibroNuevo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmProveedorNuevo.cs">
+    <Compile Include="FrmNuevoPrestamo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmProveedorNuevo.Designer.cs">
-      <DependentUpon>FrmProveedorNuevo.cs</DependentUpon>
+    <Compile Include="FrmNuevoPrestamo.Designer.cs">
+      <DependentUpon>FrmNuevoPrestamo.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmAcercaDe.cs">
       <SubType>Form</SubType>
@@ -203,8 +262,8 @@
     <EmbeddedResource Include="FrmBorrarSocio.resx">
       <DependentUpon>FrmBorrarSocio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmBorrarProducto.resx">
-      <DependentUpon>FrmBorrarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="FrmBorrarLibro.resx">
+      <DependentUpon>FrmBorrarLibro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBorrarProveedor.resx">
       <DependentUpon>FrmBorrarProveedor.cs</DependentUpon>
@@ -212,11 +271,38 @@
     <EmbeddedResource Include="FrmBorrarUsuario.resx">
       <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCobroCuota.resx">
+      <DependentUpon>FrmCobroCuota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaFiltradaLibro.resx">
+      <DependentUpon>FrmConsultaFiltradaLibro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultaFiltradaSocio.resx">
       <DependentUpon>FrmConsultaFiltradaSocio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaGeneralesCliente.resx">
+      <DependentUpon>FrmConsultaGeneralesCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaGeneralLibro.resx">
+      <DependentUpon>FrmConsultaGeneralLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaGeneralPrestamo.resx">
+      <DependentUpon>FrmConsultaGeneralPrestamo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultaGeneralSocio.resx">
       <DependentUpon>FrmConsultaGeneralSocio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCostoMensual.resx">
+      <DependentUpon>FrmCostoMensual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDevolucion.resx">
+      <DependentUpon>FrmDevolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLstGeneralesCliente.resx">
+      <DependentUpon>FrmLstGeneralesCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLstGeneralesLibros.resx">
+      <DependentUpon>FrmLstGeneralesLibros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLstGeneralesSocio.resx">
       <DependentUpon>FrmLstGeneralesSocio.cs</DependentUpon>
@@ -233,8 +319,8 @@
     <EmbeddedResource Include="FrmModificarSocio.resx">
       <DependentUpon>FrmModificarSocio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmModificarProductos.resx">
-      <DependentUpon>FrmModificarProductos.cs</DependentUpon>
+    <EmbeddedResource Include="FrmModificarLibro.resx">
+      <DependentUpon>FrmModificarLibro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModificarProveedor.resx">
       <DependentUpon>FrmModificarProveedor.cs</DependentUpon>
@@ -254,8 +340,8 @@
     <EmbeddedResource Include="FrmLibroNuevo.resx">
       <DependentUpon>FrmLibroNuevo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmProveedorNuevo.resx">
-      <DependentUpon>FrmProveedorNuevo.cs</DependentUpon>
+    <EmbeddedResource Include="FrmNuevoPrestamo.resx">
+      <DependentUpon>FrmNuevoPrestamo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAcercaDe.resx">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
@@ -271,6 +357,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
     <None Include="BibliotecaDataSet.xsc">
       <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
     </None>
@@ -281,6 +368,17 @@
     </None>
     <None Include="BibliotecaDataSet.xss">
       <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet1.xsc">
+      <DependentUpon>BibliotecaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BibliotecaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BibliotecaDataSet1.xss">
+      <DependentUpon>BibliotecaDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

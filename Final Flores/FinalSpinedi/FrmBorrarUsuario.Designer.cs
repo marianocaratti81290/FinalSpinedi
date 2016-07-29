@@ -44,7 +44,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(452, 624);
+            this.btnVolver.Location = new System.Drawing.Point(73, 627);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 109;
@@ -54,7 +54,7 @@
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(542, 624);
+            this.btnBorrar.Location = new System.Drawing.Point(163, 627);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(111, 23);
             this.btnBorrar.TabIndex = 108;
@@ -69,23 +69,23 @@
             this.groupBox1.Controls.Add(this.flexGrillaCliente);
             this.groupBox1.Location = new System.Drawing.Point(37, 361);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(616, 251);
+            this.groupBox1.Size = new System.Drawing.Size(283, 251);
             this.groupBox1.TabIndex = 107;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Borrar Cliente";
             // 
             // txtBuscar1
             // 
-            this.txtBuscar1.Location = new System.Drawing.Point(174, 29);
+            this.txtBuscar1.Location = new System.Drawing.Point(99, 29);
             this.txtBuscar1.Name = "txtBuscar1";
-            this.txtBuscar1.Size = new System.Drawing.Size(316, 20);
+            this.txtBuscar1.Size = new System.Drawing.Size(173, 20);
             this.txtBuscar1.TabIndex = 4;
             this.txtBuscar1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar1_KeyPress);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 32);
+            this.label3.Location = new System.Drawing.Point(13, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 13);
             this.label3.TabIndex = 3;
@@ -98,13 +98,13 @@
             this.flexGrillaCliente.Location = new System.Drawing.Point(16, 75);
             this.flexGrillaCliente.Name = "flexGrillaCliente";
             this.flexGrillaCliente.Rows.DefaultSize = 19;
-            this.flexGrillaCliente.Size = new System.Drawing.Size(585, 155);
+            this.flexGrillaCliente.Size = new System.Drawing.Size(256, 155);
             this.flexGrillaCliente.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(173, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(37, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(283, 280);
             this.pictureBox1.TabIndex = 106;
@@ -114,7 +114,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(143, 16);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(338, 23);
             this.label1.TabIndex = 105;
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(693, 672);
+            this.ClientSize = new System.Drawing.Size(357, 672);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.groupBox1);

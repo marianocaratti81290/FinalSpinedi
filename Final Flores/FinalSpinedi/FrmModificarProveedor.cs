@@ -37,7 +37,7 @@ namespace FinalSpinedi
                 try
                 {
                     DataTable dtCliente = new DataTable();
-                    dtCliente = brl.obtenerProductoSeleccionado(modSeleccion);
+                    dtCliente = brl.obtenerLibroSeleccionado(modSeleccion);
 
                     if (dtCliente.Rows.Count > 0)
                     {

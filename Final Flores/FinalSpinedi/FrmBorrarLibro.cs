@@ -24,7 +24,7 @@ namespace FinalSpinedi
 
         private void grillaProductos()
         {
-            flexGridLibros.DataSource = brl.ObtenerProductos();
+            flexGridLibros.DataSource = brl.ObtenerLibros();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

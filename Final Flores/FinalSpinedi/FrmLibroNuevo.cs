@@ -40,11 +40,11 @@ namespace FinalSpinedi
 
         private void cbProveedor_MouseClick(object sender, MouseEventArgs e)
         {
-            cbGenero.DataSource = brl.ObtenerProductos();
-            //indicamos el valor de los miembros
-            cbGenero.ValueMember = "proveedor";
-            //se indica el valor a desplegar en el combobox
-            cbGenero.DisplayMember = "proveedor";
+            //cbGenero.DataSource = brl.ObtenerLibros();
+            ////indicamos el valor de los miembros
+            //cbGenero.ValueMember = "proveedor";
+            ////se indica el valor a desplegar en el combobox
+            //cbGenero.DisplayMember = "proveedor";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -128,7 +128,7 @@ namespace FinalSpinedi
                                             {
 
                                                 brl.agregarLibro(txtTitulo.Text, txtAutor.Text, dtpfechaEdicion.Text, dtpFechaAlta.Text, cbGenero.SelectedIndex, txtEditorial.Text, txtISBN.Text, cbDonado.SelectedIndex, txtEstado.Text, cbActivo.SelectedIndex, txtObservacion.Text);
-                                                MessageBox.Show("El producto se grabó con exito");
+                                                MessageBox.Show("El libro se grabó con exito");
                                             }
         }
 

@@ -58,7 +58,7 @@
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(111, 23);
             this.btnBorrar.TabIndex = 107;
-            this.btnBorrar.Text = "Borrar Cliente";
+            this.btnBorrar.Text = "Borrar Libro";
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
@@ -77,9 +77,9 @@
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(236, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(351, 23);
+            this.label1.Size = new System.Drawing.Size(319, 23);
             this.label1.TabIndex = 105;
-            this.label1.Text = "Asistente para borrar productos  en el sistema";
+            this.label1.Text = "Asistente para borrar Libro  en el sistema";
             // 
             // groupBox1
             // 
@@ -131,7 +131,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "FrmBorrarLibro";
-            this.Text = "FrmBorrarProducto";
+            this.Text = "Asistente para borrar Libros";
             this.Load += new System.EventHandler(this.FrmBorrarProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);

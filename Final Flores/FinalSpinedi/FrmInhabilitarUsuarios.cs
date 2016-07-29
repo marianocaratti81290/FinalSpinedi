@@ -50,7 +50,7 @@ namespace FinalSpinedi
         {
             if (flexGrillaCliente.RowSel != -1)
             {
-                id_usuarioSeleccionado = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_usuario"];
+                id_usuarioSeleccionado = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id"];
                 modSeleccion = flexGrillaCliente[flexGrillaCliente.RowSel, "estado"].ToString();
 
             }

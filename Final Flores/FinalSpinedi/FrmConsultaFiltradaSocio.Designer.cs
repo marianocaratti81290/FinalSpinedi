@@ -168,6 +168,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "FrmConsultaFiltradaSocio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulta Filtrada de Socios";
             this.Load += new System.EventHandler(this.FrmConsultaFiltradaSocio_Load);
             this.groupBox1.ResumeLayout(false);

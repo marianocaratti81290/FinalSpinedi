@@ -124,7 +124,7 @@
             this.cbDonado.Location = new System.Drawing.Point(442, 60);
             this.cbDonado.Name = "cbDonado";
             this.cbDonado.Size = new System.Drawing.Size(196, 21);
-            this.cbDonado.TabIndex = 1;
+            this.cbDonado.TabIndex = 7;
             this.cbDonado.Tag = "1";
             // 
             // cbGenero
@@ -365,7 +365,7 @@
             this.Controls.Add(this.label9);
             this.Name = "FrmLibroNuevo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nuevo Producto";
+            this.Text = "Nuevo Libro";
             this.Load += new System.EventHandler(this.FrmLibroNuevo_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

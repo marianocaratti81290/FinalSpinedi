@@ -28,9 +28,9 @@ namespace FinalSpinedi
             {
                 if (flexGrillaCliente.RowSel != -1)
                 {
-                    int modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id_usuario"];
+                    int modSeleccion = (int)flexGrillaCliente[flexGrillaCliente.RowSel, "id"];
                     brl.borrarUsuario(modSeleccion);
-                    MessageBox.Show("El usuario se borro con exito");
+                    MessageBox.Show("El usuario se borro con exito los cambios se van a reflejar en el proximo inicio de sesion");
                     GrillaClientes();
                 }
             }
