@@ -142,12 +142,13 @@
             // 
             this.dtpfecha_nac.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpfecha_nac.Location = new System.Drawing.Point(320, 399);
-            this.dtpfecha_nac.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
-            this.dtpfecha_nac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpfecha_nac.MaxDate = new System.DateTime(1998, 12, 31, 0, 0, 0, 0);
+            this.dtpfecha_nac.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtpfecha_nac.Name = "dtpfecha_nac";
             this.dtpfecha_nac.ShowUpDown = true;
             this.dtpfecha_nac.Size = new System.Drawing.Size(135, 20);
             this.dtpfecha_nac.TabIndex = 3;
+            this.dtpfecha_nac.Value = new System.DateTime(1998, 12, 31, 0, 0, 0, 0);
             // 
             // label10
             // 
@@ -319,7 +320,7 @@
             this.dtpFechaAlta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaAlta.Location = new System.Drawing.Point(321, 440);
             this.dtpFechaAlta.MaxDate = new System.DateTime(2016, 12, 31, 0, 0, 0, 0);
-            this.dtpFechaAlta.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaAlta.MinDate = new System.DateTime(2016, 1, 1, 0, 0, 0, 0);
             this.dtpFechaAlta.Name = "dtpFechaAlta";
             this.dtpFechaAlta.ShowUpDown = true;
             this.dtpFechaAlta.Size = new System.Drawing.Size(135, 20);

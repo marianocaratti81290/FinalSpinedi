@@ -1,6 +1,8 @@
 ﻿using C1.Win.C1FlexGrid;
 using System;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace FinalSpinedi
 {
@@ -303,7 +305,7 @@ namespace FinalSpinedi
 
         private void crearClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmNuevoSocio().ShowDialog();
+            
         }
 
         private void modificarClienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -318,7 +320,7 @@ namespace FinalSpinedi
 
         private void nuevoProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmLibroNuevo().ShowDialog();
+            
         }
 
         private void modificarProductoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -424,7 +426,7 @@ namespace FinalSpinedi
 
         private void generalesToolStripMenuItem7_Click(object sender, EventArgs e)
         {
-            new FrmLstGeneralesSocio().ShowDialog();
+            
         }
 
         private void filtradasToolStripMenuItem_Click(object sender, EventArgs e)
@@ -444,7 +446,7 @@ namespace FinalSpinedi
 
         private void altaUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmNuevoUsuario().ShowDialog();
+            
         }
 
         private void modificacionUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
@@ -485,6 +487,56 @@ namespace FinalSpinedi
         private void ingresoDevolucionToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmDevolucion().ShowDialog();
+        }
+
+        private void altaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmNuevoSocio().ShowDialog();
+        }
+
+        private void bajaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmBorrarSocio().ShowDialog();
+        }
+
+        private void modificacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmModificarSocio().ShowDialog();
+        }
+
+        private void altaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new FrmLibroNuevo().ShowDialog();
+        }
+
+        private void bajaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new FrmBorrarLibro().ShowDialog();
+        }
+
+        private void modificacionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new FrmModificarLibro().ShowDialog();
+        }
+
+        private void altaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            new FrmNuevoUsuario().ShowDialog();
+        }
+
+        private void bajaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            new FrmBorrarUsuario().ShowDialog();
+        }
+
+        private void modificacionToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            new FrmModificarUsuario().ShowDialog();
+        }
+
+        private void filtradasToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            new FrmLstGeneralesSocio().ShowDialog();
         }
     }
       

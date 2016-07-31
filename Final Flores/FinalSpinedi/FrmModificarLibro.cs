@@ -117,7 +117,7 @@ namespace FinalSpinedi
                                       txtObservacion.Text);
 
                 MessageBox.Show("El Libro se modifico con exito, los cambios se visualizaran en el proximo inicio de sesion");
-                //GrillaLibros();
+           
             }
         }
 

@@ -31,8 +31,9 @@ namespace FinalSpinedi
         {
             if (MessageBox.Show("Estas seguro que desea devolver el libro", "Devolucion de Libro", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (id_prestamo != 0)
+               // if (id_prestamo != 0)
                 {
+                    id_prestamo = (int)flexGrillaPrestamo[flexGrillaPrestamo.RowSel, "id_prestamo"];
                     int aprobado = 0;
                     aprobado = brl.validarDevolucion(id_prestamo);
 
@@ -53,9 +54,9 @@ namespace FinalSpinedi
         public int id_prestamo;
         private void flexGrillaPrestamo_SelChange(object sender, EventArgs e)
         {
-            if (flexGrillaPrestamo.RowSel != -1)
+           // if (flexGrillaPrestamo.RowSel != -1)
             {
-                id_prestamo = (int)flexGrillaPrestamo[flexGrillaPrestamo.RowSel, "id_prestamo"];
+              //  id_prestamo = (int)flexGrillaPrestamo[flexGrillaPrestamo.RowSel, "id_prestamo"];
 
             }
         }

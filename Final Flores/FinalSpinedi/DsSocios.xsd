@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsSocios" targetNamespace="http://tempuri.org/DsSocios.xsd" xmlns:mstns="http://tempuri.org/DsSocios.xsd" xmlns="http://tempuri.org/DsSocios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsSocios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsSocios" msprop:Generator_UserDSName="DsSocios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Socios" msprop:Generator_TableClassName="SociosDataTable" msprop:Generator_TableVarName="tableSocios" msprop:Generator_TablePropName="Socios" msprop:Generator_RowDeletingName="SociosRowDeleting" msprop:Generator_RowChangingName="SociosRowChanging" msprop:Generator_RowEvHandlerName="SociosRowChangeEventHandler" msprop:Generator_RowDeletedName="SociosRowDeleted" msprop:Generator_UserTableName="Socios" msprop:Generator_RowChangedName="SociosRowChanged" msprop:Generator_RowEvArgName="SociosRowChangeEvent" msprop:Generator_RowClassName="SociosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Socios" msprop:Generator_ColumnVarNameInTable="columnSocios" msprop:Generator_ColumnPropNameInRow="Socios" msprop:Generator_ColumnPropNameInTable="SociosColumn" msprop:Generator_UserColumnName="Socios" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

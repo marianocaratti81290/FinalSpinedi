@@ -70,7 +70,7 @@ namespace FinalSpinedi
 
                cmd.CommandType = CommandType.StoredProcedure;
 
-               cmd.Parameters.AddWithValue("@id_prestamo", id_prestamo);
+               cmd.Parameters.AddWithValue("@id_prestamo_obtenido", id_prestamo);
               
                SqlParameter aprobado = new SqlParameter("@aprobado", SqlDbType.Int);
                aprobado.Direction = ParameterDirection.Output;

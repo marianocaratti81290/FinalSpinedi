@@ -19,10 +19,10 @@ namespace FinalSpinedi
 
         private void FrmLstGeneralesSocio_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'BibliotecaDataSet.Socio' Puede moverla o quitarla según sea necesario.
-            //this.SocioTableAdapter.Fill(this.BibliotecaDataSet.Socio);
-
-            this.reportViewer1.RefreshReport();
+            if (flexGrillaSocio.RowSel != -1)
+            {
+                flexGrillaSocio.DataSource = brl.obtenerSocio();
+            }
         }
     }
 }

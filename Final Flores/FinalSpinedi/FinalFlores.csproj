@@ -62,9 +62,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BibliotecaDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BibliotecaDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BibliotecaDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BibliotecaDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BibliotecaDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Brl.cs" />
     <Compile Include="Comun.cs" />
     <Compile Include="ConditionFilter10.cs" />
+    <Compile Include="DsSocios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsSocios.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FrmAcercaDeSistema.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -356,8 +371,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Report1.rdlc" />
-    <EmbeddedResource Include="Report2.rdlc" />
     <None Include="BibliotecaDataSet.xsc">
       <DependentUpon>BibliotecaDataSet.xsd</DependentUpon>
     </None>
@@ -379,6 +392,39 @@
     </None>
     <None Include="BibliotecaDataSet1.xss">
       <DependentUpon>BibliotecaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet2.xsc">
+      <DependentUpon>BibliotecaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BibliotecaDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BibliotecaDataSet2.xss">
+      <DependentUpon>BibliotecaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet3.xsc">
+      <DependentUpon>BibliotecaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BibliotecaDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BibliotecaDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BibliotecaDataSet3.xss">
+      <DependentUpon>BibliotecaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DsSocios.xsc">
+      <DependentUpon>DsSocios.xsd</DependentUpon>
+    </None>
+    <None Include="DsSocios.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsSocios.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsSocios.xss">
+      <DependentUpon>DsSocios.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
